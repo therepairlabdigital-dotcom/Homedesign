@@ -11,28 +11,28 @@ const services = [
   {
     number: "01",
     icon: Home,
-    image: "/images/hero-home.jpg",
+    image: "/assets/images/stock/home-brick-twilight.jpg",
     title: "New Home Builds",
     slug: "new-home-builds",
     description:
-      "Custom-designed homes tailored to your lifestyle and budget — from concept to completion with quality workmanship and attention to detail.",
+      "Custom-designed homes tailored to your lifestyle and budget. From concept to completion, we bring your dream home to life with quality workmanship and attention to detail.",
     features: ["Fixed-price contracts", "6-year warranty", "Turnkey solutions"],
   },
   {
     number: "02",
     icon: Building2,
-    image: "/images/townhouse-new.webp",
+    image: "/assets/images/stock/duplex-modern-dual.jpg",
     imagePosition: "object-top",
     title: "Duplex & Townhouses",
     slug: "duplex-townhouses",
     description:
-      "Maximise your property potential with dual occupancy solutions — perfect for investors and multi-generational families.",
+      "Maximize your property potential with dual occupancy solutions. Perfect for investors and multi-generational families.",
     features: ["Dual occupancy", "Investment focused", "Council approval"],
   },
   {
     number: "03",
     icon: Wrench,
-    image: "/images/custom-built-house.jpg",
+    image: "/assets/images/stock/home-luxury-twilight.jpg",
     title: "Custom Builds",
     slug: "custom-builds",
     description:
@@ -42,7 +42,7 @@ const services = [
   {
     number: "04",
     icon: Landmark,
-    image: "/images/queenslander-house.webp",
+    image: "/assets/images/queenslander-classic-new.webp",
     title: "Queenslander Homes",
     slug: "queenslander-homes",
     description:

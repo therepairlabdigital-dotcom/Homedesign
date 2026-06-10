@@ -33,8 +33,8 @@ export default function AboutPage() {
       <PageHero
         title="Quality Homes Built with"
         highlight="Care & Pride"
-        description="Led by Harj Tiwana, Design Homes brings over 5 years of building experience and more than a decade of construction knowledge to every project across South East Queensland."
-        image="/images/about-construction.jpg"
+        description="Led by Harj Tiwana, Design Homes brings over 10 years of building experience to every project across South East Queensland."
+        image="/assets/images/stock/villa-luxury-modern.jpg"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "About Us", href: "/about" }]}
       />
 
@@ -49,7 +49,7 @@ export default function AboutPage() {
             >
               <div className="relative rounded-3xl overflow-hidden">
                 <Image
-                  src="/images/about-team.jpg"
+                  src="/assets/images/about-story-tech.webp"
                   alt="Design Homes team on site"
                   width={600}
                   height={700}
@@ -73,13 +73,13 @@ export default function AboutPage() {
                 <span className="text-gradient"> Trusted Builder</span>
               </h2>
               <p className="text-black/60 text-lg leading-relaxed mb-6">
-                Design Homes is a Queensland-based residential building company led by Harj Tiwana, bringing over 5 years of building experience and more than a decade of broader construction knowledge as a carpenter to every project.
+                Design Homes is a Queensland-based residential building company led by Harj Tiwana, bringing over 10 years of hands-on construction experience to every project across South East Queensland.
               </p>
               <p className="text-black/60 text-base leading-relaxed mb-6">
-                With a strong track record in new builds, including award-winning experience in New Zealand, we are committed to delivering homes that reflect quality workmanship, attention to detail, and lasting value.
+                From new home builds and duplexes to townhouses and one-of-a-kind custom homes, we focus on quality workmanship, careful attention to detail and clear, honest communication at every stage of the build.
               </p>
               <p className="text-black/60 text-base leading-relaxed mb-8">
-                That same standard now shapes every Design Homes project — combining proven industry knowledge with a commitment to professionalism, craftsmanship, and client satisfaction. We believe a well-built home should offer more than visual appeal. It should function effortlessly for everyday living and provide lasting value for years to come.
+                That same standard runs through every Design Homes project — combining proven industry knowledge with a real commitment to professionalism, craftsmanship and client satisfaction. We believe a well-built home should look beautiful, function effortlessly for everyday living and stand the test of time.
               </p>
 
               <div className="relative bg-white rounded-2xl p-6 lg:p-8 border-l-4 border-black/15 shadow-sm">
@@ -123,10 +123,10 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: Home, slug: "new-home-builds", title: "New Home Builds", image: "/images/hero-home.jpg", description: "Custom-designed homes tailored to your lifestyle and budget." },
-              { icon: Building2, slug: "duplex-townhouses", title: "Duplex & Townhouses", image: "/images/townhouse-new.webp", description: "Dual occupancy solutions for investors and families." },
-              { icon: Wrench, slug: "custom-builds", title: "Custom Builds", image: "/images/custom-built-house.jpg", description: "Bespoke homes for unique sites and specific requirements." },
-              { icon: Landmark, slug: "queenslander-homes", title: "Queenslander Homes", image: "/images/queenslander-house.webp", description: "Traditional character with modern living standards." },
+              { icon: Home, slug: "new-home-builds", title: "New Home Builds", image: "/assets/images/stock/home-brick-twilight.jpg", description: "Custom-designed homes tailored to your lifestyle and budget." },
+              { icon: Building2, slug: "duplex-townhouses", title: "Duplex & Townhouses", image: "/assets/images/stock/duplex-modern-dual.jpg", description: "Dual occupancy solutions for investors and families." },
+              { icon: Wrench, slug: "custom-builds", title: "Custom Builds", image: "/assets/images/stock/home-luxury-twilight.jpg", description: "Bespoke homes for unique sites and specific requirements." },
+              { icon: Landmark, slug: "queenslander-homes", title: "Queenslander Homes", image: "/assets/images/queenslander-classic-new.webp", description: "Traditional character with modern living standards." },
             ].map((item, index) => (
               <motion.div
                 key={item.title}
@@ -216,7 +216,7 @@ export default function AboutPage() {
             <h3 className="font-sora text-2xl lg:text-3xl font-bold text-black mb-3">
               QBCC Licensed Builder
             </h3>
-            <p className="text-black/70 text-lg mb-2">Licence No. 15519791</p>
+            <p className="text-black/70 text-lg mb-2">License No. 15552649</p>
             <p className="text-black/50 text-sm max-w-xl mx-auto">
               Fully licensed and insured to deliver residential building projects across Queensland. Your project is in safe, qualified hands.
             </p>

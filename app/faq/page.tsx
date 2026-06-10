@@ -12,32 +12,30 @@ import PageHero from "@/components/shared/PageHero";
 
 const faqCategories = [
   {
-    title: "Building Process",
+    title: "Frequently Asked Questions",
     faqs: [
-      { question: "How long does a typical build take?", answer: "The duration depends on complexity and size, but typically ranges from 6 to 12 months. During our initial consultation, we'll provide a detailed timeline specific to your project, including all phases from design to final handover." },
-      { question: "What is the building process from start to finish?", answer: "Our process follows 5 key stages: (1) Free consultation to understand your vision, (2) Design and planning phase, (3) Council approvals and permits, (4) Construction with regular updates, and (5) Final inspection and handover. We keep you informed at every stage." },
-      { question: "Do I need council approval for my build?", answer: "Most construction projects require council approval. We handle the entire approval process for you, including preparing and submitting all required documentation. Our experience with local councils ensures a smooth approval process." },
-      { question: "Can I make changes during construction?", answer: "While we encourage finalising all details during the planning phase, we understand that changes may be needed. We have a clear variation process that ensures any changes are documented, priced, and approved before implementation." },
-    ],
-  },
-  {
-    title: "Pricing & Contracts",
-    faqs: [
-      { question: "Do you offer fixed-price contracts?", answer: "Yes, we provide fixed-price contracts to ensure transparency and peace of mind. No hidden costs or surprise expenses during construction. Everything is clearly outlined before we begin." },
-      { question: "What is included in the quoted price?", answer: "Our quotes include all construction costs, materials, labour, project management, council fees, and standard inclusions. We provide a comprehensive breakdown so you know exactly what you're paying for." },
-      { question: "Do you require a deposit?", answer: "Yes, a deposit is required to secure your build in our schedule. The amount varies based on project size but is typically 5-10% of the total contract value. This is clearly outlined in our contract." },
-      { question: "Are there any hidden costs I should be aware of?", answer: "Absolutely not. We pride ourselves on complete transparency. Our fixed-price contracts cover everything outlined in the agreement. Any potential additional costs (like site-specific requirements) are identified during the initial assessment." },
-    ],
-  },
-  {
-    title: "Services & Areas",
-    faqs: [
-      { question: "What areas do you service?", answer: "We service the entire South East Queensland region, including Brisbane, Gold Coast, Sunshine Coast, Ipswich, Logan, and surrounding areas. Our team is familiar with local council requirements across all these regions." },
-      { question: "Do you help with design and approvals?", answer: "Yes, we offer comprehensive design services and manage the entire approval process. Our in-house design team creates your dream home, and we handle all paperwork and council submissions on your behalf." },
-      { question: "Can I see your previous work?", answer: "Absolutely! We have an extensive portfolio of past projects and can arrange site visits for some of our ongoing builds. Visit our portfolio page or contact us to schedule a viewing." },
-      { question: "Do you offer warranty on your builds?", answer: "Yes, all our builds come with comprehensive warranties including a 6-year structural warranty as required by Queensland building legislation, plus our own 12-month maintenance warranty covering any defects." },
-    ],
-  },
+      {
+        question: "How long does a typical build take?",
+        answer: "The duration of a build depends on the complexity and size of the project, but typically ranges from 4 months - 12 months. During our initial consultation, we'll provide you with a detailed timeline specific to your project, including all phases from design to final handover."
+      },
+      {
+        question: "Do you offer fixed-price contracts?",
+        answer: "Yes, we provide fixed-price contracts to ensure transparency and peace of mind for our clients. This means no hidden costs or surprise expenses during the construction process. Everything is clearly outlined before we begin, so you know exactly what to expect."
+      },
+      {
+        question: "Can I see your previous work?",
+        answer: "Absolutely! We have a gallery of past projects and can even arrange site visits for some of our ongoing builds. We also have many satisfied clients who are happy to share their experiences with you. Contact us to schedule a viewing of our portfolio."
+      },
+      {
+        question: "What areas do you service?",
+        answer: "We service the entire South East Queensland region, including Brisbane, Gold Coast, Sunshine Coast, and surrounding areas. Our team is familiar with local council requirements and building regulations across all these regions."
+      },
+      {
+        question: "Do you help with design and approvals?",
+        answer: "Yes, we offer comprehensive design services and can manage the entire approval process for you. Our in-house design team works closely with you to create your dream home, and we handle all the paperwork and council submissions on your behalf."
+      }
+    ]
+  }
 ];
 
 // FAQPage Schema for SEO
@@ -50,23 +48,7 @@ const faqPageSchema = {
       "name": "How long does a typical build take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The duration depends on complexity and size, but typically ranges from 6 to 12 months. During our initial consultation, we'll provide a detailed timeline specific to your project, including all phases from design to final handover."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the building process from start to finish?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our process follows 5 key stages: (1) Free consultation to understand your vision, (2) Design and planning phase, (3) Council approvals and permits, (4) Construction with regular updates, and (5) Final inspection and handover. We keep you informed at every stage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need council approval for my build?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most construction projects require council approval. We handle the entire approval process for you, including preparing and submitting all required documentation. Our experience with local councils ensures a smooth approval process."
+        "text": "The duration of a build depends on the complexity and size of the project, but typically ranges from 4 months - 12 months. During our initial consultation, we'll provide you with a detailed timeline specific to your project, including all phases from design to final handover."
       }
     },
     {
@@ -74,7 +56,15 @@ const faqPageSchema = {
       "name": "Do you offer fixed-price contracts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we provide fixed-price contracts to ensure transparency and peace of mind. No hidden costs or surprise expenses during construction. Everything is clearly outlined before we begin."
+        "text": "Yes, we provide fixed-price contracts to ensure transparency and peace of mind for our clients. This means no hidden costs or surprise expenses during the construction process. Everything is clearly outlined before we begin, so you know exactly what to expect."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I see your previous work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! We have a gallery of past projects and can even arrange site visits for some of our ongoing builds. We also have many satisfied clients who are happy to share their experiences with you. Contact us to schedule a viewing of our portfolio."
       }
     },
     {
@@ -82,15 +72,15 @@ const faqPageSchema = {
       "name": "What areas do you service?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We service the entire South East Queensland region, including Brisbane, Gold Coast, Sunshine Coast, Ipswich, Logan, and surrounding areas. Our team is familiar with local council requirements across all these regions."
+        "text": "We service the entire South East Queensland region, including Brisbane, Gold Coast, Sunshine Coast, and surrounding areas. Our team is familiar with local council requirements and building regulations across all these regions."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you offer warranty on your builds?",
+      "name": "Do you help with design and approvals?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, all our builds come with comprehensive warranties including a 6-year structural warranty as required by Queensland building legislation, plus our own 12-month maintenance warranty covering any defects."
+        "text": "Yes, we offer comprehensive design services and can manage the entire approval process for you. Our in-house design team works closely with you to create your dream home, and we handle all the paperwork and council submissions on your behalf."
       }
     }
   ]
@@ -115,8 +105,8 @@ export default function FAQPage() {
       <PageHero
         title="Frequently Asked"
         highlight="Questions"
-        description="Find answers to common questions about our building process, pricing, services, and more."
-        image="/images/engineer-desk-with-object-paper-and-tablet-with-bl-ZGS9T68-1.webp"
+        description="Everything you need to know about building with Design Homes. Can't find what you're looking for? Reach out to our team."
+        image="/assets/images/stock/home-luxury-twilight.jpg"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "FAQ", href: "/faq" }]}
       />
 

@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "New Home Builds Brisbane, Gold Coast & Sunshine Coast | Design Homes",
+  title: "New Home Builds Brisbane, Gold Coast & Sunshine Coast | Design Homes | Design Homes Pty Ltd",
   description: "Custom new home builders in SEQ. We design & build quality homes tailored to your lifestyle across Brisbane, Gold Coast & Sunshine Coast. Fixed-price contracts.",
   keywords: [
     "new home builds Brisbane",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/new-home-builds`,
     images: [
       {
-        url: "/images/new-home-build-1.jpg",
+        url: "/assets/images/stock/home-stucco-twostory.jpg",
         width: 1200,
         height: 630,
         alt: "New Home Builds - Design Homes",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "New Home Builds | Design Homes",
     description: "Custom new home builders across Brisbane, Gold Coast & Sunshine Coast. Fixed-price contracts & quality craftsmanship.",
-    images: ["/images/the-frame-home-construction-P5J5AFM.webp"],
+    images: ["/assets/images/stock/home-stucco-twostory.jpg"],
   },
   alternates: {
     canonical: `${siteUrl}/services/new-home-builds`,
@@ -51,7 +51,7 @@ export default function NewHomeBuildsPage() {
       heroTitle="Custom New"
       heroHighlight="Home Builds"
       heroDescription="From concept to completion, we design and build custom homes tailored to your lifestyle, budget, and aspirations."
-      heroImage="/images/new-home-build-1.jpg"
+      heroImage="/assets/images/stock/home-stucco-twostory.jpg"
       breadcrumbLabel="New Home Builds"
       overview={{
         title: "Your Dream Home,",
@@ -60,7 +60,7 @@ export default function NewHomeBuildsPage() {
           "Building a new home is one of life's most exciting journeys. At Design Homes, we make the process seamless and enjoyable, guiding you through every step from initial concept to handing over the keys.",
           "Our team of experienced architects, designers, and builders work together to create homes that are not only beautiful but also functional, energy-efficient, and built to the highest Australian standards.",
         ],
-        image: "/images/new-home-build-2.jpg",
+        image: "/assets/images/stock/villa-luxury-modern.jpg",
       }}
       features={[
         { iconName: "Home", title: "Custom Floor Plans", description: "Every home is uniquely designed to match your family's needs, lifestyle, and the specific characteristics of your block." },
@@ -81,9 +81,9 @@ export default function NewHomeBuildsPage() {
         "Full project management",
       ]}
       galleryImages={[
-        { src: "/images/new-home-build-1.jpg", alt: "New Home Build 1" },
-        { src: "/images/new-home-build-2.jpg", alt: "New Home Build 2" },
-        { src: "/images/new-home-build-3.jpg", alt: "New Home Build 3" },
+        { src: "/assets/images/stock/home-brick-twilight.jpg", alt: "New brick family home at twilight" },
+        { src: "/assets/images/stock/home-single-modern.jpg", alt: "Modern single-storey new build" },
+        { src: "/assets/images/stock/home-brick-contemporary.jpg", alt: "Contemporary two-storey brick home" },
       ]}
       relatedServices={[
         { title: "Queenslander Homes", href: "/services/queenslander-homes", description: "Authentic Queenslander homes with traditional character and modern comfort." },

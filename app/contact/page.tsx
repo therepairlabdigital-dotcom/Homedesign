@@ -13,11 +13,11 @@ import PageHero from "@/components/shared/PageHero";
 const contactInfo = [
   { icon: Phone, title: "Phone", content: "0436 376 001", href: "tel:0436376001" },
   { icon: Mail, title: "Email", content: "harj@thedesignhomes.com.au", href: "mailto:harj@thedesignhomes.com.au" },
-  { icon: MapPin, title: "Location", content: "Brisbane, QLD, Australia", href: "#" },
-  { icon: Clock, title: "Business Hours", content: "Mon – Fri: 8am – 5pm", href: "#" },
+  { icon: MapPin, title: "Location", content: "South East Queensland, Australia", href: "#" },
+  { icon: Clock, title: "Business Hours", content: "Mon – Fri: 7am – 5pm", href: "#" },
 ];
 
-const serviceAreas = ["Brisbane", "Gold Coast", "Sunshine Coast", "Ipswich"];
+const serviceAreas = ["Brisbane", "Gold Coast", "Sunshine Coast", "Ipswich", "Logan"];
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -43,7 +43,7 @@ export default function ContactPage() {
         title="Let's Talk About Your"
         highlight="Project"
         description="Ready to start building? Contact us today for a free consultation and quote. Our team is ready to bring your vision to life."
-        image="/images/engineer-desk-with-object-paper-and-tablet-with-bl-ZGS9T68-1.webp"
+        image="/assets/images/blueprint-key.jpg"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]}
       />
 
@@ -93,7 +93,7 @@ export default function ContactPage() {
               <div className="bg-[#ffffff] rounded-3xl h-64 flex items-center justify-center border border-black/[0.06]">
                 <div className="text-center">
                   <MapPin className="w-8 h-8 text-black/30 mx-auto mb-2" />
-                  <p className="text-black/45 text-sm">Brisbane, QLD, Australia</p>
+                  <p className="text-black/45 text-sm">South East Queensland, Australia</p>
                 </div>
               </div>
             </motion.div>

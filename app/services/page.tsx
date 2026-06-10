@@ -15,7 +15,7 @@ const services = [
   {
     icon: Home,
     slug: "new-home-builds",
-    image: "/images/new-home-build-1.jpg",
+    image: "/assets/images/stock/villa-luxury-modern.jpg",
     title: "New Home Builds",
     description: "Custom-designed homes tailored to your lifestyle and budget. From concept to completion, we bring your dream home to life with precision craftsmanship.",
     features: ["Custom Floor Plans", "Energy Efficient", "Quality Materials", "Fixed Price Contracts"],
@@ -23,23 +23,23 @@ const services = [
   {
     icon: Building2,
     slug: "duplex-townhouses",
-    image: "/images/duplex-exterior.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.jpg",
     title: "Duplex & Townhouses",
-    description: "Maximise your investment with expertly designed and built duplexes and townhouses. Smart layouts that maximise space and value.",
+    description: "Maximize your investment with expertly designed and built duplexes and townhouses. Smart layouts that maximize space and value.",
     features: ["Dual Occupancy", "Investment Ready", "Council Approval", "Smart Design"],
   },
   {
     icon: Wrench,
     slug: "custom-builds",
-    image: "/images/custom-built-house.jpg",
+    image: "/assets/images/stock/home-luxury-twilight.jpg",
     title: "Custom Builds",
     description: "Unique homes for unique visions. Our custom build service delivers one-of-a-kind homes that are truly yours in every detail.",
-    features: ["Bespoke Design", "Premium Finishes", "Unique Architecture", "Full Customisation"],
+    features: ["Bespoke Design", "Premium Finishes", "Unique Architecture", "Full Customization"],
   },
   {
     icon: Landmark,
     slug: "queenslander-homes",
-    image: "/images/queenslander-house.webp",
+    image: "/assets/images/queenslander-classic-new.webp",
     title: "Queenslander Homes",
     description: "Authentic Queenslander homes that blend traditional character with modern comfort. We honour the classic style while delivering contemporary livability.",
     features: ["Traditional Character", "Modern Comfort", "Elevated Design", "Wraparound Verandahs"],
@@ -82,7 +82,7 @@ export default function ServicesPage() {
         title="Comprehensive Building &"
         highlight="Design Services"
         description="From new home builds to duplexes, custom builds and Queenslander homes, we deliver exceptional quality across every project we undertake."
-        image="/images/engineer-desk-with-object-paper-and-tablet-with-bl-ZGS9T68-1.webp"
+        image="/assets/images/stock/blueprint-keys.jpg"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }]}
       />
 

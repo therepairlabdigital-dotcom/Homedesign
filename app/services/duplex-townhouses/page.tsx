@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Duplex & Townhouse Builders Brisbane, Gold Coast & Sunshine Coast",
+  title: "Duplex & Townhouse Builders Brisbane, Gold Coast & Sunshine Coast | Design Homes Pty Ltd",
   description: "Expert duplex & townhouse builders across SEQ. Maximise your investment with dual occupancy properties in Brisbane, Gold Coast & Sunshine Coast. Council approvals handled.",
   keywords: [
     "duplex builders Brisbane",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/duplex-townhouses`,
     images: [
       {
-        url: "/images/duplex-exterior.jpg",
+        url: "/assets/images/stock/duplex-modern-dual.jpg",
         width: 1200,
         height: 630,
         alt: "Duplex & Townhouse Builders - Design Homes",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Duplex & Townhouses | Design Homes",
     description: "Expert duplex & townhouse builders across SEQ. Maximise your investment with dual occupancy properties.",
-    images: ["/images/modern-rooftop-patio-with-sunset-view-8SF9VVP-1.webp"],
+    images: ["/assets/images/stock/duplex-modern-dual.jpg"],
   },
   alternates: {
     canonical: `${siteUrl}/services/duplex-townhouses`,
@@ -51,7 +51,7 @@ export default function DuplexTownhousesPage() {
       heroTitle="Duplex &"
       heroHighlight="Townhouses"
       heroDescription="Maximise your property's potential with expertly designed and built duplexes and townhouses. Smart investments, beautifully built."
-      heroImage="/images/duplex-exterior.jpg"
+      heroImage="/assets/images/stock/duplex-modern-dual.jpg"
       breadcrumbLabel="Duplex & Townhouses"
       overview={{
         title: "Smart Investments,",
@@ -60,11 +60,11 @@ export default function DuplexTownhousesPage() {
           "Dual occupancy and multi-dwelling builds are one of the smartest property investment strategies available. Our experienced team specialises in designing and building duplexes and townhouses that maximise return while maintaining exceptional living standards.",
           "We navigate the complex planning and approval processes, optimise designs for your specific block, and deliver builds that attract quality tenants or buyers. Whether you're building to live in one and rent the other, or as a pure investment, we have the expertise to make it work.",
         ],
-        image: "/images/townhouse-modern.jpg",
+        image: "/assets/images/stock/townhouse-construction-new.jpg",
       }}
       features={[
         { iconName: "Building2", title: "Dual Occupancy Design", description: "Optimised designs that maximise the use of your block while meeting all council requirements and setback rules." },
-        { iconName: "TrendingUp", title: "Investment Maximisation", description: "Strategic design choices that maximise rental yields and capital growth for your property investment." },
+        { iconName: "TrendingUp", title: "Investment Maximization", description: "Strategic design choices that maximise rental yields and capital growth for your property investment." },
         { iconName: "Shield", title: "Council Compliance", description: "Expert navigation of council requirements, including town planning, building approvals, and compliance certificates." },
         { iconName: "Ruler", title: "Smart Layouts", description: "Clever floor plans that provide privacy, natural light, and functional living spaces for each dwelling." },
         { iconName: "Users", title: "Tenant Appeal", description: "Modern finishes and thoughtful design elements that attract and retain quality tenants." },
@@ -81,9 +81,9 @@ export default function DuplexTownhousesPage() {
         "Rental-ready finish",
       ]}
       galleryImages={[
-        { src: "/images/duplex-exterior.jpg", alt: "Duplex 1" },
-        { src: "/images/townhouse-modern.jpg", alt: "Townhouse 1" },
-        { src: "/images/townhouse-contemporary.jpg", alt: "Townhouse 2" },
+        { src: "/assets/images/stock/duplex-modern-dual.jpg", alt: "Modern duplex render" },
+        { src: "/assets/images/stock/townhouse-construction-new.jpg", alt: "Townhouse development under construction" },
+        { src: "/assets/images/stock/home-stucco-twostory.jpg", alt: "Two-storey townhouse exterior" },
       ]}
       relatedServices={[
         { title: "New Home Builds", href: "/services/new-home-builds", description: "Looking for a single dwelling? Check out our new home builds." },

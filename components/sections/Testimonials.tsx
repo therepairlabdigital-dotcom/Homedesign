@@ -145,7 +145,7 @@ export default function Testimonials() {
             <span className="text-gradient"> South East QLD</span>
           </h2>
           <p className="mt-5 text-base leading-relaxed text-black/60 lg:text-lg">
-            Real stories from real homeowners who trusted us to build their dream homes.
+            Real stories from real homeowners who trusted us to build their dream homes are available.
           </p>
         </motion.div>
 
@@ -226,7 +226,7 @@ export default function Testimonials() {
           </div>
           <div className="hidden h-6 w-px bg-black/10 sm:block" />
           <div className="text-sm text-black/60">
-            <span className="font-semibold text-black">15+</span> years of excellence
+            <span className="font-semibold text-black">10+</span> years of excellence
           </div>
         </motion.div>
       </div>

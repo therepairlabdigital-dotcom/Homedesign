@@ -4,8 +4,8 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Queenslander Home Builders Brisbane, Gold Coast & Sunshine Coast",
-  description: "Authentic Queenslander home builders across SEQ. Traditional character homes with wraparound verandahs, VJ walls and modern comfort in Brisbane, Gold Coast & Sunshine Coast.",
+  title: "Queenslander Home Builders Brisbane, Gold Coast & Sunshine Coast | Design Homes Pty Ltd",
+  description: "Authentic Queenslander home builders. We design & build traditional character homes with modern comfort across Brisbane, Gold Coast & Sunshine Coast.",
   keywords: [
     "Queenslander home builders Brisbane",
     "Queenslander homes Gold Coast",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/queenslander-homes`,
     images: [
       {
-        url: "/images/queenslander-house.webp",
+        url: "/assets/images/queenslander-classic-new.webp",
         width: 1200,
         height: 630,
         alt: "Queenslander Homes - Design Homes",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Queenslander Homes | Design Homes",
     description: "Authentic Queenslander home builders across SEQ. Traditional character with modern comfort.",
-    images: ["/images/queenslander-house.webp"],
+    images: ["/assets/images/queenslander-classic-new.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/services/queenslander-homes`,
@@ -51,7 +51,7 @@ export default function QueenslanderHomesPage() {
       heroTitle="Authentic"
       heroHighlight="Queenslander Homes"
       heroDescription="Timeless Queenslander homes that honour traditional character while delivering the comfort, efficiency and quality of a modern build."
-      heroImage="/images/queenslander-house.webp"
+      heroImage="/assets/images/queenslander-classic-new.webp"
       breadcrumbLabel="Queenslander Homes"
       overview={{
         title: "Classic Character, Built for",
@@ -60,7 +60,7 @@ export default function QueenslanderHomesPage() {
           "The Queenslander is an icon of South East Queensland — elevated, breezy, and full of character. We build new Queenslander-style homes that capture that timeless charm, from wraparound verandahs and VJ walls to high ceilings and classic timber detailing.",
           "Beneath the traditional character sits a thoroughly modern home: energy-efficient design, contemporary kitchens and bathrooms, and open-plan living that suits the way families live today. The result is a home with genuine soul and lasting value.",
         ],
-        image: "/images/hero-home.jpg",
+        image: "/assets/images/queenslander-classic-new.webp",
       }}
       features={[
         { iconName: "Award", title: "Authentic Character", description: "Traditional Queenslander proportions, rooflines and street presence, faithfully recreated in a brand-new home." },
@@ -81,9 +81,9 @@ export default function QueenslanderHomesPage() {
         "Comprehensive warranty",
       ]}
       galleryImages={[
-        { src: "/images/queenslander-house.webp", alt: "Queenslander Home 1" },
-        { src: "/images/new-home-build-2.jpg", alt: "Queenslander Home 2" },
-        { src: "/images/home-extension.jpg", alt: "Queenslander Home 3" },
+        { src: "/assets/images/queenslander-classic-new.webp", alt: "Queenslander Build 1" },
+        { src: "/assets/images/new-home-render-single.jpg", alt: "Queenslander Build 2" },
+        { src: "/assets/images/home-portico-detail.jpg", alt: "Queenslander Build 3" },
       ]}
       relatedServices={[
         { title: "New Home Builds", href: "/services/new-home-builds", description: "Custom-designed new homes tailored to your lifestyle and budget." },

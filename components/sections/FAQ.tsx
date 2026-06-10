@@ -15,7 +15,7 @@ const faqs = [
   {
     question: "How long does a typical build take?",
     answer:
-      "The duration of a build depends on the complexity and size of the project, but typically ranges from 6 to 12 months. During our initial consultation, we'll provide you with a detailed timeline specific to your project, including all phases from design to final handover.",
+      "The duration of a build depends on the complexity and size of the project, but typically ranges from 4 months - 12 months. During our initial consultation, we'll provide you with a detailed timeline specific to your project, including all phases from design to final handover.",
   },
   {
     question: "Do you offer fixed-price contracts?",

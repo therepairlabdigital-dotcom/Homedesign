@@ -13,7 +13,7 @@ const features = [
     number: "01",
     title: "Modern Architecture",
     description:
-      "Contemporary design meets traditional craftsmanship to create unique living spaces that reflect your personality and lifestyle.",
+      "We combine contemporary design with traditional craftsmanship to create unique living spaces that reflect your personality and lifestyle.",
     link: "#services",
     cta: "View Projects",
   },
@@ -22,7 +22,7 @@ const features = [
     number: "02",
     title: "Quality Assurance",
     description:
-      "Rigorous quality control ensures every detail meets our high standards. We never compromise on workmanship.",
+      "Our rigorous quality control processes ensure that every detail meets our high standards. We never compromise on quality.",
     link: "#contact",
     cta: "Our Process",
   },
@@ -69,21 +69,20 @@ export default function Innovation() {
             className="group relative h-[360px] overflow-hidden rounded-[2rem] lg:h-auto lg:min-h-[460px]"
           >
             <Image
-              src="/images/modern-villa-with-pool-and-deck-H27FA57.webp"
-              alt="Luxury pool villa built by Design Homes"
+              src="/assets/images/stock/home-luxury-twilight.jpg"
+              alt="Custom built family home"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-[800ms] ease-out group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute inset-x-8 bottom-8">
-              <span className="inline-block rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-black">
+              <span className="inline-block rounded-full bg-[#D4AF37] px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-white">
                 Featured Project
               </span>
               <h3 className="mt-3 font-sora text-2xl font-semibold text-white lg:text-3xl">
-                Luxury Pool Villa
+                Custom Family Home
               </h3>
-              <p className="mt-1 text-sm text-white/70">Gold Coast, QLD</p>
             </div>
           </motion.div>
 

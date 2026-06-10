@@ -56,7 +56,7 @@ export default function About() {
                 transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
               >
                 <Image
-                  src="/images/about-construction.jpg"
+                  src="/assets/images/about-construction-new.jpg"
                   alt="Design Homes construction site"
                   width={600}
                   height={700}
@@ -101,11 +101,11 @@ export default function About() {
             </h2>
 
             <p className="text-black/60 text-base lg:text-lg leading-relaxed mb-4">
-              Design Homes is a Queensland-based residential building company led by Harj Tiwana, bringing over 5 years of building experience and more than a decade of broader construction knowledge as a carpenter to every project.
+              Design Homes is a Queensland-based residential building company led by Harj Tiwana, bringing over 10 years of hands-on construction experience to every project we take on.
             </p>
 
             <p className="text-black/60 text-base lg:text-lg leading-relaxed mb-8">
-              With award-winning experience in New Zealand and a strong track record in new builds, we deliver homes that reflect quality workmanship, attention to detail, and lasting value. We believe a well-built home should offer more than visual appeal — it should function effortlessly for everyday living.
+              With a strong track record across new builds, duplexes, townhouses and custom homes, we focus on quality workmanship, careful attention to detail and clear communication from first consultation to final handover. A well-built home should look beautiful and function effortlessly for everyday living — that&apos;s the standard we deliver on every site.
             </p>
 
             <div className="relative rounded-2xl border border-black/[0.08] border-l-[3px] border-l-black/40 bg-black/[0.02] p-6 lg:p-8 mb-8">

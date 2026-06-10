@@ -3,8 +3,8 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "FAQ | Design Homes - Frequently Asked Questions",
-  description: "Find answers to common questions about our building process, pricing, services & more. Design Homes - trusted builders in Brisbane, Gold Coast & Sunshine Coast.",
+  title: "Frequently Asked Questions | Design Homes | Design Homes Pty Ltd",
+  description: "Find answers to common questions about building your new home, our processes, and services across South East Queensland.",
   keywords: [
     "home building FAQ",
     "new home build questions Brisbane",
@@ -16,15 +16,15 @@ export const metadata: Metadata = {
     "council approval process",
   ],
   openGraph: {
-    title: "FAQ | Frequently Asked Questions",
-    description: "Find answers to common questions about our building process, pricing, services & more. Trusted builders in Brisbane, Gold Coast & Sunshine Coast.",
+    title: "Frequently Asked Questions | Design Homes | Design Homes Pty Ltd",
+    description: "Find answers to common questions about building your new home, our processes, and services across South East Queensland.",
     type: "website",
     url: `${siteUrl}/faq`,
   },
   twitter: {
     card: "summary",
-    title: "FAQ | Design Homes",
-    description: "Find answers to common questions about our building process, pricing & services.",
+    title: "Frequently Asked Questions | Design Homes",
+    description: "Find answers to common questions about building your new home, our processes, and services across South East Queensland.",
   },
   alternates: {
     canonical: `${siteUrl}/faq`,

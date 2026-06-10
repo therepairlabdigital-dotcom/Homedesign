@@ -9,7 +9,6 @@ const quickLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
-  { name: "Portfolio", href: "/portfolio" },
   { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
 ];
@@ -62,7 +61,7 @@ export default function SiteFooter() {
           {/* Brand */}
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <Link href="/" className="relative h-32 w-auto mb-6 block">
-              <Image src="/images/logo-main.png" alt="Design Homes Logo" width={260} height={128} className="h-32 w-auto object-contain" />
+              <Image src="/assets/images/logo-design-homes-mark.png" alt="Design Homes Logo" width={260} height={128} className="h-32 w-auto object-contain" />
             </Link>
             <p className="text-white/60 leading-relaxed mb-8 max-w-sm text-sm">
               Queensland-based residential building company delivering quality new homes, duplexes, townhouses and custom builds across South East Queensland.
@@ -125,7 +124,7 @@ export default function SiteFooter() {
         <div className="border-t border-white/10 pt-8 pb-6">
           <div className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-12">
             <p className="text-center font-sora text-lg font-semibold tracking-wide text-white lg:text-xl">
-              QBCC Licence No. 15519791
+              QBCC License No. 15552649
             </p>
             <div className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3">
               <Image
@@ -149,14 +148,14 @@ export default function SiteFooter() {
             </div>
             <div className="flex items-center gap-6">
               <span className="text-white/50 text-sm">
-                Designed by{" "}
+                Built by{" "}
                 <a
-                  href="https://kiwitechlabs.com"
+                  href="https://townmedialabs.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#D4AF37] hover:text-white transition-colors"
                 >
-                  kiwitechlabs.com
+                  townmedialabs.com
                 </a>
               </span>
               <button

@@ -3,8 +3,8 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Our Services | Design Homes - New Homes, Duplexes, Custom Builds & Queenslander Homes",
-  description: "Explore our comprehensive building services: new home builds, duplexes, townhouses, custom builds & Queenslander homes across SEQ.",
+  title: "Our Services | Design Homes | Design Homes Pty Ltd",
+  description: "From new home builds to duplexes, custom builds and Queenslander homes, we deliver exceptional quality across every project we undertake.",
   keywords: [
     "home building services Brisbane",
     "duplex builders SEQ",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services`,
     images: [
       {
-        url: "/images/engineer-desk-with-object-paper-and-tablet-with-bl-ZGS9T68-1.webp",
+        url: "/assets/images/stock/blueprint-keys.jpg",
         width: 1200,
         height: 630,
         alt: "Design Homes Building Services",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Services | Design Homes",
     description: "New home builds, duplexes, custom builds & Queenslander homes across SEQ.",
-    images: ["/images/engineer-desk-with-object-paper-and-tablet-with-bl-ZGS9T68-1.webp"],
+    images: ["/assets/images/stock/blueprint-keys.jpg"],
   },
   alternates: {
     canonical: `${siteUrl}/services`,

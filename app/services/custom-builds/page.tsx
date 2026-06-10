@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Custom Home Builders Brisbane, Gold Coast & Sunshine Coast",
+  title: "Custom Home Builders Brisbane, Gold Coast & Sunshine Coast | Design Homes Pty Ltd",
   description: "Bespoke custom home builders across SEQ. Unique architectural designs, challenging sites & premium finishes in Brisbane, Gold Coast & Sunshine Coast.",
   keywords: [
     "custom home builders Brisbane",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/custom-builds`,
     images: [
       {
-        url: "/images/custom-home-luxury.jpg",
+        url: "/assets/images/stock/home-luxury-twilight.jpg",
         width: 1200,
         height: 630,
         alt: "Custom Home Builds - Design Homes",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Custom Builds | Design Homes",
     description: "Bespoke custom home builders across SEQ. Unique architectural designs, challenging sites & premium finishes.",
-    images: ["/images/custom-home-luxury.jpg"],
+    images: ["/assets/images/stock/home-luxury-twilight.jpg"],
   },
   alternates: {
     canonical: `${siteUrl}/services/custom-builds`,
@@ -51,7 +51,7 @@ export default function CustomBuildsPage() {
       heroTitle="Bespoke"
       heroHighlight="Custom Builds"
       heroDescription="One-of-a-kind homes for unique visions. From architectural masterpieces to homes on challenging sites, we bring the extraordinary to life."
-      heroImage="/images/custom-home-luxury.jpg"
+      heroImage="/assets/images/stock/home-luxury-twilight.jpg"
       breadcrumbLabel="Custom Builds"
       overview={{
         title: "Where Vision Meets",
@@ -60,10 +60,10 @@ export default function CustomBuildsPage() {
           "Custom builds are where our passion truly shines. These are projects that push boundaries, challenge conventions, and result in homes that are genuinely one-of-a-kind. Whether it's a hillside masterpiece, a waterfront retreat, or an architectural statement, we have the expertise to deliver.",
           "Our team thrives on complexity. We work closely with architects, engineers, and artisan craftspeople to bring ambitious designs to life, while ensuring every element meets our exacting quality standards.",
         ],
-        image: "/images/bespoke-architecture.jpg",
+        image: "/assets/images/stock/home-luxury-landscape.jpg",
       }}
       features={[
-        { iconName: "Wrench", title: "Bespoke Design", description: "Fully customised designs that reflect your unique vision, from architectural concept through to finished details." },
+        { iconName: "Wrench", title: "Bespoke Design", description: "Fully customized designs that reflect your unique vision, from architectural concept through to finished details." },
         { iconName: "Award", title: "Premium Finishes", description: "Access to the finest materials, fixtures, and finishes from around the world for a truly luxury result." },
         { iconName: "Gem", title: "Unique Architecture", description: "We specialise in complex architectural designs including cantilevered structures, curved walls, and innovative forms." },
         { iconName: "MapPin", title: "Challenging Sites", description: "Expert solutions for difficult blocks including steep slopes, waterfront, bushfire zones, and flood-prone areas." },
@@ -81,9 +81,9 @@ export default function CustomBuildsPage() {
         "Comprehensive warranty",
       ]}
       galleryImages={[
-        { src: "/images/custom-home-luxury.jpg", alt: "Custom Build 1" },
-        { src: "/images/bespoke-architecture.jpg", alt: "Custom Build 2" },
-        { src: "/images/modern-unique-house.jpg", alt: "Custom Build 3" },
+        { src: "/assets/images/stock/home-luxury-twilight.jpg", alt: "Luxury custom home at twilight" },
+        { src: "/assets/images/stock/villa-luxury-modern.jpg", alt: "Modern luxury villa" },
+        { src: "/assets/images/stock/home-entry-detail.jpg", alt: "Custom timber and stone entry detail" },
       ]}
       relatedServices={[
         { title: "New Home Builds", href: "/services/new-home-builds", description: "For standard custom homes with efficient build processes." },

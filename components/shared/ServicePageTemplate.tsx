@@ -15,10 +15,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 
 /* ---------- fallback images for related service cards ---------- */
 const SERVICE_IMAGE_MAP: Record<string, string> = {
-  "/services/new-home-builds": "/images/new-home-build-1.jpg",
-  "/services/custom-builds": "/images/custom-built-house.jpg",
-  "/services/duplex-townhouses": "/images/duplex-exterior.jpg",
-  "/services/queenslander-homes": "/images/queenslander-house.webp",
+  "/services/new-home-builds": "/assets/images/stock/home-brick-twilight.jpg",
+  "/services/custom-builds": "/assets/images/stock/home-luxury-twilight.jpg",
+  "/services/duplex-townhouses": "/assets/images/stock/duplex-modern-dual.jpg",
+  "/services/queenslander-homes": "/assets/images/queenslander-classic-new.webp",
   "/services/renovations": "/images/renovation-kitchen.jpg",
   "/services/interior-design": "/images/interior-modern-design.jpg",
 };

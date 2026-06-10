@@ -20,7 +20,6 @@ const navLinks = [
       { name: "Queenslander Homes", href: "/services/queenslander-homes" },
     ],
   },
-  { name: "Portfolio", href: "/portfolio" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -53,20 +52,27 @@ export default function SiteNavbar() {
         className="fixed inset-x-0 top-0 z-50"
       >
         <nav
-          className={`mx-auto flex h-16 items-center justify-between lg:h-20 ${
+          className={`mx-auto flex items-center justify-between transition-all duration-300 ${
             isScrolled
-              ? "mt-3 w-[90%] max-w-[1100px] rounded-full border border-white/10 bg-[#000000]/85 px-5 shadow-[0_8px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl lg:w-[80%] lg:px-8"
-              : "w-full max-w-[1240px] px-6 lg:px-10"
+              ? "mt-3 h-16 w-[90%] max-w-[1100px] rounded-full border border-white/10 bg-[#000000]/85 px-5 shadow-[0_8px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl lg:h-20 lg:w-[80%] lg:px-8"
+              : "h-24 w-full max-w-[1240px] px-6 lg:h-32 lg:px-10"
           }`}
         >
           {/* Logo */}
-          <Link href="/" className="relative block h-11 w-auto shrink-0 lg:h-14">
+          <Link
+            href="/"
+            className={`relative block shrink-0 transition-all duration-300 ${
+              isScrolled ? "h-11 lg:h-14" : "h-20 lg:h-28"
+            }`}
+          >
             <Image
-              src="/images/logo-cropped.png"
+              src="/assets/images/logo-design-homes-mark.png"
               alt="Design Homes"
               width={532}
               height={610}
-              className="h-11 w-auto object-contain lg:h-14"
+              className={`w-auto object-contain transition-all duration-300 ${
+                isScrolled ? "h-11 lg:h-14" : "h-20 lg:h-28"
+              }`}
               priority
             />
           </Link>

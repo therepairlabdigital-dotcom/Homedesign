@@ -3,8 +3,8 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Design Homes - Brisbane, Gold Coast & Sunshine Coast",
-  description: "Get in touch with Design Homes for a free consultation & quote. Serving Brisbane, Gold Coast & Sunshine Coast. Call 0436 376 001 or email harj@thedesignhomes.com.au",
+  title: "Contact Us | Design Homes | Design Homes Pty Ltd",
+  description: "Get in touch with Design Homes. We are ready to answer your questions and start planning your new home build or custom project.",
   keywords: [
     "contact home builders Brisbane",
     "home builders Gold Coast contact",
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     "new home quote Queensland",
   ],
   openGraph: {
-    title: "Contact Us | Design Homes Pty Ltd",
-    description: "Get in touch for a free consultation & quote. Serving Brisbane, Gold Coast & Sunshine Coast. Call 0436 376 001.",
+    title: "Contact Us | Design Homes | Design Homes Pty Ltd",
+    description: "Get in touch with Design Homes. We are ready to answer your questions and start planning your new home build or custom project.",
     type: "website",
     url: `${siteUrl}/contact`,
     images: [
       {
-        url: "/images/engineer-desk-with-object-paper-and-tablet-with-bl-ZGS9T68-1.webp",
+        url: "/assets/images/blueprint-key.jpg",
         width: 1200,
         height: 630,
         alt: "Contact Design Homes - Free Consultation",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Contact Us | Design Homes",
-    description: "Get in touch for a free consultation & quote. Serving Brisbane, Gold Coast & Sunshine Coast.",
-    images: ["/images/engineer-desk-with-object-paper-and-tablet-with-bl-ZGS9T68-1.webp"],
+    description: "Get in touch with Design Homes. We are ready to answer your questions and start planning your new home build or custom project.",
+    images: ["/assets/images/blueprint-key.jpg"],
   },
   alternates: {
     canonical: `${siteUrl}/contact`,
