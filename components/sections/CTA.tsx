@@ -40,14 +40,14 @@ export default function CTA() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, ease: EASE }}
           >
-            <div className="mb-7 flex flex-wrap gap-3">
+            <div className="mb-7 flex flex-nowrap overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] w-[100vw] sm:w-auto -mx-6 px-6 sm:mx-0 sm:px-0 gap-2 sm:gap-3 pb-2">
               {trustItems.map((item) => (
                 <div
                   key={item.label}
-                  className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2"
+                  className="flex shrink-0 whitespace-nowrap items-center gap-1.5 sm:gap-2 rounded-full border border-white/10 bg-white/5 px-3 sm:px-4 py-1.5 sm:py-2"
                 >
-                  <item.icon className="h-4 w-4 text-white/70" />
-                  <span className="text-sm font-medium text-white/80">{item.label}</span>
+                  <item.icon className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-white/70" />
+                  <span className="text-[13px] sm:text-sm font-medium text-white/80">{item.label}</span>
                 </div>
               ))}
             </div>

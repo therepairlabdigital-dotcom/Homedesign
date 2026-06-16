@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
 import { useRef, useCallback, useState, useEffect } from "react";
+import Image from "next/image";
 import { ArrowRight, ArrowDown, Shield, Award, CheckCircle2, Phone } from "lucide-react";
 
 const trustBadges = [
@@ -77,16 +78,15 @@ export default function Hero() {
     >
       {/* Parallax Background Image */}
       <motion.div className="absolute inset-0 z-0" style={{ y: isMobile ? 0 : bgY }}>
-        <img
+        <Image
           src="/assets/images/hero-new-home.jpg"
           alt="Design Homes - Quality New Home"
-          className="absolute inset-0 w-full h-full object-cover scale-110"
+          fill
+          priority
+          className="object-cover scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-[#000000]" />
       </motion.div>
-
-      {/* Grain overlay */}
-      <div className="absolute inset-0 z-[1] opacity-[0.03] mix-blend-overlay" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")" }} />
 
       {/* Content with parallax */}
       <motion.div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 lg:px-10 py-16 lg:py-20" style={{ y: isMobile ? 0 : contentY, opacity: isMobile ? 1 : opacity }}>
@@ -159,13 +159,13 @@ export default function Hero() {
         </motion.div>
 
         {/* Bottom Row */}
-        <div className="flex justify-center">
+        <div className="flex justify-start sm:justify-center -mx-6 px-6 sm:mx-0 sm:px-0 w-[100vw] sm:w-auto overflow-hidden">
           {/* Trust Badges with slide-in */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.9 }}
-            className="flex flex-wrap justify-center gap-4"
+            className="flex flex-nowrap overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] justify-start sm:justify-center gap-2.5 sm:gap-4 pb-2 w-full"
           >
             {trustBadges.map((badge, index) => (
               <motion.div
@@ -173,10 +173,10 @@ export default function Hero() {
                 initial={{ opacity: 0, x: 30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1 + index * 0.12, type: "spring", stiffness: 100 }}
-                className="flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-5 py-3"
+                className="flex shrink-0 whitespace-nowrap items-center gap-2 sm:gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-4 py-2 sm:px-5 sm:py-3"
               >
-                <badge.icon className="w-5 h-5 text-[#B69560]" />
-                <span className="text-white text-sm font-medium">{badge.label}</span>
+                <badge.icon className="w-4 h-4 sm:w-5 sm:h-5 text-[#B69560]" />
+                <span className="text-white text-[13px] sm:text-sm font-medium">{badge.label}</span>
               </motion.div>
             ))}
           </motion.div>
