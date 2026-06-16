@@ -49,23 +49,21 @@ export default function SiteNavbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="fixed inset-x-0 top-0 z-50"
+        className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
+          isScrolled
+            ? "border-b border-white/10 bg-[#000000]/85 shadow-[0_8px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl"
+            : ""
+        }`}
       >
-        <nav
-          className={`mx-auto flex h-16 items-center justify-between lg:h-24 ${
-            isScrolled
-              ? "mt-2 w-[92%] max-w-[1100px] rounded-full border border-white/10 bg-[#000000]/85 px-4 shadow-[0_8px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl lg:mt-3 lg:w-[80%] lg:px-8"
-              : "w-full max-w-[1240px] px-6 lg:px-10"
-          }`}
-        >
+        <nav className="mx-auto flex h-16 max-w-[1240px] items-center justify-between px-6 lg:h-[72px] lg:px-10">
           {/* Logo */}
-          <Link href="/" className="relative block h-11 w-auto shrink-0 lg:h-16">
+          <Link href="/" className="relative block h-11 w-auto shrink-0 lg:h-12">
             <Image
               src="/assets/images/logo-mark-cropped.png"
               alt="Design Homes"
               width={532}
               height={610}
-              className="h-11 w-auto object-contain lg:h-16"
+              className="h-11 w-auto object-contain lg:h-12"
               priority
             />
           </Link>
