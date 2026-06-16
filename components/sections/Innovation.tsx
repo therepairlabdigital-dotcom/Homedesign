@@ -48,7 +48,7 @@ export default function Innovation() {
           className="mb-12 max-w-2xl lg:mb-12"
         >
           <div className="mb-6 flex items-center gap-3">
-            <span className="h-px w-6 bg-[#D4AF37]" />
+            <span className="h-px w-6 bg-[#B69560]" />
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
               Innovation &amp; Excellence
             </span>
@@ -77,7 +77,7 @@ export default function Innovation() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute inset-x-8 bottom-8">
-              <span className="inline-block rounded-full bg-[#D4AF37] px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-white">
+              <span className="inline-block rounded-full bg-[#B69560] px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-white">
                 Featured Project
               </span>
               <h3 className="mt-3 font-sora text-2xl font-semibold text-white lg:text-3xl">

@@ -73,7 +73,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6 }}
           >
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-black/50 font-semibold uppercase tracking-[0.2em] text-xs">
                 Our Portfolio
               </span>

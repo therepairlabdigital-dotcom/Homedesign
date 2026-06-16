@@ -154,7 +154,7 @@ export default function Navbar() {
           >
             <a
               href="tel:0436376001"
-              className="inline-flex items-center gap-2 bg-black hover:bg-black text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#D4AF37]/30"
+              className="inline-flex items-center gap-2 bg-black hover:bg-black text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#B69560]/30"
             >
               <Phone className="w-4 h-4" />
               Call Now
@@ -197,8 +197,8 @@ export default function Navbar() {
                     }}
                     className={`text-2xl font-semibold transition-colors flex items-center gap-2 ${
                       activeSection === link.href.replace("#", "")
-                        ? "text-[#D4AF37]"
-                        : "text-white hover:text-[#D4AF37]"
+                        ? "text-[#B69560]"
+                        : "text-white hover:text-[#B69560]"
                     }`}
                   >
                     {link.name}
@@ -216,7 +216,7 @@ export default function Navbar() {
                         <button
                           key={child.name}
                           onClick={() => scrollToSection(child.href)}
-                          className="text-white text-lg hover:text-[#D4AF37] transition-colors"
+                          className="text-white text-lg hover:text-[#B69560] transition-colors"
                         >
                           {child.name}
                         </button>

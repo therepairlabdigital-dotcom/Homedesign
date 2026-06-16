@@ -221,7 +221,7 @@ export default function ServicePageTemplate({
               className="flex flex-col justify-center"
             >
               <div className="flex items-center gap-3 mb-6">
-                <span className="h-px w-6 bg-[#D4AF37]" />
+                <span className="h-px w-6 bg-[#B69560]" />
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
                   Overview
                 </span>
@@ -273,11 +273,11 @@ export default function ServicePageTemplate({
             className="text-center max-w-3xl mx-auto mb-12"
           >
             <div className="flex items-center justify-center gap-3 mb-6">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
                 What We Offer
               </span>
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
             </div>
             <h2 className="font-sora text-3xl md:text-4xl font-bold text-black leading-[1.15]">
               Why Choose Our
@@ -320,11 +320,11 @@ export default function ServicePageTemplate({
               className="text-center mb-12"
             >
               <div className="flex items-center justify-center gap-3 mb-6">
-                <span className="h-px w-6 bg-[#D4AF37]" />
+                <span className="h-px w-6 bg-[#B69560]" />
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
-                  Our Work
+                  Featured Home Designs
                 </span>
-                <span className="h-px w-6 bg-[#D4AF37]" />
+                <span className="h-px w-6 bg-[#B69560]" />
               </div>
               <h2 className="font-sora text-3xl md:text-4xl font-bold text-black leading-[1.15]">
                 Project <span className="text-gradient">Gallery</span>
@@ -376,11 +376,11 @@ export default function ServicePageTemplate({
             className="text-center mb-12"
           >
             <div className="flex items-center justify-center gap-3 mb-6">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
                 Explore More
               </span>
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
             </div>
             <h2 className="font-sora text-3xl md:text-4xl font-bold text-black">
               Related <span className="text-gradient">Services</span>

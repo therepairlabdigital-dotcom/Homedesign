@@ -68,11 +68,11 @@ export default function Services() {
           className="mx-auto mb-10 max-w-2xl text-center"
         >
           <div className="mb-5 flex items-center justify-center gap-3">
-            <span className="h-px w-6 bg-[#D4AF37]" />
+            <span className="h-px w-6 bg-[#B69560]" />
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
               Our Services
             </span>
-            <span className="h-px w-6 bg-[#D4AF37]" />
+            <span className="h-px w-6 bg-[#B69560]" />
           </div>
           <h2 className="font-sora text-3xl font-semibold leading-[1.12] tracking-[-0.01em] text-black md:text-4xl lg:text-[44px]">
             Quality residential

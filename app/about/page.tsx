@@ -49,7 +49,7 @@ export default function AboutPage() {
             >
               <div className="relative rounded-3xl overflow-hidden">
                 <Image
-                  src="/assets/images/about-story-tech.webp"
+                  src="/assets/images/about-construction-new.jpg"
                   alt="Design Homes team on site"
                   width={600}
                   height={700}
@@ -65,7 +65,7 @@ export default function AboutPage() {
               transition={{ duration: 0.7, delay: 0.2 }}
             >
               <div className="flex items-center gap-3 mb-6">
-                <span className="h-px w-6 bg-[#D4AF37]" />
+                <span className="h-px w-6 bg-[#B69560]" />
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">Our Story</span>
               </div>
               <h2 className="font-sora text-3xl md:text-4xl lg:text-[44px] font-bold text-black leading-[1.15] mb-8">
@@ -111,9 +111,9 @@ export default function AboutPage() {
             className="text-center max-w-3xl mx-auto mb-12"
           >
             <div className="flex items-center justify-center gap-3 mb-6">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">What We Build</span>
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
             </div>
             <h2 className="font-sora text-3xl md:text-4xl lg:text-[44px] font-bold text-black leading-[1.15]">
               Residential Building
@@ -171,9 +171,9 @@ export default function AboutPage() {
             className="text-center max-w-3xl mx-auto mb-12"
           >
             <div className="flex items-center justify-center gap-3 mb-6">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">Why Choose Us</span>
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
             </div>
             <h2 className="font-sora text-3xl md:text-4xl lg:text-[44px] font-bold text-black leading-[1.15]">
               The Values That
@@ -216,7 +216,6 @@ export default function AboutPage() {
             <h3 className="font-sora text-2xl lg:text-3xl font-bold text-black mb-3">
               QBCC Licensed Builder
             </h3>
-            <p className="text-black/70 text-lg mb-2">License No. 15552649</p>
             <p className="text-black/50 text-sm max-w-xl mx-auto">
               Fully licensed and insured to deliver residential building projects across Queensland. Your project is in safe, qualified hands.
             </p>

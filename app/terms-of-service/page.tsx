@@ -76,7 +76,7 @@ export default function TermsPage() {
               <div className="mt-3 text-black/70">
                 <p>Design Homes Pty Ltd</p>
                 <p>Brisbane, QLD, Australia</p>
-                <p>Email: harj@thedesignhomes.com.au</p>
+                <p>Email: info@thedesignhomes.com.au</p>
                 <p>Phone: 0436 376 001</p>
               </div>
             </div>

@@ -35,7 +35,7 @@ const faqs = [
   {
     question: "Do you help with design and approvals?",
     answer:
-      "Yes, we offer comprehensive design services and can manage the entire approval process for you. Our in-house design team works closely with you to create your dream home, and we handle all the paperwork and council submissions on your behalf.",
+      "Yes, we offer design services and assist clients with the approval process, including coordinating required documentation and applications. Approval outcomes are subject to council and certifier requirements.",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function FAQ() {
             className="lg:sticky lg:top-32 lg:self-start"
           >
             <div className="mb-6 flex items-center gap-3">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
                 FAQ
               </span>

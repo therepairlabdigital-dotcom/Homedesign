@@ -12,7 +12,7 @@ import PageHero from "@/components/shared/PageHero";
 
 const contactInfo = [
   { icon: Phone, title: "Phone", content: "0436 376 001", href: "tel:0436376001" },
-  { icon: Mail, title: "Email", content: "harj@thedesignhomes.com.au", href: "mailto:harj@thedesignhomes.com.au" },
+  { icon: Mail, title: "Email", content: "info@thedesignhomes.com.au", href: "mailto:info@thedesignhomes.com.au" },
   { icon: MapPin, title: "Location", content: "South East Queensland, Australia", href: "#" },
   { icon: Clock, title: "Business Hours", content: "Mon – Fri: 7am – 5pm", href: "#" },
 ];
@@ -43,7 +43,7 @@ export default function ContactPage() {
         title="Let's Talk About Your"
         highlight="Project"
         description="Ready to start building? Contact us today for a free consultation and quote. Our team is ready to bring your vision to life."
-        image="/assets/images/blueprint-key.jpg"
+        image="/assets/images/custom-luxury-twilight.jpg"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]}
       />
 
@@ -89,12 +89,16 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="bg-[#ffffff] rounded-3xl h-64 flex items-center justify-center border border-black/[0.06]">
-                <div className="text-center">
-                  <MapPin className="w-8 h-8 text-black/30 mx-auto mb-2" />
-                  <p className="text-black/45 text-sm">South East Queensland, Australia</p>
-                </div>
+              {/* Map */}
+              <div className="overflow-hidden rounded-3xl border border-black/[0.06]">
+                <iframe
+                  title="South East Queensland, Australia"
+                  src="https://www.google.com/maps?q=South%20East%20Queensland%2C%20Australia&z=8&output=embed"
+                  className="block h-64 w-full grayscale-[0.2]"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  allowFullScreen
+                />
               </div>
             </motion.div>
 

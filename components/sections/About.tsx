@@ -70,12 +70,12 @@ export default function About() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.8 }}
-                className="absolute bottom-6 left-6 right-6 glass rounded-2xl p-6"
+                className="absolute bottom-6 left-6 right-6 bg-black/65 backdrop-blur-md border border-white/10 rounded-2xl p-6"
               >
                 <div className="grid grid-cols-2 gap-3">
                   {values.map((value) => (
                     <div key={value} className="flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 bg-white/50 rounded-full shrink-0" />
+                      <span className="w-1.5 h-1.5 bg-[#B69560] rounded-full shrink-0" />
                       <span className="text-white text-xs font-medium">{value}</span>
                     </div>
                   ))}
@@ -91,7 +91,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="mb-6 flex items-center gap-3">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">About Us</span>
             </div>
 

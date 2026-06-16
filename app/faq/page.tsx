@@ -10,81 +10,53 @@ import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
 import PageHero from "@/components/shared/PageHero";
 
-const faqCategories = [
+const faqs = [
   {
-    title: "Frequently Asked Questions",
-    faqs: [
-      {
-        question: "How long does a typical build take?",
-        answer: "The duration of a build depends on the complexity and size of the project, but typically ranges from 4 months - 12 months. During our initial consultation, we'll provide you with a detailed timeline specific to your project, including all phases from design to final handover."
-      },
-      {
-        question: "Do you offer fixed-price contracts?",
-        answer: "Yes, we provide fixed-price contracts to ensure transparency and peace of mind for our clients. This means no hidden costs or surprise expenses during the construction process. Everything is clearly outlined before we begin, so you know exactly what to expect."
-      },
-      {
-        question: "Can I see your previous work?",
-        answer: "Absolutely! We have a gallery of past projects and can even arrange site visits for some of our ongoing builds. We also have many satisfied clients who are happy to share their experiences with you. Contact us to schedule a viewing of our portfolio."
-      },
-      {
-        question: "What areas do you service?",
-        answer: "We service the entire South East Queensland region, including Brisbane, Gold Coast, Sunshine Coast, and surrounding areas. Our team is familiar with local council requirements and building regulations across all these regions."
-      },
-      {
-        question: "Do you help with design and approvals?",
-        answer: "Yes, we offer comprehensive design services and can manage the entire approval process for you. Our in-house design team works closely with you to create your dream home, and we handle all the paperwork and council submissions on your behalf."
-      }
-    ]
-  }
+    question: "How long does a typical build take?",
+    answer: "The duration of a build depends on the complexity and size of the project, but typically ranges from 4 months - 12 months. During our initial consultation, we'll provide you with a detailed timeline specific to your project, including all phases from design to final handover.",
+  },
+  {
+    question: "Do you offer fixed-price contracts?",
+    answer: "Yes, we provide fixed-price contracts to ensure transparency and peace of mind for our clients. This means no hidden costs or surprise expenses during the construction process. Everything is clearly outlined before we begin, so you know exactly what to expect.",
+  },
+  {
+    question: "Can I see your previous work?",
+    answer: "Absolutely! We have a gallery of past projects and can even arrange site visits for some of our ongoing builds. We also have many satisfied clients who are happy to share their experiences with you. Contact us to schedule a viewing of our portfolio.",
+  },
+  {
+    question: "What areas do you service?",
+    answer: "We service the entire South East Queensland region, including Brisbane, Gold Coast, Sunshine Coast, and surrounding areas. Our team is familiar with local council requirements and building regulations across all these regions.",
+  },
+  {
+    question: "Do you help with design and approvals?",
+    answer: "Yes, we offer design services and assist clients with the approval process, including coordinating required documentation and applications. Approval outcomes are subject to council and certifier requirements.",
+  },
+  {
+    question: "Do you build on sloping or challenging blocks?",
+    answer: "Yes. We have experience building on sloping sites, narrow lots and challenging blocks across South East Queensland, with tailored site, engineering and design solutions to suit your land and maximise its potential.",
+  },
+  {
+    question: "What warranty and insurance do you provide?",
+    answer: "Every home is covered by the mandatory QBCC structural warranty and we are fully licensed and insured. We also stand behind our workmanship, so you can build with complete peace of mind.",
+  },
+  {
+    question: "How do I get started?",
+    answer: "Simply get in touch for a no-obligation consultation. We'll discuss your vision, budget and timeline, then guide you through every step — from initial design and approvals right through to the handover of your keys.",
+  },
 ];
 
 // FAQPage Schema for SEO
 const faqPageSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a typical build take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The duration of a build depends on the complexity and size of the project, but typically ranges from 4 months - 12 months. During our initial consultation, we'll provide you with a detailed timeline specific to your project, including all phases from design to final handover."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer fixed-price contracts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we provide fixed-price contracts to ensure transparency and peace of mind for our clients. This means no hidden costs or surprise expenses during the construction process. Everything is clearly outlined before we begin, so you know exactly what to expect."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I see your previous work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely! We have a gallery of past projects and can even arrange site visits for some of our ongoing builds. We also have many satisfied clients who are happy to share their experiences with you. Contact us to schedule a viewing of our portfolio."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What areas do you service?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We service the entire South East Queensland region, including Brisbane, Gold Coast, Sunshine Coast, and surrounding areas. Our team is familiar with local council requirements and building regulations across all these regions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you help with design and approvals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we offer comprehensive design services and can manage the entire approval process for you. Our in-house design team works closely with you to create your dream home, and we handle all the paperwork and council submissions on your behalf."
-      }
-    }
-  ]
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
 };
+
+const columns = [faqs.slice(0, 4), faqs.slice(4, 8)];
 
 export default function FAQPage() {
   const ref = useRef(null);
@@ -112,39 +84,36 @@ export default function FAQPage() {
 
       {/* FAQ Section */}
       <section className="bg-white py-12 lg:py-20" ref={ref}>
-        <div className="max-w-[900px] mx-auto px-6 lg:px-10">
-          {faqCategories.map((category, catIndex) => (
-            <motion.div
-              key={category.title}
-              initial={{ opacity: 0, y: 30 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: catIndex * 0.15 }}
-              className="mb-16 last:mb-0"
-            >
-              <div className="flex items-center gap-3 mb-8">
-                <span className="h-px w-6 bg-[#D4AF37]" />
-                <h2 className="font-sora text-2xl font-bold text-black">{category.title}</h2>
-              </div>
-
-              <Accordion className="w-full">
-                {category.faqs.map((faq, index) => (
-                  <AccordionItem key={index} value={`${catIndex}-${index}`} className="border-b border-black/[0.06] py-1">
-                    <AccordionTrigger className="text-left font-sora text-lg font-semibold text-black hover:text-black transition-colors py-5 [&[data-state=open]]:text-black">
-                      <div className="flex items-start gap-4">
-                        <span className="text-black/25 font-bold text-sm mt-1 font-mono">
-                          {String(index + 1).padStart(2, "0")}
-                        </span>
-                        {faq.question}
-                      </div>
-                    </AccordionTrigger>
-                    <AccordionContent className="text-black/55 leading-relaxed pb-5 text-base pl-10">
-                      {faq.answer}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6 }}
+            className="grid gap-x-12 lg:grid-cols-2"
+          >
+            {columns.map((col, colIndex) => (
+              <Accordion key={colIndex} className="w-full">
+                {col.map((faq, i) => {
+                  const number = colIndex * 4 + i + 1;
+                  return (
+                    <AccordionItem key={number} value={`item-${number}`} className="border-b border-black/[0.06] py-1">
+                      <AccordionTrigger className="text-left font-sora text-lg font-semibold text-black hover:text-black transition-colors py-5 [&[data-state=open]]:text-black">
+                        <div className="flex items-start gap-4">
+                          <span className="text-black/25 font-bold text-sm mt-1 font-mono">
+                            {String(number).padStart(2, "0")}
+                          </span>
+                          {faq.question}
+                        </div>
+                      </AccordionTrigger>
+                      <AccordionContent className="text-black/60 leading-relaxed pb-5 text-base pl-10">
+                        {faq.answer}
+                      </AccordionContent>
+                    </AccordionItem>
+                  );
+                })}
               </Accordion>
-            </motion.div>
-          ))}
+            ))}
+          </motion.div>
 
           {/* CTA */}
           <motion.div

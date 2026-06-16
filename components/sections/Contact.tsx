@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label";
 
 const contactInfo = [
   { icon: Phone, title: "Phone", content: "0436 376 001", href: "tel:0436376001" },
-  { icon: Mail, title: "Email", content: "harj@thedesignhomes.com.au", href: "mailto:harj@thedesignhomes.com.au" },
+  { icon: Mail, title: "Email", content: "info@thedesignhomes.com.au", href: "mailto:info@thedesignhomes.com.au" },
   { icon: MapPin, title: "Location", content: "South East Queensland, Australia", href: "#" },
   { icon: Clock, title: "Business Hours", content: "Mon – Fri: 7am – 5pm", href: "#" },
 ];
@@ -50,7 +50,7 @@ export default function Contact() {
             transition={{ duration: 0.7, ease: EASE }}
           >
             <div className="mb-6 flex items-center gap-3">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
                 Contact Us
               </span>

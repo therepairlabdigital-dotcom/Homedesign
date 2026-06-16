@@ -138,9 +138,9 @@ export default function ServicesPage() {
             className="text-center max-w-3xl mx-auto mb-12"
           >
             <div className="flex items-center justify-center gap-3 mb-6">
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">Our Process</span>
-              <span className="h-px w-6 bg-[#D4AF37]" />
+              <span className="h-px w-6 bg-[#B69560]" />
             </div>
             <h2 className="font-sora text-3xl md:text-4xl lg:text-[44px] font-bold text-black leading-[1.15]">
               How We Bring Your Vision to

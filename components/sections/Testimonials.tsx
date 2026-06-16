@@ -59,7 +59,7 @@ function TestimonialCard({ testimonial }: { testimonial: (typeof testimonials)[0
 
       <div className="flex gap-1">
         {Array.from({ length: testimonial.rating }).map((_, i) => (
-          <Star key={i} className="h-4 w-4 fill-[#D4AF37] text-[#D4AF37]" />
+          <Star key={i} className="h-4 w-4 fill-[#B69560] text-[#B69560]" />
         ))}
       </div>
 
@@ -134,11 +134,11 @@ export default function Testimonials() {
           className="mx-auto mb-10 max-w-2xl text-center lg:mb-16"
         >
           <div className="mb-5 flex items-center justify-center gap-3">
-            <span className="h-px w-6 bg-[#D4AF37]" />
+            <span className="h-px w-6 bg-[#B69560]" />
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
               Client Stories
             </span>
-            <span className="h-px w-6 bg-[#D4AF37]" />
+            <span className="h-px w-6 bg-[#B69560]" />
           </div>
           <h2 className="font-sora text-3xl font-semibold leading-[1.12] tracking-[-0.01em] text-black md:text-4xl lg:text-[44px]">
             Trusted by families across
@@ -219,7 +219,7 @@ export default function Testimonials() {
           <div className="flex items-center gap-2">
             <div className="flex gap-0.5">
               {Array.from({ length: 5 }).map((_, i) => (
-                <Star key={i} className="h-4 w-4 fill-[#D4AF37] text-[#D4AF37]" />
+                <Star key={i} className="h-4 w-4 fill-[#B69560] text-[#B69560]" />
               ))}
             </div>
             <span className="text-sm text-black/60">5.0 average rating</span>

@@ -7,8 +7,6 @@ import TrustTicker from "@/components/sections/TrustTicker";
 import About from "@/components/sections/About";
 import Innovation from "@/components/sections/Innovation";
 import Services from "@/components/sections/Services";
-import Portfolio from "@/components/sections/Portfolio";
-import Testimonials from "@/components/sections/Testimonials";
 import CTA from "@/components/sections/CTA";
 import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
@@ -73,10 +71,6 @@ export default function Home() {
         <Innovation />
       </div>
       <Services />
-      {/* <div className="section-divider-top">
-        <Portfolio />
-      </div> */}
-      <Testimonials />
       <CTA />
       <FAQ />
       <Contact />

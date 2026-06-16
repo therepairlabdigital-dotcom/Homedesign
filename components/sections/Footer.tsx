@@ -20,8 +20,8 @@ const services = [
 ];
 
 const socials = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/tiwanabuilders.co.nz", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/designhomes69", label: "Instagram" },
 ];
 
 export default function Footer() {
@@ -56,7 +56,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 bg-black/5 border border-black/10 rounded-l-xl px-5 py-3.5 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-[#D4AF37]/50 transition-colors"
+                className="flex-1 bg-black/5 border border-black/10 rounded-l-xl px-5 py-3.5 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-[#B69560]/50 transition-colors"
               />
               <button className="bg-black hover:bg-black text-black px-6 py-3.5 rounded-r-xl font-semibold text-sm transition-all duration-300 flex items-center gap-2 whitespace-nowrap">
                 Subscribe
@@ -119,7 +119,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <button
                     onClick={() => scrollToSection(link.href)}
-                    className="text-black hover:text-[#D4AF37] transition-all duration-300 text-sm hover:translate-x-1 inline-block"
+                    className="text-black hover:text-[#B69560] transition-all duration-300 text-sm hover:translate-x-1 inline-block"
                   >
                     {link.name}
                   </button>
@@ -143,7 +143,7 @@ export default function Footer() {
                 <li key={service.name}>
                   <button
                     onClick={() => scrollToSection(service.href)}
-                    className="text-black hover:text-[#D4AF37] transition-all duration-300 text-sm hover:translate-x-1 inline-block"
+                    className="text-black hover:text-[#B69560] transition-all duration-300 text-sm hover:translate-x-1 inline-block"
                   >
                     {service.name}
                   </button>
@@ -163,8 +163,8 @@ export default function Footer() {
               Contact
             </h4>
             <ul className="space-y-3 text-black text-sm">
-              <li><a href="tel:0436376001" className="hover:text-[#D4AF37] transition-colors">0436 376 001</a></li>
-              <li><a href="mailto:harj@thedesignhomes.com.au" className="hover:text-[#D4AF37] transition-colors">harj@thedesignhomes.com.au</a></li>
+              <li><a href="tel:0436376001" className="hover:text-[#B69560] transition-colors">0436 376 001</a></li>
+              <li><a href="mailto:info@thedesignhomes.com.au" className="hover:text-[#B69560] transition-colors">info@thedesignhomes.com.au</a></li>
               <li>South East Queensland</li>
               <li className="pt-2">Mon – Fri: 7am – 5pm</li>
             </ul>
@@ -174,7 +174,7 @@ export default function Footer() {
         {/* QBCC License */}
         <div className="border-t border-black/5 pt-8 pb-6 text-center">
           <p className="text-black font-sora font-bold text-lg lg:text-xl tracking-wide">
-            QBCC Licence No. 15519791
+            QBCC Licensed Builder
           </p>
         </div>
 
@@ -191,7 +191,7 @@ export default function Footer() {
                   href="https://kiwitechlabs.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#D4AF37] hover:text-white transition-colors"
+                  className="text-[#B69560] hover:text-white transition-colors"
                 >
                   kiwitechlabs.com
                 </a>

@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
 
             <div>
               <h2 className="font-sora text-2xl font-bold text-black mb-4">6. Your Rights</h2>
-              <p className="text-black/70 leading-relaxed">Under Australian Privacy Principles, you have the right to access, correct, or request deletion of your personal information. To exercise these rights, please contact us at harj@thedesignhomes.com.au.</p>
+              <p className="text-black/70 leading-relaxed">Under Australian Privacy Principles, you have the right to access, correct, or request deletion of your personal information. To exercise these rights, please contact us at info@thedesignhomes.com.au.</p>
             </div>
 
             <div>
@@ -84,7 +84,7 @@ export default function PrivacyPolicyPage() {
               <div className="mt-3 text-black/70">
                 <p>Design Homes Pty Ltd</p>
                 <p>Brisbane, QLD, Australia</p>
-                <p>Email: harj@thedesignhomes.com.au</p>
+                <p>Email: info@thedesignhomes.com.au</p>
                 <p>Phone: 0436 376 001</p>
               </div>
             </div>

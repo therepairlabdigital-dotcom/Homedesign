@@ -83,7 +83,7 @@ export default function DuplexTownhousesPage() {
       galleryImages={[
         { src: "/assets/images/stock/duplex-modern-dual.jpg", alt: "Modern duplex render" },
         { src: "/assets/images/stock/townhouse-construction-new.jpg", alt: "Townhouse development under construction" },
-        { src: "/assets/images/stock/home-stucco-twostory.jpg", alt: "Two-storey townhouse exterior" },
+        { src: "/assets/images/townhouse-facade.jpg", alt: "Two-storey townhouse façade" },
       ]}
       relatedServices={[
         { title: "New Home Builds", href: "/services/new-home-builds", description: "Looking for a single dwelling? Check out our new home builds." },

@@ -21,8 +21,8 @@ const services = [
 ];
 
 const socials = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/tiwanabuilders.co.nz", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/designhomes69", label: "Instagram" },
 ];
 
 export default function SiteFooter() {
@@ -44,7 +44,7 @@ export default function SiteFooter() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 bg-white/5 border border-white/10 rounded-l-xl px-5 py-3.5 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#D4AF37]/50"
+                className="flex-1 bg-white/5 border border-white/10 rounded-l-xl px-5 py-3.5 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#B69560]/50"
               />
               <button className="bg-black border border-white/15 text-white px-6 py-3.5 rounded-r-xl font-semibold text-sm flex items-center gap-2 whitespace-nowrap">
                 Subscribe
@@ -71,8 +71,10 @@ export default function SiteFooter() {
                 <a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={social.label}
-                  className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-white"
+                  className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-white transition-colors hover:bg-[#B69560] hover:text-black"
                 >
                   <social.icon className="w-4 h-4" />
                 </a>
@@ -86,7 +88,7 @@ export default function SiteFooter() {
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-white/70 hover:text-[#D4AF37] transition-colors text-sm inline-block">
+                  <Link href={link.href} className="text-white/70 hover:text-[#B69560] transition-colors text-sm inline-block">
                     {link.name}
                   </Link>
                 </li>
@@ -100,7 +102,7 @@ export default function SiteFooter() {
             <ul className="space-y-3">
               {services.map((service) => (
                 <li key={service.name}>
-                  <Link href={service.href} className="text-white/70 hover:text-[#D4AF37] transition-colors text-sm inline-block">
+                  <Link href={service.href} className="text-white/70 hover:text-[#B69560] transition-colors text-sm inline-block">
                     {service.name}
                   </Link>
                 </li>
@@ -112,8 +114,8 @@ export default function SiteFooter() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.3 }}>
             <h4 className="font-sora text-white font-bold text-sm uppercase tracking-wider mb-6">Contact</h4>
             <ul className="space-y-3 text-white/70 text-sm">
-              <li><a href="tel:0436376001" className="hover:text-[#D4AF37] transition-colors">0436 376 001</a></li>
-              <li><a href="mailto:harj@thedesignhomes.com.au" className="hover:text-[#D4AF37] transition-colors">harj@thedesignhomes.com.au</a></li>
+              <li><a href="tel:0436376001" className="hover:text-[#B69560] transition-colors">0436 376 001</a></li>
+              <li><a href="mailto:info@thedesignhomes.com.au" className="hover:text-[#B69560] transition-colors">info@thedesignhomes.com.au</a></li>
               <li>South East Queensland</li>
               <li className="pt-2">Mon – Fri: 7am – 5pm</li>
             </ul>
@@ -124,7 +126,7 @@ export default function SiteFooter() {
         <div className="border-t border-white/10 pt-8 pb-6">
           <div className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-12">
             <p className="text-center font-sora text-lg font-semibold tracking-wide text-white lg:text-xl">
-              QBCC License No. 15552649
+              QBCC Licensed Builder
             </p>
             <div className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3">
               <Image
@@ -143,19 +145,19 @@ export default function SiteFooter() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-4 text-white/50 text-sm">
               <p>&copy; {new Date().getFullYear()} Design Homes Pty Ltd.</p>
-              <Link href="/privacy-policy" className="hover:text-[#D4AF37] transition-colors">Privacy</Link>
-              <Link href="/terms-of-service" className="hover:text-[#D4AF37] transition-colors">Terms</Link>
+              <Link href="/privacy-policy" className="hover:text-[#B69560] transition-colors">Privacy</Link>
+              <Link href="/terms-of-service" className="hover:text-[#B69560] transition-colors">Terms</Link>
             </div>
             <div className="flex items-center gap-6">
               <span className="text-white/50 text-sm">
                 Built by{" "}
                 <a
-                  href="https://townmedialabs.com"
+                  href="https://kiwitechlabs.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#D4AF37] hover:text-white transition-colors"
+                  className="text-[#B69560] hover:text-white transition-colors"
                 >
-                  townmedialabs.com
+                  kiwitechlabs.com
                 </a>
               </span>
               <button

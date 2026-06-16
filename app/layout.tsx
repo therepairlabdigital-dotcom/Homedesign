@@ -85,8 +85,8 @@ export const metadata: Metadata = {
     apple: "/logo.webp",
   },
   other: {
-    "theme-color": "#D4AF37",
-    "msapplication-TileColor": "#D4AF37",
+    "theme-color": "#B69560",
+    "msapplication-TileColor": "#B69560",
     "msapplication-config": "/browserconfig.xml",
   },
 };
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
 // Viewport configuration for theme color and responsive design
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#D4AF37" },
+    { media: "(prefers-color-scheme: light)", color: "#B69560" },
     { media: "(prefers-color-scheme: dark)", color: "#000000" },
   ],
   colorScheme: "dark light",
@@ -112,7 +112,7 @@ const localBusinessSchema = {
   description: "Award-winning custom home builders in South East Queensland specialising in new home builds, duplexes, townhouses, custom builds, and Queenslander homes.",
   url: siteUrl,
   telephone: "0436376001",
-  email: "harj@thedesignhomes.com.au",
+  email: "info@thedesignhomes.com.au",
   image: `${siteUrl}/images/modern-villa-with-pool-and-deck-H27FA57-1.webp`,
   logo: `${siteUrl}/logo.webp`,
   priceRange: "$$$",
@@ -167,10 +167,8 @@ const localBusinessSchema = {
     },
   ],
   sameAs: [
-    // Add social media URLs when available
-    // "https://www.facebook.com/designhomes",
-    // "https://www.instagram.com/designhomes",
-    // "https://www.linkedin.com/company/designhomes",
+    "https://www.facebook.com/tiwanabuilders.co.nz",
+    "https://www.instagram.com/designhomes69",
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
@@ -227,7 +225,7 @@ const organizationSchema = {
     "@type": "ContactPoint",
     telephone: "0436376001",
     contactType: "sales",
-    email: "harj@thedesignhomes.com.au",
+    email: "info@thedesignhomes.com.au",
     availableLanguage: ["English"],
     areaServed: "AU",
   },

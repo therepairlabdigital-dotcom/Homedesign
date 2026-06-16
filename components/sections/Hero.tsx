@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
-import { useRef, useCallback } from "react";
+import { useRef, useCallback, useState, useEffect } from "react";
 import { ArrowRight, ArrowDown, Shield, Award, CheckCircle2, Phone } from "lucide-react";
 
 const trustBadges = [
@@ -59,14 +59,24 @@ export default function Hero() {
   const contentY = useTransform(scrollYProgress, [0, 1], ["0%", "15%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
 
+  // Disable scroll-coupled parallax on mobile/tablet — it causes the hero to
+  // visually overlap the next section on touch devices (and 100vh address-bar jank).
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 1024);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
   return (
     <section
       id="home"
       ref={sectionRef}
-      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
+      className="relative min-h-[100svh] flex items-center pt-20 overflow-hidden"
     >
       {/* Parallax Background Image */}
-      <motion.div className="absolute inset-0 z-0" style={{ y: bgY }}>
+      <motion.div className="absolute inset-0 z-0" style={{ y: isMobile ? 0 : bgY }}>
         <img
           src="/assets/images/hero-new-home.jpg"
           alt="Design Homes - Quality New Home"
@@ -79,7 +89,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-[1] opacity-[0.03] mix-blend-overlay" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")" }} />
 
       {/* Content with parallax */}
-      <motion.div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 lg:px-10 py-20" style={{ y: contentY, opacity }}>
+      <motion.div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 lg:px-10 py-16 lg:py-20" style={{ y: isMobile ? 0 : contentY, opacity: isMobile ? 1 : opacity }}>
         {/* Trust Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -87,15 +97,15 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="flex justify-center mb-8"
         >
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-5 py-2.5">
-            <div className="w-2 h-2 bg-[#D4AF37] rounded-full animate-pulse" />
-            <span className="text-white text-sm font-medium tracking-wide">Licensed QBCC Builder — South East Queensland</span>
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-4 sm:px-5 py-2 sm:py-2.5 max-w-[88vw]">
+            <div className="w-2 h-2 shrink-0 bg-[#B69560] rounded-full animate-pulse" />
+            <span className="min-w-0 text-white text-xs sm:text-sm font-medium tracking-wide leading-snug">Licensed QBCC Builder<span className="hidden sm:inline"> — South East Queensland</span></span>
           </div>
         </motion.div>
 
         {/* Split-Text Title */}
         <div className="text-center mb-6">
-          <h1 className="font-sora text-[clamp(40px,9vw,140px)] font-bold text-white leading-[0.95] sm:leading-[0.9] tracking-[-0.03em]">
+          <h1 className="font-sora text-[clamp(28px,8vw,140px)] font-bold text-white leading-[0.95] sm:leading-[0.9] tracking-[-0.03em]">
             {titleWords.map((word, i) => (
               <motion.span
                 key={i}
@@ -120,7 +130,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="text-center text-white/75 text-lg md:text-xl max-w-[600px] mx-auto mb-12 lg:mb-16 leading-relaxed"
+          className="text-center text-white/75 text-lg md:text-xl max-w-[600px] mx-auto mb-8 lg:mb-16 leading-relaxed"
         >
           Quality new homes, duplexes, townhouses and custom builds across South East Queensland. Built with care, integrity, and pride.
         </motion.p>
@@ -130,7 +140,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.7 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 lg:mb-20"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 lg:mb-20"
         >
           <a
             href="tel:0436376001"
@@ -165,7 +175,7 @@ export default function Hero() {
                 transition={{ delay: 1 + index * 0.12, type: "spring", stiffness: 100 }}
                 className="flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-5 py-3"
               >
-                <badge.icon className="w-5 h-5 text-[#D4AF37]" />
+                <badge.icon className="w-5 h-5 text-[#B69560]" />
                 <span className="text-white text-sm font-medium">{badge.label}</span>
               </motion.div>
             ))}
@@ -178,7 +188,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 hidden sm:flex sm:flex-col items-center gap-2"
       >
         <span className="text-white text-xs uppercase tracking-widest">Scroll</span>
         <motion.div

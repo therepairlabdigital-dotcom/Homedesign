@@ -52,27 +52,20 @@ export default function SiteNavbar() {
         className="fixed inset-x-0 top-0 z-50"
       >
         <nav
-          className={`mx-auto flex items-center justify-between transition-all duration-300 ${
+          className={`mx-auto flex h-16 items-center justify-between lg:h-24 ${
             isScrolled
-              ? "mt-3 h-16 w-[90%] max-w-[1100px] rounded-full border border-white/10 bg-[#000000]/85 px-5 shadow-[0_8px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl lg:h-20 lg:w-[80%] lg:px-8"
-              : "h-24 w-full max-w-[1240px] px-6 lg:h-32 lg:px-10"
+              ? "mt-2 w-[92%] max-w-[1100px] rounded-full border border-white/10 bg-[#000000]/85 px-4 shadow-[0_8px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl lg:mt-3 lg:w-[80%] lg:px-8"
+              : "w-full max-w-[1240px] px-6 lg:px-10"
           }`}
         >
           {/* Logo */}
-          <Link
-            href="/"
-            className={`relative block shrink-0 transition-all duration-300 ${
-              isScrolled ? "h-11 lg:h-14" : "h-20 lg:h-28"
-            }`}
-          >
+          <Link href="/" className="relative block h-11 w-auto shrink-0 lg:h-16">
             <Image
-              src="/assets/images/logo-design-homes-mark.png"
+              src="/assets/images/logo-mark-cropped.png"
               alt="Design Homes"
               width={532}
               height={610}
-              className={`w-auto object-contain transition-all duration-300 ${
-                isScrolled ? "h-11 lg:h-14" : "h-20 lg:h-28"
-              }`}
+              className="h-11 w-auto object-contain lg:h-16"
               priority
             />
           </Link>
@@ -96,7 +89,7 @@ export default function SiteNavbar() {
                       )}
                       {/* animated gold underline */}
                       <span
-                        className={`pointer-events-none absolute inset-x-4 bottom-1 h-px origin-left bg-[#D4AF37] transition-transform duration-300 ${
+                        className={`pointer-events-none absolute inset-x-4 bottom-1 h-px origin-left bg-[#B69560] transition-transform duration-300 ${
                           active ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
                         }`}
                       />
@@ -111,7 +104,7 @@ export default function SiteNavbar() {
                               href={child.href}
                               className={`block px-5 py-2.5 text-sm transition-colors duration-200 ${
                                 pathname === child.href
-                                  ? "bg-[#D4AF37]/10 text-[#D4AF37]"
+                                  ? "bg-[#B69560]/10 text-[#B69560]"
                                   : "text-white/70 hover:bg-white/5 hover:text-white"
                               }`}
                             >
@@ -129,7 +122,7 @@ export default function SiteNavbar() {
             {/* CTA */}
             <a
               href="tel:0436376001"
-              className="ml-4 inline-flex items-center gap-2 rounded-full bg-black px-5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-black hover:shadow-lg hover:shadow-[#D4AF37]/30"
+              className="ml-4 inline-flex items-center gap-2 rounded-full bg-black px-5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-black hover:shadow-lg hover:shadow-[#B69560]/30"
             >
               <Phone className="h-4 w-4" />
               0436 376 001
@@ -164,7 +157,7 @@ export default function SiteNavbar() {
                     <button
                       onClick={() => setServicesOpen((v) => !v)}
                       className={`flex items-center gap-2 text-2xl font-medium transition-colors ${
-                        isActive(link.href) ? "text-[#D4AF37]" : "text-white"
+                        isActive(link.href) ? "text-[#B69560]" : "text-white"
                       }`}
                     >
                       {link.name}
@@ -178,7 +171,7 @@ export default function SiteNavbar() {
                         animate={{ opacity: 1, height: "auto" }}
                         className="mt-3 flex flex-col items-center gap-3"
                       >
-                        <Link href="/services" onClick={closeMobileMenu} className="text-lg text-white/60 hover:text-[#D4AF37]">
+                        <Link href="/services" onClick={closeMobileMenu} className="text-lg text-white/60 hover:text-[#B69560]">
                           All Services
                         </Link>
                         {link.children.map((child) => (
@@ -186,7 +179,7 @@ export default function SiteNavbar() {
                             key={child.name}
                             href={child.href}
                             onClick={closeMobileMenu}
-                            className="text-lg text-white/60 hover:text-[#D4AF37]"
+                            className="text-lg text-white/60 hover:text-[#B69560]"
                           >
                             {child.name}
                           </Link>
@@ -200,7 +193,7 @@ export default function SiteNavbar() {
                     href={link.href}
                     onClick={closeMobileMenu}
                     className={`text-2xl font-medium transition-colors ${
-                      isActive(link.href) ? "text-[#D4AF37]" : "text-white hover:text-[#D4AF37]"
+                      isActive(link.href) ? "text-[#B69560]" : "text-white hover:text-[#B69560]"
                     }`}
                   >
                     {link.name}

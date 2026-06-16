@@ -109,7 +109,7 @@ export default function CTA() {
               </div>
               <div className="mt-8 flex items-center gap-3 rounded-xl border border-white/15 bg-white/5 p-4">
                 <span className="h-2 w-2 shrink-0 rounded-full bg-white/60" />
-                <p className="text-sm text-white/80">Currently accepting new projects for 2026</p>
+                <p className="text-sm text-white/80">Currently accepting new projects for 2027</p>
               </div>
             </div>
           </motion.div>
