@@ -22,17 +22,32 @@ const serviceAreas = ["Brisbane", "Gold Coast", "Sunshine Coast", "Ipswich", "Lo
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = e.currentTarget;
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      (e.target as HTMLFormElement).reset();
-    }, 3000);
+    setError(null);
+    try {
+      const res = await fetch("https://splitforms.com/api/submit", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: new FormData(form),
+      });
+      const data = await res.json().catch(() => ({} as { success?: boolean; message?: string }));
+      if (res.ok && data.success !== false) {
+        setIsSubmitted(true);
+        form.reset();
+        setTimeout(() => setIsSubmitted(false), 6000);
+      } else {
+        setError(data.message || "Something went wrong. Please try again or call us on 0436 376 001.");
+      }
+    } catch {
+      setError("Couldn't send your message. Please try again or call us on 0436 376 001.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -125,28 +140,32 @@ export default function ContactPage() {
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-5">
+                    {/* Splitforms / form service */}
+                    <input type="hidden" name="access_key" value="7bc020b306754409996c61f348804263" />
+                    <input type="hidden" name="subject" value="New website enquiry — Design Homes (Contact page)" />
+                    <input type="checkbox" name="botcheck" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
                     <div className="grid md:grid-cols-2 gap-5">
                       <div className="space-y-2">
                         <Label htmlFor="firstName" className="text-black/70 font-medium text-sm">First Name</Label>
-                        <Input id="firstName" placeholder="John" required className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
+                        <Input id="firstName" name="firstName" placeholder="John" required className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="lastName" className="text-black/70 font-medium text-sm">Last Name</Label>
-                        <Input id="lastName" placeholder="Doe" required className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
+                        <Input id="lastName" name="lastName" placeholder="Doe" required className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
                       </div>
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="email" className="text-black/70 font-medium text-sm">Email Address</Label>
-                      <Input id="email" type="email" placeholder="john@example.com" required className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
+                      <Input id="email" name="email" type="email" placeholder="john@example.com" required className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
                     </div>
                     <div className="grid md:grid-cols-2 gap-5">
                       <div className="space-y-2">
                         <Label htmlFor="phone" className="text-black/70 font-medium text-sm">Phone Number</Label>
-                        <Input id="phone" type="tel" placeholder="+61 400 000 000" className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
+                        <Input id="phone" name="phone" type="tel" placeholder="+61 400 000 000" className="h-13 rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 bg-white" />
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="service" className="text-black/70 font-medium text-sm">Service Required</Label>
-                        <select id="service" className="w-full h-13 px-4 rounded-xl border border-black/10 focus:border-black/15 focus:ring-2 focus:ring-black/10 focus:outline-none bg-white text-sm text-black/70">
+                        <select id="service" name="service" className="w-full h-13 px-4 rounded-xl border border-black/10 focus:border-black/15 focus:ring-2 focus:ring-black/10 focus:outline-none bg-white text-sm text-black/70">
                           <option value="">Select a service</option>
                           <option value="new-home">New Home Build</option>
                           <option value="duplex">Duplex / Townhouse</option>
@@ -157,8 +176,11 @@ export default function ContactPage() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="message" className="text-black/70 font-medium text-sm">Message</Label>
-                      <Textarea id="message" placeholder="Tell us about your project..." required rows={5} className="rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 resize-none bg-white" />
+                      <Textarea id="message" name="message" placeholder="Tell us about your project..." required rows={5} className="rounded-xl border-black/10 focus:border-black/15 focus:ring-black/10 resize-none bg-white" />
                     </div>
+                    {error && (
+                      <p className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>
+                    )}
                     <button
                       type="submit"
                       disabled={isSubmitting}

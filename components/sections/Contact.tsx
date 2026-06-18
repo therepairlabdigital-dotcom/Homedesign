@@ -25,18 +25,32 @@ export default function Contact() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      form.reset();
-    }, 3000);
+    setError(null);
+    try {
+      const res = await fetch("https://splitforms.com/api/submit", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: new FormData(form),
+      });
+      const data = await res.json().catch(() => ({} as { success?: boolean; message?: string }));
+      if (res.ok && data.success !== false) {
+        setIsSubmitted(true);
+        form.reset();
+        setTimeout(() => setIsSubmitted(false), 6000);
+      } else {
+        setError(data.message || "Something went wrong. Please try again or call us on 0436 376 001.");
+      }
+    } catch {
+      setError("Couldn't send your message. Please try again or call us on 0436 376 001.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -102,6 +116,10 @@ export default function Contact() {
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
+                  {/* Splitforms / form service */}
+                  <input type="hidden" name="access_key" value="7bc020b306754409996c61f348804263" />
+                  <input type="hidden" name="subject" value="New website enquiry — Design Homes" />
+                  <input type="checkbox" name="botcheck" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
                   <div className="grid gap-5 md:grid-cols-2">
                     <div className="space-y-2">
                       <Label htmlFor="firstName" className="text-sm font-medium text-black/70">First Name</Label>
@@ -147,6 +165,9 @@ export default function Contact() {
                       className="resize-none rounded-xl border-black/10 bg-[#ffffff] focus:border-black focus:ring-black/10"
                     />
                   </div>
+                  {error && (
+                    <p className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>
+                  )}
                   <button
                     type="submit"
                     disabled={isSubmitting}
