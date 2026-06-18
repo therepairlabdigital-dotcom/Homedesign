@@ -99,7 +99,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-4 sm:px-5 py-2 sm:py-2.5 max-w-[88vw]">
             <div className="w-2 h-2 shrink-0 bg-[#B69560] rounded-full animate-pulse" />
-            <span className="min-w-0 text-white text-xs sm:text-sm font-medium tracking-wide leading-snug">Licensed QBCC Builder<span className="hidden sm:inline"> — South East Queensland</span></span>
+            <span className="min-w-0 text-white text-xs sm:text-sm font-medium tracking-wide leading-snug">Free Initial Consultation<span className="hidden sm:inline"> — South East Queensland</span></span>
           </div>
         </motion.div>
 

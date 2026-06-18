@@ -93,7 +93,6 @@ export default function CTA() {
             initial={{ opacity: 0, y: 24 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, ease: EASE, delay: 0.2 }}
-            className="hidden lg:block"
           >
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-10">
               <h3 className="mb-8 text-center font-sora text-3xl font-semibold text-white">
@@ -103,13 +102,13 @@ export default function CTA() {
                 {whyUs.map((item) => (
                   <div key={item.title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
                     <h4 className="mb-1 font-sora text-sm font-semibold text-white">{item.title}</h4>
-                    <p className="text-sm text-white/60">{item.desc}</p>
+                    <p className="text-sm text-white/75">{item.desc}</p>
                   </div>
                 ))}
               </div>
               <div className="mt-8 flex items-center gap-3 rounded-xl border border-white/15 bg-white/5 p-4">
                 <span className="h-2 w-2 shrink-0 rounded-full bg-white/60" />
-                <p className="text-sm text-white/80">Currently accepting new projects for 2027</p>
+                <p className="text-sm text-white/80">Currently accepting new projects for 2026 and 2027</p>
               </div>
             </div>
           </motion.div>
