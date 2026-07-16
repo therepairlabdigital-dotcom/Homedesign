@@ -1,4 +1,5 @@
 import { MetadataRoute } from "next";
+import { blogPosts } from "@/lib/blog-posts";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/about", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/services", priority: 0.9, changeFrequency: "weekly" as const },
     { path: "/portfolio", priority: 0.8, changeFrequency: "weekly" as const },
+    { path: "/blog", priority: 0.8, changeFrequency: "weekly" as const },
     { path: "/contact", priority: 0.9, changeFrequency: "monthly" as const },
     { path: "/faq", priority: 0.7, changeFrequency: "monthly" as const },
     
@@ -19,16 +21,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/duplex-townhouses", priority: 0.9, changeFrequency: "weekly" as const },
     { path: "/services/custom-builds", priority: 0.8, changeFrequency: "weekly" as const },
     { path: "/services/queenslander-homes", priority: 0.8, changeFrequency: "weekly" as const },
+    { path: "/services/commercial", priority: 0.8, changeFrequency: "weekly" as const },
+    { path: "/services/interior-design", priority: 0.8, changeFrequency: "weekly" as const },
+    { path: "/services/renovations", priority: 0.8, changeFrequency: "weekly" as const },
     
     // Legal pages
     { path: "/privacy-policy", priority: 0.5, changeFrequency: "yearly" as const },
     { path: "/terms-of-service", priority: 0.5, changeFrequency: "yearly" as const },
   ];
 
-  return routes.map((route) => ({
-    url: `${siteUrl}${route.path}`,
-    lastModified: new Date(),
-    changeFrequency: route.changeFrequency,
-    priority: route.priority,
-  }));
+  return [
+    ...routes.map((route) => ({
+      url: `${siteUrl}${route.path}`,
+      lastModified: new Date(),
+      changeFrequency: route.changeFrequency,
+      priority: route.priority,
+    })),
+    ...blogPosts.map((post) => ({
+      url: `${siteUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
 }

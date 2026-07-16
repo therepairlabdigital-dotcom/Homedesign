@@ -13,11 +13,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: "Design Homes Pty Ltd | Custom Home Builders Brisbane, Gold Coast & Sunshine Coast",
-    template: "%s | Design Homes Pty Ltd",
-  },
+  applicationName: "Design Homes",
+  title: "Design Homes Pty Ltd | Custom Home Builders Brisbane, Gold Coast & Sunshine Coast",
   description: "Award-winning custom home builders in South East Queensland. We specialise in new home builds, duplexes, townhouses, custom builds & Queenslander homes across Brisbane, Gold Coast & Sunshine Coast.",
+  referrer: "origin-when-cross-origin",
   keywords: [
     "custom home builders",
     "Brisbane",
@@ -78,11 +77,19 @@ export const metadata: Metadata = {
   },
   category: "construction",
   classification: "Business",
+  formatDetection: {
+    telephone: true,
+    email: true,
+    address: true,
+  },
   manifest: "/manifest.json",
   icons: {
-    icon: "/logo.webp",
-    shortcut: "/logo.webp",
-    apple: "/logo.webp",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
   },
   other: {
     "theme-color": "#B69560",
@@ -106,15 +113,17 @@ export const viewport: Viewport = {
 // JSON-LD LocalBusiness Schema
 const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "HomeAndConstructionBusiness",
   "@id": `${siteUrl}/#business`,
   name: "Design Homes Pty Ltd",
   description: "Award-winning custom home builders in South East Queensland specialising in new home builds, duplexes, townhouses, custom builds, and Queenslander homes.",
+  slogan: "Quality homes built with care and pride",
   url: siteUrl,
   telephone: "0436376001",
   email: "info@thedesignhomes.com.au",
   image: `${siteUrl}/images/modern-villa-with-pool-and-deck-H27FA57-1.webp`,
-  logo: `${siteUrl}/logo.webp`,
+  logo: `${siteUrl}/assets/images/logo-design-homes-mark.png`,
+  inLanguage: "en-AU",
   priceRange: "$$$",
   currenciesAccepted: "AUD",
   paymentAccepted: "Cash, Credit Card, Bank Transfer",
@@ -140,6 +149,24 @@ const localBusinessSchema = {
     {
       "@type": "City",
       name: "Sunshine Coast",
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "QLD",
+        addressCountry: "AU",
+      },
+    },
+    {
+      "@type": "City",
+      name: "Ipswich",
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "QLD",
+        addressCountry: "AU",
+      },
+    },
+    {
+      "@type": "City",
+      name: "Logan",
       address: {
         "@type": "PostalAddress",
         addressRegion: "QLD",
@@ -206,6 +233,30 @@ const localBusinessSchema = {
           description: "Authentic Queenslander homes built with traditional character and modern comfort.",
         },
       },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Renovations",
+          description: "Home renovation, extension, kitchen, bathroom, and whole-home upgrade services.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Interior Design",
+          description: "Interior design, finish selection, space planning, and styling support for homes.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Commercial Construction",
+          description: "Office fit-outs, retail construction, and mixed-use commercial building services.",
+        },
+      },
     ],
   },
 };
@@ -217,9 +268,10 @@ const organizationSchema = {
   "@id": `${siteUrl}/#organization`,
   name: "Design Homes Pty Ltd",
   url: siteUrl,
+  inLanguage: "en-AU",
   logo: {
     "@type": "ImageObject",
-    url: `${siteUrl}/logo.webp`,
+    url: `${siteUrl}/assets/images/logo-design-homes-mark.png`,
   },
   contactPoint: {
     "@type": "ContactPoint",
@@ -239,16 +291,9 @@ const websiteSchema = {
   url: siteUrl,
   name: "Design Homes Pty Ltd",
   description: "Award-winning custom home builders in South East Queensland",
+  inLanguage: "en-AU",
   publisher: {
     "@id": `${siteUrl}/#organization`,
-  },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: `${siteUrl}/search?q={search_term_string}`,
-    },
-    "query-input": "required name=search_term_string",
   },
 };
 
@@ -260,14 +305,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        {/* Preconnect hints for external resources */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        
-        {/* DNS prefetch hints for common resources */}
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-        
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"

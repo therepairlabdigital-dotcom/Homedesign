@@ -20,6 +20,7 @@ const navLinks = [
       { name: "Queenslander Homes", href: "/services/queenslander-homes" },
     ],
   },
+  { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
-import { useRef, useCallback, useState, useEffect } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { ArrowRight, ArrowDown, Shield, Award, CheckCircle2, Phone } from "lucide-react";
 
@@ -16,39 +16,6 @@ const titleWords = [
   { text: " ", gradient: false },
   { text: "Homes", gradient: true },
 ];
-
-function MagneticButton({ children, className, onClick }: { children: React.ReactNode; className?: string; onClick?: () => void }) {
-  const btnRef = useRef<HTMLButtonElement>(null);
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const springX = useSpring(x, { stiffness: 200, damping: 20 });
-  const springY = useSpring(y, { stiffness: 200, damping: 20 });
-
-  const handleMouse = useCallback((e: React.MouseEvent) => {
-    if (!btnRef.current) return;
-    const rect = btnRef.current.getBoundingClientRect();
-    const cx = rect.left + rect.width / 2;
-    const cy = rect.top + rect.height / 2;
-    x.set((e.clientX - cx) * 0.15);
-    y.set((e.clientY - cy) * 0.15);
-  }, [x, y]);
-
-  const handleLeave = useCallback(() => { x.set(0); y.set(0); }, [x, y]);
-
-  return (
-    <motion.button
-      ref={btnRef}
-      onMouseMove={handleMouse}
-      onMouseLeave={handleLeave}
-      onClick={onClick}
-      style={{ x: springX, y: springY }}
-      whileTap={{ scale: 0.98 }}
-      className={className}
-    >
-      {children}
-    </motion.button>
-  );
-}
 
 export default function Hero() {
   const sectionRef = useRef(null);
