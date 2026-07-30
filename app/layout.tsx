@@ -122,7 +122,7 @@ const localBusinessSchema = {
   telephone: "0436376001",
   email: "info@thedesignhomes.com.au",
   image: `${siteUrl}/images/modern-villa-with-pool-and-deck-H27FA57-1.webp`,
-  logo: `${siteUrl}/assets/images/logo-design-homes-mark.png`,
+  logo: `${siteUrl}/assets/images/logo-schema.png`,
   inLanguage: "en-AU",
   priceRange: "$$$",
   currenciesAccepted: "AUD",
@@ -271,7 +271,7 @@ const organizationSchema = {
   inLanguage: "en-AU",
   logo: {
     "@type": "ImageObject",
-    url: `${siteUrl}/assets/images/logo-design-homes-mark.png`,
+    url: `${siteUrl}/assets/images/logo-schema.png`,
   },
   contactPoint: {
     "@type": "ContactPoint",

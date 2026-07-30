@@ -56,15 +56,21 @@ export default function SiteNavbar() {
             : ""
         }`}
       >
-        <nav className="mx-auto flex h-16 max-w-[1240px] items-center justify-between px-6 lg:h-[72px] lg:px-10">
+        <nav
+          className={`mx-auto flex max-w-[1240px] items-center justify-between px-6 transition-[height] duration-300 lg:px-10 ${
+            isScrolled ? "h-20 lg:h-24" : "h-28 lg:h-[144px]"
+          }`}
+        >
           {/* Logo */}
-          <Link href="/" className="relative block h-11 w-auto shrink-0 lg:h-12">
+          <Link href="/" className="relative block w-auto shrink-0">
             <Image
-              src="/assets/images/logo-mark-cropped.png"
+              src="/assets/images/logo-design-homes-mark.png"
               alt="Design Homes"
-              width={532}
-              height={610}
-              className="h-11 w-auto object-contain lg:h-12"
+              width={720}
+              height={487}
+              className={`w-auto object-contain transition-[height] duration-300 ${
+                isScrolled ? "h-14 lg:h-[76px]" : "h-20 lg:h-28"
+              }`}
               priority
             />
           </Link>
@@ -147,7 +153,7 @@ export default function SiteNavbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-40 bg-[#000000]/98 pt-24 backdrop-blur-xl lg:hidden"
+            className="fixed inset-0 z-40 bg-[#000000]/98 pt-32 backdrop-blur-xl lg:hidden"
           >
             <div className="flex h-full flex-col items-center gap-7 pt-10">
               {navLinks.map((link) =>

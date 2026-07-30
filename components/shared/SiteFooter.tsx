@@ -62,7 +62,7 @@ export default function SiteFooter() {
           {/* Brand */}
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <Link href="/" className="relative h-32 w-auto mb-6 block">
-              <Image src="/assets/images/logo-design-homes-mark.png" alt="Design Homes Logo" width={260} height={128} className="h-32 w-auto object-contain" />
+              <Image src="/assets/images/logo-design-homes-mark.png" alt="Design Homes Logo" width={720} height={487} className="h-32 w-auto object-contain" />
             </Link>
             <p className="text-white/60 leading-relaxed mb-8 max-w-sm text-sm">
               Queensland-based residential building company delivering quality new homes, duplexes, townhouses and custom builds across South East Queensland.
