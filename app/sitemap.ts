@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-posts";
+import { locations } from "@/lib/locations";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -15,7 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" as const },
     { path: "/contact", priority: 0.9, changeFrequency: "monthly" as const },
     { path: "/faq", priority: 0.7, changeFrequency: "monthly" as const },
-    
+    { path: "/locations", priority: 0.9, changeFrequency: "monthly" as const },
+
     // Service pages
     { path: "/services/new-home-builds", priority: 0.9, changeFrequency: "weekly" as const },
     { path: "/services/duplex-townhouses", priority: 0.9, changeFrequency: "weekly" as const },
@@ -36,6 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: route.changeFrequency,
       priority: route.priority,
+    })),
+    ...locations.map((location) => ({
+      url: `${siteUrl}/locations/${location.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
     })),
     ...blogPosts.map((post) => ({
       url: `${siteUrl}/blog/${post.slug}`,

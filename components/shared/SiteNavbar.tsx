@@ -20,6 +20,7 @@ const navLinks = [
       { name: "Queenslander Homes", href: "/services/queenslander-homes" },
     ],
   },
+  { name: "Areas", href: "/locations" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
@@ -35,6 +36,22 @@ export default function SiteNavbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Lock the page behind the mobile menu so the overlay doesn't scroll away on touch
+  useEffect(() => {
+    if (!isMobileMenuOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [isMobileMenuOpen]);
+
+  // Close the menu on route change so a tapped link never leaves the overlay open
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+    setServicesOpen(false);
+  }, [pathname]);
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -153,9 +170,9 @@ export default function SiteNavbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-40 bg-[#000000]/98 pt-32 backdrop-blur-xl lg:hidden"
+            className="fixed inset-0 z-[60] overflow-y-auto overscroll-contain bg-[#000000] pt-32 lg:hidden"
           >
-            <div className="flex h-full flex-col items-center gap-7 pt-10">
+            <div className="flex min-h-full flex-col items-center gap-7 px-6 pb-16 pt-10">
               {navLinks.map((link) =>
                 link.children ? (
                   <div key={link.name} className="flex flex-col items-center">
