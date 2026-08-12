@@ -9,6 +9,7 @@ import CTABanner from "@/components/shared/CTABanner";
 import MobileCTA from "@/components/shared/MobileCTA";
 import { getLocation, locations } from "@/lib/locations";
 import { getServicesForLocation } from "@/lib/location-services";
+import { suburbs } from "@/lib/suburbs";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -217,6 +218,32 @@ export default async function LocationPage({ params }: LocationPageProps) {
                   <span className="text-sm leading-7 text-black/60">
                     {entry.heroDescription}
                   </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Brisbane suburb cluster */}
+      {location.slug === "brisbane" && (
+        <section className="bg-white py-14 lg:py-16">
+          <div className="mx-auto max-w-[1100px] px-6 lg:px-10">
+            <h2 className="font-sora text-2xl font-bold leading-tight text-black md:text-3xl">
+              Suburbs we work in most
+            </h2>
+            <p className="mt-4 max-w-[640px] text-base leading-8 text-black/68">
+              Brisbane&apos;s character provisions, slope and flood mapping change street by
+              street. These pages set out what we actually encounter in each suburb.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {suburbs.map((suburb) => (
+                <Link
+                  key={suburb.slug}
+                  href={`/suburbs/${suburb.slug}`}
+                  className="rounded-full border border-black/12 bg-[#FAFAF9] px-5 py-2.5 text-sm font-medium text-black/75 transition-all hover:border-[#B69560]/50 hover:text-black"
+                >
+                  {suburb.name}
                 </Link>
               ))}
             </div>

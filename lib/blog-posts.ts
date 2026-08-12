@@ -2803,6 +2803,915 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "architect-building-designer-or-draftsperson",
+    title: "Architect, Building Designer or Draftsperson: Who Do You Need?",
+    description:
+      "The three design professionals used on Queensland homes, what each is licensed to do, roughly what they cost, and which suits your project.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/blueprint-keys.jpg",
+    category: "Choosing a Builder",
+    content: [
+      {
+        heading: "Three different roles, often confused",
+        body: [
+          "Most people building a house in Queensland engage one of three professionals to produce the design: an architect, a building designer, or a draftsperson. The titles get used loosely, the fees differ substantially, and the right choice depends on the project rather than on prestige.",
+          "The short version is that all three can produce drawings that get approved. What differs is the depth of design thinking, the level of documentation, and how much they carry the project through construction.",
+        ],
+      },
+      {
+        heading: "Architects",
+        body: [
+          "Architect is a protected title in Queensland \u2014 only those registered with the Board of Architects may use it. Registration requires an accredited degree, recorded practical experience and an examination.",
+          "What you are paying for is design capability and documentation depth. On a difficult site, an unusual brief, or a project where the spatial outcome matters more than the square metre rate, that capability is the difference between an adequate house and a very good one.",
+          "Architects typically charge a percentage of construction cost, and usually offer to administer the contract during construction as well. On a complex build that administration has real value.",
+        ],
+      },
+      {
+        heading: "Building designers",
+        body: [
+          "Building designers are licensed by the QBCC in Queensland, in classes that determine the scale and complexity of work they can take on. Many produce excellent residential work at a lower fee than an architect.",
+          "For a straightforward new home, a renovation, or a duplex on a workable site, a good building designer is frequently the right answer \u2014 particularly one who knows the local council's requirements well.",
+          "As with builders, check the licence class on the QBCC register and confirm it covers your project type.",
+        ],
+      },
+      {
+        heading: "Draftspeople",
+        body: [
+          "A draftsperson produces drawings, generally working from a design that already exists or from a fairly prescriptive brief. The fee is lowest and the design input is smallest.",
+          "This works when you know exactly what you want and the site is uncomplicated. It works poorly when the project needs someone to solve a problem \u2014 a difficult slope, a character overlay, an awkward orientation.",
+          "The risk is paying for drawings that get approved and produce a house nobody thought hard about.",
+        ],
+      },
+      {
+        heading: "How to choose",
+        body: [
+          "Match the professional to the difficulty of the problem. A flat block, a conventional brief and a clear idea of the outcome does not need an architect. A steep character block with a complex brief probably does.",
+          "Whoever you engage, ask what the fee covers: concept only, or full documentation including engineering coordination and the detail a builder needs to price accurately. Thin documentation is the leading cause of provisional sums and variations.",
+          "We are happy to review existing drawings for buildability and cost before you commit to construction, and to recommend designers where you do not have one. Our <a href=\"/locations/brisbane/custom-builds\">Brisbane custom build page</a> explains how design and site investigation fit together.",
+        ],
+      },
+      {
+        heading: "What to agree before you engage anyone",
+        body: [
+          "Agree the scope in writing: concept design only, or full documentation including engineering coordination, energy assessment and the level of detail a builder needs to price accurately without provisional sums.",
+          "Agree how many revisions are included. Design iteration is normal and open-ended iteration is expensive, so a defined number of rounds protects both sides.",
+          "Agree who lodges the applications and who responds to information requests during assessment, because that work takes time and someone has to own it.",
+          "And agree what happens during construction \u2014 whether they answer builder queries, review variations, or hand over entirely at approval. Thin documentation and no one available to clarify it is the most common cause of avoidable variations.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-read-a-building-quote",
+    title: "How to Read a Building Quote and Compare Two Fairly",
+    description:
+      "Why the lowest number is frequently the most expensive, the six things to check line by line, and the questions that expose an incomplete price.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/blueprint-keys.jpg",
+    category: "Cost & Budget",
+    content: [
+      {
+        heading: "Two quotes are rarely comparable",
+        body: [
+          "Owners routinely put two builders' numbers side by side and pick the lower one. That comparison only works if both quotes cover the same scope, priced on the same information, with the same assumptions about the site.",
+          "In practice they almost never do. One builder may have a soil test and a survey; the other may have an assumption. One may include the driveway; the other may not. One may carry a realistic tiling allowance; the other may carry one no real tile meets.",
+          "So the useful skill is not comparing totals. It is working out what each quote actually contains.",
+        ],
+      },
+      {
+        heading: "1. What site classification was priced?",
+        body: [
+          "Ask each builder what site classification under AS 2870 the footings were priced to, and whether they have a soil test for your block.",
+          "If the answer is an assumption, the largest single cost variable in the project is unpriced, and the quote is provisional regardless of what the heading says. Reactive clay across South East Queensland means the difference between a conventional slab and an engineered footing runs into tens of thousands.",
+        ],
+      },
+      {
+        heading: "2. What is in the site works?",
+        body: [
+          "Earthworks, retaining, drainage, service connections, demolition and site access. Ask whether these are fixed items or allowances, and what basis was used \u2014 a contour survey, or an eyeball.",
+          "Ask specifically whether concrete pumping has been allowed for and on how many pours. On a sloping or narrow block that is a real recurring cost.",
+        ],
+      },
+      {
+        heading: "3. Provisional sums and prime cost items",
+        body: [
+          "Count them and read what each covers. A handful of specific allowances is normal. Broad allowances covering most of the site work mean the price is not fixed in any meaningful sense.",
+          "For prime cost items, go and look at what the allowance actually buys before signing. An allowance no real product meets is a deferred increase, not a saving.",
+        ],
+      },
+      {
+        heading: "4. What is excluded",
+        body: [
+          "The exclusions list is the most informative page in most quotes and the least read. Driveways, landscaping, fencing, window furnishings, letterboxes, clotheslines and appliances are commonly excluded.",
+          "A quote that excludes the driveway and one that includes it are not comparable, and the difference is not small.",
+        ],
+      },
+      {
+        heading: "5. Payment stages and the deposit",
+        body: [
+          "Check the deposit is within the 5 per cent cap that applies to Queensland domestic building contracts over $20,000.",
+          "Then check the progress payment stages are proportionate to the work completed at each point. A front-loaded schedule leaves you exposed if the job stalls.",
+        ],
+      },
+      {
+        heading: "6. What happens when something changes",
+        body: [
+          "Ask how variations are priced and approved, and confirm they will always be documented in writing before work proceeds.",
+          "Ask what the defects liability period is, and confirm QBCC home warranty cover for your job specifically.",
+          "A builder confident in their pricing will answer all of this without hesitation. Our <a href=\"/blog/what-are-site-costs-building-quote\">guide to site costs</a> covers what turns an advertised price into a real one.",
+        ],
+      },
+      {
+        heading: "Ask for the quote to be broken down",
+        body: [
+          "A single lump sum tells you nothing about what is inside it. Ask for a breakdown by trade or stage \u2014 site works, footings and slab, frame, roof, external cladding, services, internal fit-out, external works.",
+          "That breakdown lets you compare two quotes meaningfully and shows you immediately where they differ. It also reveals whether a low quote is genuinely more efficient or simply missing scope.",
+          "A builder who has priced your job properly can produce this without difficulty, because they built the number that way. One who cannot is telling you something.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "second-storey-addition-or-raise-queensland",
+    title: "Second-Storey Addition or Raise the House? A Queensland Comparison",
+    description:
+      "Two ways to add a level to an existing home, what each demands structurally, how the character overlay affects the choice, and which usually wins.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/queenslander-classic-new.webp",
+    category: "Renovations",
+    content: [
+      {
+        heading: "The same goal, two very different projects",
+        body: [
+          "When a family outgrows a single-level house on a good block, there are two ways to add space upward: build a new storey on top, or lift the existing house and build underneath.",
+          "They sound similar and they are not. They load the structure differently, they interact with the planning rules differently, and they produce different houses.",
+        ],
+      },
+      {
+        heading: "Adding a storey on top",
+        body: [
+          "A second-storey addition puts significant new load on the existing structure, which means the footings, the walls and the framing below all have to carry it. On a house that was not designed for a second level, that frequently means substantial underpinning and structural reinforcement.",
+          "The existing roof comes off, which exposes the house to weather for a period and usually means moving out. It also means the new level's floor plan is constrained by where the load can be carried down.",
+          "It works best on solidly built post-war homes with good footings, and where the existing ground floor layout is worth keeping.",
+        ],
+      },
+      {
+        heading: "Raising and building under",
+        body: [
+          "Lifting the house transfers it onto new engineered supports, so the new lower level is built fresh rather than squeezed into an existing structure. The original floor plan comes along largely intact.",
+          "The constraint is height. How far the house can be lifted is set by the overlay provisions, the building height limit and the relationship to neighbours, and that height determines the ground floor ceiling. A constrained height produces a basement rather than a living level.",
+          "It suits timber houses on stumps \u2014 which is most pre-war Queensland housing \u2014 and is far less applicable to a slab-on-ground brick home.",
+        ],
+      },
+      {
+        heading: "What the character overlay decides",
+        body: [
+          "Inside Brisbane's Traditional Building Character Overlay, the street elevation governs. A second-storey addition that changes how the house reads from the street is a difficult approval; raising the same house preserves the elevation and simply lifts it.",
+          "That is why raise-and-build-under is the dominant approach in Paddington, Bardon, Ashgrove, Red Hill and Wilston, and why second-storey additions are more common in post-war suburbs outside the overlay.",
+        ],
+      },
+      {
+        heading: "Which usually wins",
+        body: [
+          "For a pre-war timber house on stumps, raising almost always wins \u2014 structurally simpler, better approval path, and it produces a genuine new level rather than a compromised one.",
+          "For a slab-on-ground brick home, raising is not realistic and a second storey is the only upward option, provided the structure below can carry it.",
+          "Either way, the assessment comes first: structural condition, permitted height and any flood level, all established before design. Our <a href=\"/blog/cost-to-raise-a-queenslander\">guide to raising a Queenslander</a> covers the numbers in more detail.",
+        ],
+      },
+      {
+        heading: "Cost, disruption and program",
+        body: [
+          "Both projects mean vacating for a period. A second-storey addition removes the roof, which exposes the house to weather; raising lifts the whole structure, which disconnects services entirely. Budget for accommodation in either case.",
+          "Programs are similar in length, commonly six to twelve months depending on scope and approvals, with the approval front end frequently longer for a second storey inside a character overlay.",
+          "The cost comparison depends almost entirely on the existing structure. Where a house needs extensive underpinning to carry a second level, raising is usually cheaper. Where the existing footings are already adequate, the numbers converge.",
+          "Get the structural assessment before choosing. It is the input that decides which project is actually cheaper on your house.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "windows-for-the-queensland-climate",
+    title: "Choosing Windows for a Queensland Home",
+    description:
+      "Why window selection is a thermal decision before an aesthetic one, what the ratings mean, and where glazing money is well spent and wasted.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-entry-detail.jpg",
+    category: "New Homes",
+    content: [
+      {
+        heading: "The largest thermal weakness in any house",
+        body: [
+          "Windows are where a building envelope is weakest. A wall assembly with insulation performs many times better than the glass beside it, so the size, orientation and specification of glazing does more to determine comfort than almost any other product decision.",
+          "In Queensland the problem is heat gain rather than heat loss, which changes what you should be optimising for and where the money is worth spending.",
+        ],
+      },
+      {
+        heading: "What the ratings actually mean",
+        body: [
+          "Australian windows are rated for U-value and Solar Heat Gain Coefficient. U-value measures how readily heat conducts through the assembly. SHGC measures how much solar radiation passes through.",
+          "In a cold climate you want a low U-value to keep heat in. In Queensland, SHGC generally matters more, because the dominant problem is solar radiation entering and heating the room.",
+          "A low SHGC on west-facing glass is worth far more than the same spend on a north-facing window that is already shaded by an eave.",
+        ],
+      },
+      {
+        heading: "Shading beats glazing specification",
+        body: [
+          "This is the point most often missed. External shading stops solar radiation before it reaches the glass. Performance glazing reduces what gets through after it has arrived.",
+          "A properly sized eave over a north-facing window blocks high summer sun while admitting lower winter sun, for no running cost and no product premium. That is a better outcome than expensive glass with no eave.",
+          "On the west, where sun arrives low and no overhang works, external screens, louvres, a verandah or planting outperform any glass specification. Internal blinds are the least effective option because the heat is already inside.",
+        ],
+      },
+      {
+        heading: "Frames, operation and coastal exposure",
+        body: [
+          "Aluminium frames conduct heat readily; thermally broken aluminium and timber perform better, at higher cost. Whether that upgrade is worth it depends on how much glazing you have and how well shaded it is.",
+          "Operation matters for ventilation. Casement and awning windows catch and direct breeze far better than sliding windows, which only ever open half their area. On a house relying on cross-ventilation, that difference is real.",
+          "Near the coast, hardware and fixings need corrosion resistance matched to the exposure. This is a specification decision at design stage, not a substitution on site.",
+        ],
+      },
+      {
+        heading: "Where to spend, in order",
+        body: [
+          "First, get the orientation and the eave depth right, because both are free at design stage. Second, shade the western glazing externally. Third, choose operation types that actually ventilate. Fourth, upgrade glazing performance where glass is large or unavoidably exposed.",
+          "Doing it in that order meets Queensland's energy requirements at the lowest cost and produces a more comfortable house than starting with the product catalogue. Our <a href=\"/blog/house-orientation-queensland-climate\">orientation guide</a> covers the free half of this.",
+        ],
+      },
+      {
+        heading: "Sizing and placement",
+        body: [
+          "Bigger is not better in this climate. A large expanse of unshaded glass is a thermal liability, and the comfort penalty is felt every summer afternoon.",
+          "What matters more than total area is placement: openings on opposite or adjacent walls so air can cross a room, high-level glazing that brings light without heat or privacy loss, and glass concentrated on the north where an eave can control it.",
+          "Also consider what each window looks at. A window facing a boundary fence a metre away delivers heat and no outlook, and is usually better replaced with high-level glazing that gives light without the view.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "decks-patios-and-carport-approvals-queensland",
+    title: "Decks, Patios, Carports and Sheds: What Needs Approval",
+    description:
+      "The rules that catch homeowners out on structures they assume are minor, and why an unapproved deck becomes a problem at resale.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-entry-detail.jpg",
+    category: "Renovations",
+    content: [
+      {
+        heading: "The assumption that costs money later",
+        body: [
+          "Decks, patios, carports and sheds feel like minor additions, and a great many get built without approval on that basis. They are structures, they are assessable, and the consequences show up later.",
+          "The problem surfaces at sale. A buyer's solicitor searches the property, finds a structure with no approval, and the sale stalls until it is either approved retrospectively or removed. Retrospective approval is possible but more expensive and occasionally refused.",
+        ],
+      },
+      {
+        heading: "Decks",
+        body: [
+          "A deck generally requires building approval, and the thresholds relate to height above ground and whether it is attached to the house. A low deck sitting close to ground level may be exempt; anything at floor level on a sloping block certainly is not.",
+          "Balustrade requirements apply once a deck is above a certain height, covering height, gaps and the non-climbable zone. These are safety provisions and they are enforced.",
+          "Structurally, an attached deck loads the existing house, and the connection back into the building is where badly built decks fail. On an older Queenslander that connection has to go into sound framing, which is not always what is there.",
+        ],
+      },
+      {
+        heading: "Patios and roofed outdoor areas",
+        body: [
+          "A roofed structure attached to the house requires approval, and it also affects site cover, setbacks and sometimes the private open space calculation the planning scheme applies to your lot.",
+          "Where it is close to a boundary, fire separation requirements can apply. Where it extends the building footprint, overlays apply as they would on any addition.",
+          "Stormwater is the practical item people forget. A new roof area needs guttering and a connection to a legal discharge point, not a downpipe discharging onto the lawn against the neighbour's fence.",
+        ],
+      },
+      {
+        heading: "Carports, garages and sheds",
+        body: [
+          "These need approval and are also assessed against setbacks, site cover and, for anything at the front, the streetscape provisions \u2014 which matter considerably inside a character overlay.",
+          "A driveway to a new carport or garage needs a crossover approval from council for the section within the road reserve, and that is a separate approval with its own specifications.",
+          "Larger sheds may also need engineering for wind loading, and on a sloping block, footings designed for the ground rather than a standard slab.",
+        ],
+      },
+      {
+        heading: "Pools and the fencing that follows",
+        body: [
+          "Any pool capable of holding water above a shallow depth must be fenced to the Queensland standard, and the non-climbable zone catches people out \u2014 air conditioning units, planter boxes, retaining walls and pergola posts near the fence can render a compliant barrier non-compliant.",
+          "Pools must be registered, and a pool safety certificate is required when selling or leasing.",
+          "If you are planning any of these alongside a build, do them under the same approval and the same contract. It is cheaper, faster and it leaves you with a clean set of documents. Our <a href=\"/blog/pool-with-a-new-build-queensland\">pool guide</a> covers the sequencing.",
+        ],
+      },
+      {
+        heading: "If it is already built without approval",
+        body: [
+          "Retrospective approval is often possible. It generally involves engaging a certifier, having the structure assessed against current requirements, and providing engineering where the original work was not documented.",
+          "The risk is that a structure built without approval was frequently built without engineering, and it may not meet current requirements. In that case the options are rectification or removal.",
+          "Deal with it before you list the property rather than during a sale, when the timeline is against you and the buyer has leverage. It is almost always cheaper and less stressful handled in advance.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "air-conditioning-and-hot-water-queensland",
+    title: "Air Conditioning and Hot Water: Sizing and Choosing for Queensland",
+    description:
+      "Two of the largest running costs in a Queensland home, why oversizing air conditioning makes comfort worse, and which hot water system suits a new build.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-single-modern.jpg",
+    category: "New Homes",
+    content: [
+      {
+        heading: "The two systems that dominate your power bill",
+        body: [
+          "In a South East Queensland home, cooling and water heating account for the largest share of electricity use. Both are specified during the build, and both are expensive to change afterwards.",
+          "They are also where the most money is wasted, because both are commonly oversized on the assumption that bigger is safer.",
+        ],
+      },
+      {
+        heading: "Why oversized air conditioning performs worse",
+        body: [
+          "An oversized unit cools the air quickly, reaches its setpoint, and shuts off. In a humid climate that is a problem, because dehumidification requires sustained run time. Short cycles drop the temperature without removing moisture, and the room feels cold and clammy rather than comfortable.",
+          "A correctly sized unit runs longer at lower output, removes humidity properly, uses less energy and lasts longer because it cycles less.",
+          "Sizing should follow a load calculation based on the actual room \u2014 its volume, glazing area and orientation, insulation and shading \u2014 not a rule of thumb applied to floor area.",
+        ],
+      },
+      {
+        heading: "Reduce the load before sizing the system",
+        body: [
+          "Every improvement to the building envelope reduces the capacity you need to install and run. Shading western glazing, insulating the ceiling properly, ventilating the roof space and allowing cross-ventilation all shrink the cooling load.",
+          "Ceiling fans then extend the comfortable range considerably at negligible running cost. For much of the Queensland year, fans and open windows are the entire requirement, and the air conditioner is for the worst weeks rather than the default.",
+          "A house designed this way needs a smaller system, which costs less to buy and less to run for its whole life.",
+        ],
+      },
+      {
+        heading: "Ducted or split",
+        body: [
+          "Ducted systems condition the whole house from one unit and look tidier, but conditioning rooms nobody is in is wasteful unless the system is properly zoned. Zoning is worth the extra cost if you go ducted.",
+          "Split systems in the rooms that actually need them are cheaper to install and often cheaper to run, at the cost of visible indoor units.",
+          "Either way, decide before frame stage, because ducting routes, condensate drainage and electrical supply all have to be planned into the structure.",
+        ],
+      },
+      {
+        heading: "Hot water",
+        body: [
+          "Water heating is a large and constant load, and a heat pump system is generally the best fit for a new Queensland home. It uses considerably less electricity than resistive electric storage, and paired with a timer running in the middle of the day it effectively stores your rooftop solar generation as hot water.",
+          "Solar hot water with electric or gas boosting also works well in this climate, at the cost of roof space that might otherwise carry panels.",
+          "Whatever you choose, decide before plumbing rough-in, because the type and location affect the plumbing and electrical layout. Our <a href=\"/blog/solar-and-battery-new-build-queensland\">solar guide</a> covers how these decisions interact.",
+        ],
+      },
+      {
+        heading: "Running cost and where the savings actually are",
+        body: [
+          "The cheapest energy is the energy you do not use. A house that stays comfortable through orientation, shading, insulation and ventilation runs its systems for fewer hours, which saves more than any efficiency rating upgrade.",
+          "Where you do run equipment, shifting it to the middle of the day makes a large difference now that feed-in tariffs are low. A timer on a heat pump hot water system turns rooftop generation into stored hot water at no extra cost.",
+          "Zoning a ducted system, and simply not conditioning rooms nobody is in, is the other large saving and it costs nothing beyond the initial setup.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "boundaries-neighbours-and-building-work-queensland",
+    title: "Boundaries, Neighbours and Building Work in Queensland",
+    description:
+      "Fences, retaining walls, access, overshadowing and the conversations worth having before construction rather than during it.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/construction-frame-new.jpg",
+    category: "Choosing a Builder",
+    content: [
+      {
+        heading: "The relationship you cannot avoid",
+        body: [
+          "Building work affects the people either side of you, and on a narrow inner-suburban block it affects them a great deal. Noise, dust, machinery, scaffolding, and sometimes the need to physically enter their property.",
+          "Handled early, most of this is straightforward. Handled badly, it produces objections during assessment, disputes during construction, and a neighbour you live beside for the next twenty years.",
+        ],
+      },
+      {
+        heading: "Access to a neighbour's land",
+        body: [
+          "Building close to a boundary frequently requires access from the other side \u2014 for scaffolding, for building the wall itself, or for a retaining wall that supports both properties.",
+          "A neighbour is not obliged to grant that access. There are legal avenues in Queensland where agreement cannot be reached, but they take time and goodwill is far cheaper.",
+          "Ask early, be specific about what you need and for how long, and offer to make good anything affected. Most people agree when asked properly and refuse when surprised.",
+        ],
+      },
+      {
+        heading: "Fences and retaining walls",
+        body: [
+          "Dividing fences in Queensland are generally a shared responsibility between adjoining owners, with a process for agreeing work and costs. If your build requires removing and reinstating a fence, that is a conversation to have before the fence comes down.",
+          "Retaining walls are more complicated, because responsibility depends on which property the wall supports and why it exists. A wall built to support your cut is your wall; one supporting their fill is a different question.",
+          "Where a retaining wall sits on or near the boundary, agree the arrangement in writing before construction. This is one of the most common sources of neighbour disputes in sloping suburbs.",
+        ],
+      },
+      {
+        heading: "Overshadowing, privacy and objections",
+        body: [
+          "Where a development application is impact assessable, it goes to public notification and neighbours can make submissions, which carry appeal rights and can add months.",
+          "The issues that generate objections are predictable: overshadowing, overlooking into private space, building height and bulk close to a boundary, and parking.",
+          "Designing to address these before lodgement is far cheaper than defending them afterwards. So is telling your neighbours what you are planning before they read about it in a notice on the fence.",
+        ],
+      },
+      {
+        heading: "During construction",
+        body: [
+          "Site management matters here. Keeping the site tidy, controlling dust and mud, keeping work within reasonable hours, protecting shared structures and parking considerately all reduce friction enormously.",
+          "It is one of the practical benefits of an owner-run site \u2014 a builder who is there daily notices when something is causing a problem next door.",
+          "If damage does occur, deal with it immediately and in writing. Our <a href=\"/blog/retaining-walls-queensland-cost-and-approval\">retaining wall guide</a> covers the boundary questions in more detail.",
+        ],
+      },
+      {
+        heading: "Get agreements in writing",
+        body: [
+          "Verbal agreements between neighbours are made in good faith and remembered differently. Where access, a shared fence, a retaining wall or a cost split is involved, put it in writing \u2014 an email confirming what was agreed is enough.",
+          "It matters more than it seems, because properties change hands. An arrangement agreed with a neighbour who sells two years later is worth nothing if there is no record of it.",
+          "Photograph the condition of shared structures and the neighbouring property before work begins. If damage is later alleged, a dated set of photographs resolves the question immediately.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "building-on-a-tight-budget-queensland",
+    title: "Building on a Tight Budget: Where to Save and Where Not To",
+    description:
+      "The savings that cost nothing later, the ones that cost a great deal, and how to stage a build so the expensive-to-change items get done first.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-brick-contemporary.jpg",
+    category: "Cost & Budget",
+    content: [
+      {
+        heading: "Not all savings are equal",
+        body: [
+          "Every build involves trade-offs, and the useful distinction is between decisions you can revisit and decisions you cannot.",
+          "A kitchen can be replaced in ten years. A ceiling height cannot. Flooring can be changed; orientation cannot. The discipline is to spend on what is permanent and economise on what is replaceable.",
+          "Owners frequently do the reverse, because the replaceable items are the ones you see in a showroom.",
+        ],
+      },
+      {
+        heading: "Where saving costs you nothing",
+        body: [
+          "Finishes and fittings. Tapware, floor coverings, light fittings, appliances, joinery hardware and paint colours can all start modest and be upgraded later without touching the structure.",
+          "Landscaping, fencing and the driveway surface can be staged, provided the underground services and conduit are laid while the ground is open.",
+          "Reducing floor area is also usually a clean saving. A smaller, well-planned house with good ceiling heights and proper daylight lives better than a larger one with neither.",
+        ],
+      },
+      {
+        heading: "Where saving costs you later",
+        body: [
+          "Ceiling height, window size and position, and the orientation of living areas are effectively permanent. Getting these wrong produces a house that is uncomfortable for its whole life, and no later spend fully recovers it.",
+          "Insulation and roof space ventilation are buried and cheap during construction. Retrofitting wall insulation means opening walls.",
+          "Waterproofing in wet areas is the classic false economy. A waterproofing failure means removing tiling, screed and sometimes framing, and it is the most common serious defect in Australian housing.",
+          "Conduit and rough-in for things you might add later \u2014 solar, an EV charger, irrigation, a future shed \u2014 costs almost nothing while the walls are open and a great deal afterwards.",
+        ],
+      },
+      {
+        heading: "Do not economise on the investigation",
+        body: [
+          "A soil test, a contour survey and the council property report are among the smallest costs in the project and they prevent the largest surprises.",
+          "Skipping them does not save money, it defers a cost into construction where it arrives as a variation with margin applied.",
+          "The same applies to documentation. Thin drawings produce provisional sums, and provisional sums are where budgets go.",
+        ],
+      },
+      {
+        heading: "Staging properly",
+        body: [
+          "If the full brief does not fit the budget, stage it rather than degrading everything. Build the structure, the envelope and the buried services to the standard you want, and finish fewer areas now.",
+          "An unfinished but well-built house is a much better position than a fully finished, poorly built one.",
+          "Design the stages together so the later work connects cleanly, and get approvals for the whole thing where practical. Our <a href=\"/blog/building-budget-contingency-queensland\">contingency guide</a> covers what else belongs in a project budget.",
+        ],
+      },
+      {
+        heading: "Simplicity is the largest saving available",
+        body: [
+          "Complexity costs money in construction more than materials do. A simple roof form with fewer hips and valleys is cheaper to build, less likely to leak and better for solar. A rectangular footprint costs less per square metre than an articulated one.",
+          "Fewer wet areas, stacked plumbing so the bathrooms share walls or sit above each other, and a compact services layout all reduce cost substantially without affecting how the house lives.",
+          "None of these compromises are visible to the occupant. They are the cheapest savings available, and they are made at design stage rather than by degrading the specification later.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "waterproofing-and-wet-areas-queensland",
+    title: "Waterproofing and Wet Areas: The Most Common Serious Defect",
+    description:
+      "Why waterproofing failures dominate building defect claims, what the standard requires, and what to check before the tiler starts.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-entry-detail.jpg",
+    category: "New Homes",
+    content: [
+      {
+        heading: "The defect that costs the most to fix",
+        body: [
+          "Waterproofing failures in wet areas are consistently among the most common serious defects in Australian residential construction, and among the most expensive to rectify.",
+          "The reason is that the failure is invisible for a long time and the repair is destructive. By the time water appears in the room next door or in the ceiling below, the fix involves removing tiling, screed, sometimes wall linings and occasionally framing.",
+          "It is also entirely preventable, which is what makes it worth understanding as an owner.",
+        ],
+      },
+      {
+        heading: "What the standard requires",
+        body: [
+          "Wet area waterproofing is governed by the National Construction Code and AS 3740. It sets out which surfaces must be waterproof and which must be water resistant, how far up walls the membrane must extend, and how junctions, penetrations and floor wastes must be treated.",
+          "Shower areas have the most demanding requirements, with the membrane extending up the walls and across the floor, and particular attention at the junction between them.",
+          "In Queensland, waterproofing is licensable work and you should receive a certificate at completion. Keep it \u2014 a buyer's solicitor will ask for it.",
+        ],
+      },
+      {
+        heading: "Where failures actually happen",
+        body: [
+          "Junctions, almost always. The floor-to-wall junction, internal corners, and the joints around penetrations are where movement concentrates and where membranes tear if they were not detailed with the right reinforcement.",
+          "Penetrations are next: tap bodies, shower outlets and floor wastes. Each is a hole through the membrane and each has to be sealed properly.",
+          "Falls to the floor waste matter too. Water that ponds instead of draining sits against the membrane and finds any weakness eventually.",
+          "Insufficient curing time is a quiet cause. Membranes need to cure before tiling begins, and a program under pressure is where that gets compressed.",
+        ],
+      },
+      {
+        heading: "What to check as an owner",
+        body: [
+          "Waterproofing happens after the wet area is prepared and before tiling, so there is a window of a few days when you can see it. Ask to be told when it is done and go and look before the tiler starts.",
+          "You will not assess it technically, but you can see whether the membrane is continuous, whether it extends up the walls, whether corners look reinforced, and whether it has been left to cure.",
+          "Ask which product was used and whether it is being applied to the manufacturer's specification, including the number of coats. Ask for the certificate at completion.",
+        ],
+      },
+      {
+        heading: "Why it is worth the attention",
+        body: [
+          "Almost every other defect in a house is visible and arguable. Waterproofing is neither. It is covered immediately and it fails silently.",
+          "It is also the one where a builder under time pressure has the greatest incentive to move on quickly, which is exactly why an owner-run site matters \u2014 the person deciding whether the membrane has cured is the person whose reputation the job carries.",
+          "Our <a href=\"/blog/defects-liability-and-handover-queensland\">handover guide</a> covers the certificates you should receive and what the defects period covers.",
+        ],
+      },
+      {
+        heading: "Design decisions that reduce the risk",
+        body: [
+          "Falls to the floor waste have to be built into the screed, and a shower floor that ponds is a design and workmanship failure rather than a maintenance issue.",
+          "Where a wet area sits above a habitable room, the consequence of failure is far greater. That is worth reflecting in both the detailing and the attention paid during construction.",
+          "Niches, hobless showers and wall-hung fixtures all involve additional penetrations or more demanding detailing. They are entirely achievable and they need to be detailed deliberately rather than improvised on site.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "kitchen-and-storage-planning-new-build",
+    title: "Planning a Kitchen and Real Storage in a New Build",
+    description:
+      "The layout rules that survive fashion, why storage is the most complained-about omission in new homes, and the decisions that must happen before frame stage.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-entry-detail.jpg",
+    category: "Custom Builds",
+    content: [
+      {
+        heading: "The room that gets the most attention and the least planning",
+        body: [
+          "The kitchen absorbs a disproportionate share of the selections budget and the emotional energy in a build, mostly directed at finishes. Meanwhile the decisions that determine whether it works \u2014 where it sits, how it relates to the living space, and where the services are \u2014 get settled almost by default.",
+          "Those decisions happen at design and frame stage. The benchtop material can change; the plumbing position in the slab cannot.",
+        ],
+      },
+      {
+        heading: "Layout fundamentals",
+        body: [
+          "The working relationship between sink, cooktop and refrigerator determines how the kitchen feels to use. Keeping those three in a comfortable working relationship, without a major traffic route cutting through it, matters more than the shape of the room.",
+          "Bench space beside the cooktop and beside the sink is where preparation actually happens, and it is the thing most often sacrificed to fit an island.",
+          "Islands are excellent when the room is wide enough for genuine clearance around them and a poor idea when they are squeezed in. If the walkway is tight, the island is making the kitchen worse.",
+          "Where the kitchen opens to living space, think about what is visible from the sofa. A raised bench, or simply positioning the sink and preparation zone away from the sight line, is what stops an open-plan kitchen dominating the room.",
+        ],
+      },
+      {
+        heading: "Storage is the most common regret",
+        body: [
+          "Storage is the single most complained-about omission in new homes, and it is almost always the thing that got value-engineered out late.",
+          "A walk-in pantry is the highest-value kitchen storage available, and it is far cheaper to plan in than to add. Beyond that: a genuine linen cupboard, a laundry with bench space and storage rather than just appliance space, built-in robes in every bedroom, and somewhere for bulky items.",
+          "Under-stair space, the space above a hallway, and the depth beside a fridge are all commonly wasted. Planning them costs nothing at drawing stage.",
+        ],
+      },
+      {
+        heading: "Services and appliance decisions come early",
+        body: [
+          "Appliance selections determine cabinetry dimensions, and cabinetry is manufactured weeks before installation. Choosing appliances late is one of the most common causes of delay in the fixing stage.",
+          "Plumbing and electrical positions are set at rough-in, before the walls are lined. Power points on the island, the position of the dishwasher, whether there is a filtered water tap, and where the rangehood ducts to all have to be decided before then.",
+          "Rangehood ducting in particular has to discharge outside rather than recirculate, and the route has to be planned into the structure.",
+        ],
+      },
+      {
+        heading: "Light and ventilation",
+        body: [
+          "A kitchen with no natural light is unpleasant regardless of its finishes. A window over the sink, a skylight, or borrowed light from an adjacent opening all change the room fundamentally.",
+          "In the Queensland climate, a kitchen that can be ventilated matters too \u2014 cooking heat and humidity in a sealed room is a genuine comfort issue in summer.",
+          "Our <a href=\"/blog/selections-process-new-home-build\">selections guide</a> sets out the order these decisions have to happen in.",
+        ],
+      },
+      {
+        heading: "Budget realistically",
+        body: [
+          "Kitchens absorb a large share of a fit-out budget, and the range between a competent kitchen and a high-end one is very wide. Decide early roughly where you sit, because it affects cabinetry, benchtop material and appliance selections together.",
+          "Where the budget is tight, spend on layout, storage volume and bench space rather than on finish. A well-planned kitchen in modest materials works better every day than a beautiful one that functions poorly.",
+          "Benchtops and appliances are also the easiest items to upgrade later, whereas the layout and the services positions are effectively permanent.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "queenslander-or-modern-home-brisbane",
+    title: "Buying in Brisbane: Queenslander or Modern Home?",
+    description:
+      "What each type actually costs to own and improve, the constraints that come with character housing, and how to decide which suits you.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/queenslander-classic-new.webp",
+    category: "Renovations",
+    content: [
+      {
+        heading: "Two different propositions",
+        body: [
+          "Buyers in Brisbane's inner suburbs frequently face a choice between a period Queenslander needing work and a more modern house that is ready to live in.",
+          "They are not the same purchase. One is a project with upside and constraints attached; the other is a finished product with less headroom. Which suits you depends on your tolerance for a building program and your time horizon.",
+        ],
+      },
+      {
+        heading: "What you get with a Queenslander",
+        body: [
+          "The housing type is genuinely well suited to the climate. High ceilings, verandahs, elevated floors, and plans that let breeze move through were designed for exactly this weather, before air conditioning existed.",
+          "The location tends to be better, because the character suburbs are the older ones closest to the city. And the raise-and-build-under option means significant additional floor area is available on land you already own.",
+          "Character housing in intact streetscapes also holds value well, because supply is fixed \u2014 no more of them are being built and the overlay stops them being removed.",
+        ],
+      },
+      {
+        heading: "What comes with it",
+        body: [
+          "Constraints, principally. Inside a character area, demolition is restricted and any work to the street elevation is assessed against the streetscape. You do not have a free hand.",
+          "Condition, too. A hundred-year-old timber house will have stumps at or near the end of their life, likely termite damage, previous unapproved alterations, wiring past its service life, failing plumbing and no insulation. All of it is fixable and none of it is cheap.",
+          "And ongoing maintenance. Timber, paint and roofing on a period house need more attention than a twenty-year-old brick home.",
+        ],
+      },
+      {
+        heading: "What a modern home offers",
+        body: [
+          "Predictability. A house built in the last twenty years is built to modern standards, with insulation, compliant wiring and plumbing, and no asbestos.",
+          "Lower immediate cost of ownership, and none of the overlay constraints \u2014 extensions, second storeys and knockdown rebuilds are all generally achievable.",
+          "The trade-offs are location, since the newer stock is generally further out, and design quality, since a great deal of it was built quickly with living areas facing the wrong way and minimal eaves.",
+        ],
+      },
+      {
+        heading: "How to decide",
+        body: [
+          "If you want to be in a specific inner suburb, have the appetite for a building project, and intend to hold long term, the Queenslander is usually the better proposition. The constraints protect the value.",
+          "If you need to move in and get on with life, or the budget cannot carry both purchase and renovation, the modern house is the honest answer.",
+          "Before committing to either, pull the council property report. It tells you what is permitted, and on a character block that determines your options entirely. Our <a href=\"/blog/character-overlay-brisbane-what-it-restricts\">character overlay guide</a> covers what is actually restricted.",
+        ],
+      },
+      {
+        heading: "Budget for the whole picture",
+        body: [
+          "If you are considering a Queenslander needing work, budget the purchase and the renovation together, and get a structural assessment before committing rather than after.",
+          "The items that consistently surprise buyers are stumps, subfloor framing, full services replacement and asbestos removal, none of which are visible at an open home and all of which are substantial.",
+          "Also confirm the overlay position and any flood mapping before you make an offer. On a character block those two numbers determine what you are permitted to do, and therefore whether the project you have in mind exists at all.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "moving-into-a-new-build-checklist",
+    title: "Moving Into a New Build: A Practical First-Year Checklist",
+    description:
+      "What to check at handover, what will move and crack in the first year, and the maintenance that protects your warranty.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-single-modern.jpg",
+    category: "New Homes",
+    content: [
+      {
+        heading: "The first year is different",
+        body: [
+          "A new house settles. Timber shrinks as it dries to equilibrium, the slab cures and moves slightly, and the building comes through its first full seasonal cycle.",
+          "That produces small cracks in plasterboard, nail pops, doors that need adjustment and gaps opening at skirtings and architraves. Almost all of it is normal, expected, and rectified at the end of the defects liability period rather than one item at a time.",
+          "Knowing which of it is normal and which is not is the useful part.",
+        ],
+      },
+      {
+        heading: "At handover",
+        body: [
+          "Walk the house with the builder before final payment and record every item in writing. Bring a torch, open every door and window, run every tap, test every switch and check every drawer and cupboard.",
+          "Collect the documentation: final certificate or certificate of occupancy, Form 15 and Form 16 certificates, waterproofing certificates, the termite management notice, electrical and plumbing compliance certificates, appliance manuals and warranties, and your QBCC home warranty documentation.",
+          "Get the paint and finish schedule too, so touch-ups years later match.",
+        ],
+      },
+      {
+        heading: "What is normal in the first year",
+        body: [
+          "Hairline cracks in plasterboard, particularly at corners of door and window openings. Nail pops in ceilings and walls. Doors and windows needing adjustment as timber moves. Small gaps at skirtings and cornices. Minor settlement cracking in the slab edge or paths.",
+          "Keep a running list rather than calling about each one. Most builders prefer to attend once near the end of the defects period and address everything together, which is also far less disruptive for you.",
+        ],
+      },
+      {
+        heading: "What is not normal",
+        body: [
+          "Water where water should not be \u2014 damp patches, staining on ceilings, moisture at the base of a shower wall, or water penetrating around windows. Report these immediately rather than adding them to a list.",
+          "Cracks wider than hairline, cracks that are growing, stepped cracking in brickwork, or doors that were fine and are now binding badly can indicate movement rather than shrinkage.",
+          "Anything electrical that trips repeatedly, and any plumbing that leaks. These are immediate items.",
+        ],
+      },
+      {
+        heading: "Maintenance that protects your position",
+        body: [
+          "Termite management requires annual inspection by a licensed pest inspector. This is your responsibility after handover, and the system only works if someone looks. It also matters for any warranty position.",
+          "Keep garden beds, mulch and paving clear of the slab edge, because bridging the termite barrier gives termites a concealed route past everything you paid for.",
+          "Clear gutters, keep downpipes discharging away from footings, and keep the drainage falls around the house working. On reactive clay, uneven moisture against a slab is what causes movement.",
+          "Our <a href=\"/blog/defects-liability-and-handover-queensland\">handover and defects guide</a> covers the warranty periods in more detail.",
+        ],
+      },
+      {
+        heading: "Practical first-week items",
+        body: [
+          "Find and label the water shut-off valve, the electrical switchboard and the gas isolation if you have gas. You want to know where these are before you need them.",
+          "Test every smoke alarm and note the type and replacement interval. Queensland has specific requirements for interconnected photoelectric alarms in homes, and they are your responsibility to maintain.",
+          "Photograph the house thoroughly while it is empty and undamaged. It is a useful record for insurance and for any later defect discussion.",
+          "Register any appliance warranties, and put the annual termite inspection in your calendar now rather than intending to remember it.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dual-key-and-secondary-dwellings-investment",
+    title: "Dual Key and Secondary Dwellings: A Middle Path for Investors",
+    description:
+      "Where a secondary dwelling beats a full duplex on cost and approvals, the restrictions that apply in Queensland, and how it affects valuation.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    category: "Duplexes",
+    content: [
+      {
+        heading: "Between one dwelling and two",
+        body: [
+          "Not every site that cannot support a duplex is limited to a single dwelling. A secondary dwelling \u2014 a self-contained space subordinate to the main house \u2014 sits between the two, and on the right block it delivers much of the income benefit for considerably less cost and a simpler approval.",
+          "It is not a duplex, and confusing the two is where investors get into trouble. The restrictions are real and they vary by council.",
+        ],
+      },
+      {
+        heading: "What is generally permitted",
+        body: [
+          "Councils across South East Queensland allow secondary dwellings subject to conditions, typically covering maximum floor area, the requirement that it be subordinate to and associated with the main dwelling, car parking, and private open space.",
+          "The condition that matters most for investors is whether it can be separately let to an unrelated household. Some councils permit this, some restrict occupancy to a member of the same household, and the position has changed over time.",
+          "Check the current provisions for your specific council and zone before you plan anything around rental income. Assuming the rules from a different council is a common and expensive error.",
+        ],
+      },
+      {
+        heading: "Why the cost is lower than a duplex",
+        body: [
+          "A secondary dwelling is smaller, and it usually shares the site works, the driveway, the services connection and the professional fees with the main house.",
+          "The approval path is generally simpler than a dual occupancy, which frequently needs development approval and may be impact assessable with public notification.",
+          "Where it is built at the same time as the main house, the marginal cost is lower again, because everything is already mobilised on site.",
+        ],
+      },
+      {
+        heading: "What it does to yield and value",
+        body: [
+          "A second income stream from one land purchase improves yield materially, and it gives you two tenancies rather than one, which halves your vacancy exposure.",
+          "On valuation, treatment varies. Some valuers reflect the additional income; others value the property as a house with an ancillary structure. Speak to a lender before assuming it will be valued as two dwellings.",
+          "Critically, a secondary dwelling cannot generally be sold separately, because it is not a separate title. If your exit involves selling two properties, this is the wrong structure and a duplex with a title split is the right one.",
+        ],
+      },
+      {
+        heading: "Design decisions that matter",
+        body: [
+          "Separate external entry is the single most valuable feature. Being able to come and go without passing through the main house changes the arrangement entirely.",
+          "Acoustic separation between the two, real storage in the smaller dwelling, and private outdoor space that is genuinely private are the items that determine whether it leases well.",
+          "Build it so it can change use later \u2014 home office, guest accommodation, or accommodation for ageing parents \u2014 because circumstances shift. Our <a href=\"/blog/granny-flat-secondary-dwelling-queensland\">secondary dwellings guide</a> covers the planning side and our <a href=\"/blog/duplex-or-house-which-performs-better-seq\">duplex comparison</a> covers the alternative.",
+        ],
+      },
+      {
+        heading: "Get the position in writing before you build",
+        body: [
+          "Because the rules vary by council and have changed over time, do not rely on what applied in another local government area or on what someone built five years ago.",
+          "Confirm the current provisions for your zone in writing, including whether the secondary dwelling may be separately let, and what the maximum floor area and parking requirements are.",
+          "Then confirm with your lender how it will be treated for valuation and serviceability. A structure that improves yield but is valued as an ancillary building changes the finance picture, and that is better known before construction than after.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "site-supervision-what-good-looks-like",
+    title: "Site Supervision: What Good Looks Like on a Residential Build",
+    description:
+      "How to tell whether a site is being run well, the warning signs worth acting on early, and what to do when something is going wrong.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/construction-frame-new.jpg",
+    category: "Choosing a Builder",
+    content: [
+      {
+        heading: "The variable that decides your experience",
+        body: [
+          "Two builders can use the same trades, the same materials and the same contract and deliver very different experiences. The difference is supervision.",
+          "Supervision is what sequences the trades so nobody is waiting, catches errors while they are cheap, keeps the site safe and tidy, and tells you what is happening before you have to ask.",
+          "It is also the thing least visible when you are choosing a builder, which is why it is worth asking about specifically.",
+        ],
+      },
+      {
+        heading: "What to ask before signing",
+        body: [
+          "Who supervises the site day to day, and how many other projects is that person running at the same time? In a volume operation the answer may be a dozen, which works when everything is standard and is tested when it is not.",
+          "How often will they be on site? Will the person who quoted the job be involved in running it, or does it hand over to someone you have not met?",
+          "Who do you contact when a decision is needed, and what is the expected response time?",
+        ],
+      },
+      {
+        heading: "What a well-run site looks like",
+        body: [
+          "Materials stored off the ground and protected from weather. Offcuts and waste contained rather than spread. Safety measures in place \u2014 edge protection, penetrations covered, the site secured at the end of the day.",
+          "Work that looks deliberate: frames straight and properly braced, services rough-in tidy and logically routed, set-out lines visible and followed.",
+          "Trades arriving in sequence rather than tripping over each other, and the site not sitting idle for long stretches without explanation.",
+          "Ask to visit an active site before you sign. It tells you more than any finished project photograph.",
+        ],
+      },
+      {
+        heading: "Warning signs worth acting on",
+        body: [
+          "Long unexplained periods with nobody on site. Trades arriving to find the previous stage incomplete. The same defect appearing repeatedly. Requests for payment ahead of the stage actually reached.",
+          "Difficulty getting a straight answer about program, or a builder who becomes hard to contact.",
+          "Variations arriving after the work has been done rather than priced and approved before. In Queensland, variations to a domestic building contract must be documented, and this requirement exists for your protection.",
+        ],
+      },
+      {
+        heading: "What to do when something is wrong",
+        body: [
+          "Raise it early, in writing, and specifically. A dated email describing the issue is worth far more than a conversation on site, both for resolution and for any later claim.",
+          "Escalate to the builder rather than the trade. The trade works to the builder's instruction and putting them in the middle rarely helps.",
+          "For compliance concerns, the building certifier is the right person, and you are entitled to their contact details. For unresolved disputes, the QBCC has a process, and its timeframes matter.",
+          "This is the reason we run a small number of jobs with the sites run personally \u2014 our <a href=\"/about/our-builder\">builder profile</a> explains why the model is set up that way.",
+        ],
+      },
+      {
+        heading: "Communication is the leading indicator",
+        body: [
+          "The most reliable early signal of how a build will go is how a builder communicates before construction starts. Responsiveness during the quoting and contract stage tends to predict responsiveness during the job.",
+          "Agree a rhythm at the outset \u2014 a weekly update, a site meeting at each major stage, and a clear channel for decisions. Written updates are worth more than phone calls, because they create a record.",
+          "A builder who volunteers bad news early is more valuable than one who only reports progress. Problems on a construction site are normal; problems disclosed late are what become expensive.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-drives-resale-value-queensland-homes",
+    title: "What Actually Drives Resale Value in a Queensland Home",
+    description:
+      "The features buyers pay for, the expensive ones they do not, and how to spend a renovation budget so it comes back at sale.",
+    date: "2026-08-12",
+    readTime: "6 min read",
+    image: "/assets/images/stock/villa-luxury-modern.jpg",
+    category: "Cost & Budget",
+    content: [
+      {
+        heading: "Not everything you spend comes back",
+        body: [
+          "Renovation spending does not convert evenly into value. Some work returns more than it cost, some returns roughly what it cost, and some returns very little regardless of how well it was done.",
+          "The distinction is broadly between work that fixes something buyers are pricing against you, and work that adds something only you wanted.",
+        ],
+      },
+      {
+        heading: "What buyers consistently pay for",
+        body: [
+          "Functional layout is first. A plan where living areas connect to the outdoors, bedrooms are separated from living space, and there is somewhere to put things beats a larger house with none of that.",
+          "A second bathroom in a house that only has one is among the highest-returning renovations available, because it moves the property into a different search filter for a large group of buyers.",
+          "Covered outdoor living in this climate is genuinely valued rather than a nice extra. So is off-street parking, and storage.",
+          "In character suburbs specifically, an intact and well-restored street presentation carries real weight, because it is the thing buyers cannot add.",
+        ],
+      },
+      {
+        heading: "What returns less than it costs",
+        body: [
+          "Highly personal design choices \u2014 unusual colour schemes, very specific joinery, distinctive fixtures \u2014 narrow the buyer pool rather than widening it.",
+          "Over-capitalising relative to the street is the classic error. A renovation that takes a house well beyond the price ceiling of its suburb rarely recovers the difference, because buyers at that price look in different suburbs.",
+          "Swimming pools are genuinely divided. Some buyers pay for them and others see maintenance and fencing obligations. On a small block where the pool consumes the yard, they can reduce appeal.",
+          "Removing bedrooms to create larger spaces almost always costs value, because bedroom count is a search filter.",
+        ],
+      },
+      {
+        heading: "The invisible work that still matters",
+        body: [
+          "Structural repair, rewiring, replumbing, insulation and drainage do not show in photographs and do not add a premium on their own. But their absence shows up in a building and pest inspection and it reduces offers.",
+          "So the honest framing is that this work protects value rather than adding it. On an older house it is not optional if you want a clean sale.",
+          "Documentation matters here too. Approvals, certificates and warranties for work done are what let a buyer's solicitor proceed without hesitation. Unapproved structures stall sales.",
+        ],
+      },
+      {
+        heading: "How to spend a renovation budget",
+        body: [
+          "Fix what is being priced against you first \u2014 condition, layout problems, a missing second bathroom, poor outdoor connection.",
+          "Then spend on permanent items that cannot be changed later: daylight, ceiling height, orientation and outdoor living. Then finishes, which the next owner may change anyway.",
+          "And know the ceiling for your street before you start. Our <a href=\"/blog/renovation-or-new-build\">renovate-or-rebuild guide</a> covers which path suits an existing house.",
+        ],
+      },
+      {
+        heading: "Presentation and documentation at sale",
+        body: [
+          "Buyers assess condition emotionally and then verify it with an inspection. Deferred maintenance visible at an open home \u2014 peeling paint, damaged decking, blocked gutters, poor drainage \u2014 reduces offers by more than it costs to fix.",
+          "In this climate, the outdoor space is part of the presentation. A usable, shaded outdoor living area photographs well and shows well, and it is one of the features buyers here genuinely pay for.",
+          "Have the paperwork ready: approvals and certificates for all work done, the termite management notice and inspection history, and warranties. A clean documentation set removes the friction that stalls sales.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string) {

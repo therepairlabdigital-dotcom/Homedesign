@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-posts";
 import { locations } from "@/lib/locations";
 import { locationServices } from "@/lib/location-services";
+import { suburbs } from "@/lib/suburbs";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -12,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Main pages
     { path: "", priority: 1.0, changeFrequency: "weekly" as const },
     { path: "/about", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/about/our-builder", priority: 0.7, changeFrequency: "monthly" as const },
+    { path: "/suburbs", priority: 0.85, changeFrequency: "monthly" as const },
     { path: "/services", priority: 0.9, changeFrequency: "weekly" as const },
     { path: "/portfolio", priority: 0.8, changeFrequency: "weekly" as const },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" as const },
@@ -45,6 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.9,
+    })),
+    // Brisbane character suburbs
+    ...suburbs.map((suburb) => ({
+      url: `${siteUrl}/suburbs/${suburb.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
     })),
     // Location × service pages — highest commercial intent on the site
     ...locationServices.map((entry) => ({

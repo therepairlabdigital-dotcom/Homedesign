@@ -226,6 +226,23 @@ export default function AboutPage() {
       </section>
 
       <CTABanner title="Ready to Build Your" highlight="Dream Home?" description="Contact us to discuss your project. We're here to answer any questions and bring your vision to life." />
+      <section className="bg-white py-14">
+        <div className="mx-auto max-w-[900px] px-6 lg:px-10">
+          <Link
+            href="/about/our-builder"
+            className="group flex flex-col gap-2 rounded-2xl border border-black/[0.08] bg-[#FAFAF9] px-7 py-7 transition-all hover:-translate-y-0.5 hover:border-[#B69560]/40 hover:shadow-lg"
+          >
+            <span className="font-sora text-xl font-semibold text-black">
+              Meet Harj Tiwana, the builder behind Design Homes
+            </span>
+            <span className="text-base leading-8 text-black/60">
+              A carpenter by trade, award-winning New Zealand new build experience, and on
+              every one of our sites personally. Read why we run projects this way.
+            </span>
+          </Link>
+        </div>
+      </section>
+
       <ProseSection title={pageProse["about"].title} sections={pageProse["about"].sections} />
 
       <SiteFooter />
