@@ -43,7 +43,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Brisbane",
     heroDescription:
       "One-off homes designed around your block and the way you actually live — delivered on a fixed-price contract by a QBCC licensed builder who runs his own sites.",
-    heroImage: "/assets/images/stock/home-luxury-twilight.jpg",
+    heroImage: "/assets/images/stock/home-luxury-twilight.webp",
     intro: [
       "A custom build only makes sense when the block, the brief or the budget rules out anything off a standard plan. In Brisbane that describes a lot of sites: a 12-metre frontage in Paddington, a cross-fall of four metres in The Gap, a character overlay in Bardon that dictates what the street elevation can look like before a single line is drawn.",
       "Design Homes builds one-off homes across Greater Brisbane. We are not a volume builder running a plan library with a customisation menu — every project starts with the site and the brief, and the drawings follow. That is slower at the front end and considerably cheaper at the back end, because the expensive decisions get made on paper rather than on site.",
@@ -162,7 +162,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Brisbane",
     heroDescription:
       "Dual occupancy and small multi-dwelling projects across Greater Brisbane — feasibility first, then a fixed-price build with a program you can hold subcontractors and lenders to.",
-    heroImage: "/assets/images/stock/duplex-modern-dual.jpg",
+    heroImage: "/assets/images/stock/duplex-modern-dual.webp",
     intro: [
       "A duplex is a development project wearing the clothes of a house. It has to satisfy a lender, a planning scheme, a market and a builder's program all at once, and the margin lives or dies on decisions made before construction starts.",
       "Design Homes builds duplexes and small townhouse projects across Greater Brisbane for investors, developers and families building for two generations. We will tell you early and directly if a site does not stack up. That conversation costs you nothing and has saved several clients a great deal.",
@@ -281,7 +281,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Brisbane",
     heroDescription:
       "Stay in the suburb you already chose and replace the house that no longer works — demolition, approvals and a fixed-price rebuild handled end to end.",
-    heroImage: "/assets/images/stock/construction-frame-new.jpg",
+    heroImage: "/assets/images/stock/construction-frame-new.webp",
     intro: [
       "Knockdown rebuild is the most common path for Brisbane owners who like their street, their school catchment and their commute, and dislike their floor plan. You keep the land you already own — which in most inner and middle-ring Brisbane suburbs is the majority of the asset value — and replace the part that is failing you.",
       "It is not automatically the right answer. On a character-overlay block or a well-built post-war home with good bones, a renovation can deliver more for less. We will tell you which way we would go before you commit to either.",
@@ -522,7 +522,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Gold Coast",
     heroDescription:
       "One-off homes for waterfront, hinterland and hillside sites — designed around the block, the aspect and the climate, and delivered on a fixed-price contract.",
-    heroImage: "/assets/images/stock/villa-luxury-modern.jpg",
+    heroImage: "/assets/images/stock/villa-luxury-modern.webp",
     intro: [
       "Gold Coast custom builds split roughly into two worlds. There is the coastal and canal strip, where the constraints are salt, wind, flood and storm tide, and the hinterland, where they are slope, bushfire, access and water supply. Both reward a builder who understands the specific conditions rather than applying a standard suburban detail.",
       "Design Homes builds one-off homes from Coomera down to Currumbin and back through the hinterland. Every project starts with the site conditions, because on the Gold Coast the site drives more of the cost than the floor plan does.",
@@ -641,7 +641,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Gold Coast",
     heroDescription:
       "Dual occupancy projects across the Gold Coast growth corridor and established suburbs — feasibility first, then a fixed-price build with a program your lender can rely on.",
-    heroImage: "/assets/images/stock/townhouse-construction-new.jpg",
+    heroImage: "/assets/images/stock/townhouse-construction-new.webp",
     intro: [
       "The Gold Coast has two very different duplex markets. In the northern growth corridor around Coomera, Pimpama and Ormeau, the land is newer, flatter and cheaper, and the play is volume and rental yield. In established suburbs closer to the beach, the land costs more, the sites are tighter, and the play is resale value.",
       "The feasibility maths is different in each, and so is the design. Design Homes builds dual occupancy across both, and we will tell you early if a site does not support the project you have in mind.",
@@ -760,7 +760,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Gold Coast",
     heroDescription:
       "New homes across the Gold Coast on fixed-price contracts — with the flood levels, soil classification and bushfire rating established before you see a number.",
-    heroImage: "/assets/images/stock/home-brick-contemporary.jpg",
+    heroImage: "/assets/images/stock/home-brick-contemporary.webp",
     intro: [
       "Building a new home on the Gold Coast is straightforward on a flat, serviced, unencumbered block, and considerably less so on everything else. Since a large share of remaining Gold Coast land is either low-lying, sloping, bushfire-affected or near the water, most projects fall into the second category.",
       "We handle that by doing the investigation before the estimate. Flood and storm tide levels, soil classification, bushfire rating and access are all checked before we give you a price, so the number you receive reflects your block rather than a generic one.",
@@ -881,7 +881,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Sunshine Coast",
     heroDescription:
       "Acreage, hinterland and coastal homes designed around the site — bushfire rating, slope, access and water supply established before the first number.",
-    heroImage: "/assets/images/stock/home-luxury-landscape.jpg",
+    heroImage: "/assets/images/stock/home-luxury-landscape.webp",
     intro: [
       "The Sunshine Coast attracts custom builds for a simple reason: the sites are worth designing for. Acreage in the hinterland, elevated blocks with genuine outlooks, and coastal land with real climate advantages all justify a one-off home rather than a plan pulled from a catalogue.",
       "They also carry constraints that suburban builders often underestimate. Bushfire hazard, slope, rural water and wastewater, and access for heavy deliveries are all normal parts of a Sunshine Coast project, and each carries real cost that belongs in the first estimate.",
@@ -1000,7 +1000,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Sunshine Coast",
     heroDescription:
       "New homes from Caloundra to Coolum and back through the hinterland — fixed-price contracts, honest site assessment, and a builder who runs his own jobs.",
-    heroImage: "/assets/images/stock/home-single-modern.jpg",
+    heroImage: "/assets/images/stock/home-single-modern.webp",
     intro: [
       "The Sunshine Coast has absorbed steady population growth, and much of the new housing has gone up quickly and generically. That is fine if you are buying a product. It is a poor outcome if you are building a home you intend to live in for twenty years on a site that deserved better.",
       "We build new homes across the region on fixed-price contracts, with the site investigation done before the estimate so the number reflects your block. On the Sunshine Coast that usually means checking bushfire, slope and soil before anything else.",
@@ -1121,7 +1121,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Logan",
     heroDescription:
       "Dual occupancy across Logan's growth suburbs — larger blocks, better feasibility, and a fixed-price build with a program your lender can rely on.",
-    heroImage: "/assets/images/stock/townhouse-construction-new.jpg",
+    heroImage: "/assets/images/stock/townhouse-construction-new.webp",
     intro: [
       "Logan is one of the more sensible places in South East Queensland to build a duplex, for an unglamorous reason: the blocks are generally larger and cheaper than equivalent sites closer to Brisbane, which means the feasibility maths has room to work.",
       "That does not make every Logan site a project. Zone, frontage, services and slope still decide it, and plenty of blocks that look ideal on a listing fail on one of them. We check before you commit.",
@@ -1240,7 +1240,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Ipswich",
     heroDescription:
       "Dual occupancy across Ipswich and the western growth corridor — feasibility checked against the right planning authority, then a fixed-price build.",
-    heroImage: "/assets/images/stock/duplex-modern-dual.jpg",
+    heroImage: "/assets/images/stock/duplex-modern-dual.webp",
     intro: [
       "Ipswich has been one of South East Queensland's fastest-growing local government areas, and the western corridor through Ripley Valley and Springfield has absorbed much of that growth. For duplex investors this creates the same opportunity and the same risk as any fast-growing corridor: workable land economics, and the danger of building the same product as everyone around you.",
       "There is also a planning wrinkle specific to Ipswich that catches people out. Not every part of the area is assessed by the city council, and knowing which authority applies to your block changes the process entirely.",
@@ -1359,7 +1359,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Moreton Bay",
     heroDescription:
       "New homes from Redcliffe to Caboolture and out through the growth suburbs — fixed-price contracts with the site work checked before you see a number.",
-    heroImage: "/assets/images/stock/home-stucco-twostory.jpg",
+    heroImage: "/assets/images/stock/home-stucco-twostory.webp",
     intro: [
       "Moreton Bay has been one of the busiest new-housing markets in South East Queensland, and most of that housing has come from volume builders working to a plan library. That model produces a competent house at a competitive price, and it produces very little that responds to the specific block it sits on.",
       "We build new homes across the region for people who want the second thing. Fixed-price contracts, complete drawings, and a builder who is on the site rather than managing it from a schedule.",
@@ -1480,7 +1480,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Brisbane",
     heroDescription:
       "New homes across Greater Brisbane on fixed-price contracts — with the site investigation done before the estimate, so the number reflects your block.",
-    heroImage: "/assets/images/stock/home-brick-twilight.jpg",
+    heroImage: "/assets/images/stock/home-brick-twilight.webp",
     intro: [
       "Most new homes in Brisbane are built by volume builders working from a plan library. That model produces a competent house at a competitive price, and it works well on a flat, serviced block in a new estate. On an established Brisbane block it works considerably less well, because the plan was not drawn for your site.",
       "We build new homes across Greater Brisbane for people whose block, brief or budget makes a standard plan the wrong answer. Fixed-price contracts, complete drawings, and a builder who is on the site rather than managing it from a schedule.",
@@ -1600,7 +1600,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Brisbane",
     heroDescription:
       "Extensions, structural renovations and full transformations across Greater Brisbane — scoped properly before contract, so the surprises stay behind the walls where they belong.",
-    heroImage: "/assets/images/stock/home-entry-detail.jpg",
+    heroImage: "/assets/images/stock/home-entry-detail.webp",
     intro: [
       "Renovation is harder to price than new construction and easier to get wrong. You are working with a structure someone else built, to standards that have changed, with conditions you cannot fully see until demolition starts.",
       "That is exactly why the investigation matters more here than anywhere else. We open up, inspect and scope before contract rather than pricing optimistically and issuing variations later.",
@@ -1720,7 +1720,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Gold Coast",
     heroDescription:
       "Keep the location and replace the house — demolition, approvals and a fixed-price rebuild handled end to end, with flood levels confirmed before design.",
-    heroImage: "/assets/images/stock/construction-frame-new.jpg",
+    heroImage: "/assets/images/stock/construction-frame-new.webp",
     intro: [
       "Gold Coast land near the water, the beach or an established school catchment is worth considerably more than the house sitting on it. For many owners the sensible move is to keep the land and replace the building, rather than pay a premium to buy the same location again with someone else's floor plan.",
       "The Gold Coast adds two constraints that inland rebuilds do not have: flood and storm tide levels that set your minimum floor height, and coastal exposure that changes the specification throughout.",
@@ -1839,7 +1839,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Sunshine Coast",
     heroDescription:
       "Dual occupancy across the Sunshine Coast — feasibility checked against the planning scheme and the site before design, then a fixed-price build.",
-    heroImage: "/assets/images/stock/duplex-modern-dual.jpg",
+    heroImage: "/assets/images/stock/duplex-modern-dual.webp",
     intro: [
       "Sunshine Coast dual occupancy is driven by a different market to the Brisbane and Logan corridors. Demand here is shaped by lifestyle migration, an ageing demographic looking to downsize without leaving the region, and a rental market with strong seasonal characteristics.",
       "That changes what is worth building. A duplex designed purely for yield in a growth corridor is not necessarily the right product on the Sunshine Coast, where owner-occupier downsizers often represent the better exit.",
@@ -1958,7 +1958,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Logan",
     heroDescription:
       "New homes across Logan on fixed-price contracts — with soil, fill, overlays and estate covenants checked before you receive a price.",
-    heroImage: "/assets/images/stock/home-single-modern.jpg",
+    heroImage: "/assets/images/stock/home-single-modern.webp",
     intro: [
       "Logan offers what much of South East Queensland no longer does: land at a price that leaves room in the budget for the house. That is why so much new housing has gone up here, and why so much of it looks the same.",
       "We build new homes across Logan for people who would rather spend the saving on a better house than on a bigger one. Fixed-price contracts, complete drawings, and a builder who runs his own sites.",
@@ -2077,7 +2077,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Ipswich",
     heroDescription:
       "New homes across Ipswich and the western corridor — with the right planning authority identified, the site checked, and a fixed-price contract behind it.",
-    heroImage: "/assets/images/stock/home-stucco-twostory.jpg",
+    heroImage: "/assets/images/stock/home-stucco-twostory.webp",
     intro: [
       "Ipswich has been among the fastest-growing local government areas in South East Queensland, and the western corridor through Ripley Valley and Springfield has taken much of that growth. Land remains among the most affordable in the region.",
       "There is a planning quirk here that catches people out, and it is worth knowing before you buy: not every part of the area is assessed by the city council.",
@@ -2196,7 +2196,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Moreton Bay",
     heroDescription:
       "Dual occupancy from Redcliffe to Caboolture — feasibility checked against the scheme and the site, then a fixed-price build with predictable progress claims.",
-    heroImage: "/assets/images/stock/townhouse-construction-new.jpg",
+    heroImage: "/assets/images/stock/townhouse-construction-new.webp",
     intro: [
       "Moreton Bay has absorbed sustained population growth across two quite different markets: the established peninsula suburbs around Redcliffe, and the northern corridor through Narangba, Burpengary and Caboolture. Dual occupancy works in both, for different reasons.",
       "The peninsula offers older, smaller blocks close to the water with an owner-occupier resale market. The northern corridor offers larger, cheaper land with rental depth. The feasibility maths and the right design differ between them.",
@@ -2315,7 +2315,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Redlands",
     heroDescription:
       "New homes across Redland City — with vegetation and koala habitat overlays, coastal exposure and soil conditions checked before you receive a price.",
-    heroImage: "/assets/images/stock/home-brick-contemporary.jpg",
+    heroImage: "/assets/images/stock/home-brick-contemporary.webp",
     intro: [
       "Redland City is the bayside part of South East Queensland that has kept its trees, and that is both its appeal and its principal building constraint. Vegetation protection and koala habitat overlays apply across a number of suburbs, and they shape where a house can go on a block well before anyone talks about floor plans.",
       "We build new homes across Redland City on fixed-price contracts, with the overlay position established before design so the building envelope is known rather than assumed.",
@@ -2436,7 +2436,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Sunshine Coast",
     heroDescription:
       "Replace the house, keep the location — demolition, approvals and a fixed-price rebuild, with bushfire and flood conditions established before design.",
-    heroImage: "/assets/images/stock/construction-frame-new.jpg",
+    heroImage: "/assets/images/stock/construction-frame-new.webp",
     intro: [
       "A great deal of Sunshine Coast housing dates from the 1970s and 1980s, built when the region was a holiday destination rather than a place people lived year-round. Those houses sit on land that has since become very valuable, and many of them no longer suit how the block could be used.",
       "For owners already in a suburb they like, replacing the building is usually better value than buying the same location again with someone else's floor plan attached. The question is what the site now requires that it did not when the original house went up.",
@@ -2556,7 +2556,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Gold Coast",
     heroDescription:
       "Extensions, structural renovations and full transformations across the Gold Coast — investigated before contract, so what is behind the walls does not become a variation.",
-    heroImage: "/assets/images/stock/home-entry-detail.jpg",
+    heroImage: "/assets/images/stock/home-entry-detail.webp",
     intro: [
       "Gold Coast renovation has one characteristic that inland work does not: a large share of the housing stock has spent decades in salt air, and what that does to a building is not visible from the outside.",
       "That makes investigation before contract more important here than almost anywhere. We open up and inspect before pricing rather than quoting optimistically and issuing variations once the walls are off.",
@@ -2676,7 +2676,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Sunshine Coast",
     heroDescription:
       "Extensions and structural renovations from the coast to the hinterland — scoped properly before contract, with the conditions behind the walls investigated first.",
-    heroImage: "/assets/images/stock/home-entry-detail.jpg",
+    heroImage: "/assets/images/stock/home-entry-detail.webp",
     intro: [
       "Much of the Sunshine Coast's housing stock was built for a different purpose than it now serves. Holiday houses from the 1970s and 1980s are now permanent family homes, and the mismatch between how they were designed and how they are used is what most renovations here are trying to fix.",
       "That usually means opening up the plan, connecting living space to outdoors properly, and dealing with a building envelope that was never insulated or oriented with year-round living in mind.",
@@ -2795,7 +2795,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Logan",
     heroDescription:
       "One-off homes on Logan's larger and rural-residential blocks — where the land finally leaves enough budget to build the house properly.",
-    heroImage: "/assets/images/stock/home-luxury-landscape.jpg",
+    heroImage: "/assets/images/stock/home-luxury-landscape.webp",
     intro: [
       "Logan is where a custom build becomes affordable for people who could not justify one closer to Brisbane. Land here costs less per square metre than the inner and middle ring, and rural-residential blocks around Jimboomba, Park Ridge, Cedar Grove and Munruben offer genuine acreage within commuting distance.",
       "That changes the arithmetic. Money that would have gone entirely into land in Brisbane can go into the building instead, which is the situation where a one-off home makes obvious sense.",
@@ -2914,7 +2914,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Ipswich",
     heroDescription:
       "One-off homes across Ipswich and West Moreton — where affordable land leaves room in the budget to build something designed for the site rather than the catalogue.",
-    heroImage: "/assets/images/stock/home-luxury-twilight.jpg",
+    heroImage: "/assets/images/stock/home-luxury-twilight.webp",
     intro: [
       "Ipswich land prices are among the most accessible in South East Queensland, and that creates an unusual opportunity: a custom home here can cost less in total than a standard house-and-land package closer to Brisbane.",
       "It also has genuine character housing stock in the older parts of the city, and rural-residential land at Karalee, Barellan Point, Chuwar and further west that suits acreage building within commuting distance.",
@@ -3033,7 +3033,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Moreton Bay",
     heroDescription:
       "One-off homes from the bayside peninsula to the Samford and Dayboro hinterland — designed around the site, its aspect and its constraints.",
-    heroImage: "/assets/images/stock/villa-luxury-modern.jpg",
+    heroImage: "/assets/images/stock/villa-luxury-modern.webp",
     intro: [
       "Moreton Bay covers an unusually wide range of building conditions for a single local government area. The Redcliffe peninsula is coastal and established. The northern corridor is flat, serviced estate land. Samford, Dayboro and the western hinterland are acreage with slope, bushfire and rural services.",
       "A standard plan can work in one of those three. It rarely works in the other two, which is why custom building here is more common than the volume-heavy housing statistics suggest.",
@@ -3154,7 +3154,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Redlands",
     heroDescription:
       "Dual occupancy across Redland City — with the vegetation and koala habitat constraints checked before design, because they decide the building envelope.",
-    heroImage: "/assets/images/stock/townhouse-construction-new.jpg",
+    heroImage: "/assets/images/stock/townhouse-construction-new.webp",
     intro: [
       "Redland City is a harder place to build a duplex than its neighbours, and the reason is trees. Vegetation protection and koala habitat overlays apply across parts of the local government area, and on a two-dwelling project they constrain the building envelope in ways that can decide whether the site works at all.",
       "That is not a reason to avoid the area. It is a reason to do the overlay work before you buy, because a Redlands block that clears these checks is a good place to build.",
@@ -3273,7 +3273,7 @@ export const locationServices: LocationService[] = [
     heroHighlight: "Redlands",
     heroDescription:
       "Extensions and structural renovations across Redland City — investigated before contract, with vegetation and bayside conditions accounted for from the start.",
-    heroImage: "/assets/images/stock/home-entry-detail.jpg",
+    heroImage: "/assets/images/stock/home-entry-detail.webp",
     intro: [
       "Most Redlands housing dates from the growth decades of the 1970s through the 1990s, built on generous blocks with mature planting that has since become the suburb's defining feature. The houses have aged less well than the gardens.",
       "The typical renovation here is about connecting a closed-off plan to the outdoor space that surrounds it, and dealing with a building envelope that was never insulated for year-round comfort.",

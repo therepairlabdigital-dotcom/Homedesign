@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
       "A practical walkthrough of the custom home building process, from first consultation and design to approvals, construction, and handover.",
     date: "2026-07-16",
     readTime: "5 min read",
-    image: "/assets/images/stock/home-stucco-twostory.jpg",
+    image: "/assets/images/stock/home-stucco-twostory.webp",
     category: "New Homes",
     content: [
       {
@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
       "Key planning points for duplexes and townhouses, including site feasibility, approvals, layouts, budget control, and resale appeal.",
     date: "2026-07-16",
     readTime: "4 min read",
-    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.webp",
     category: "Duplexes",
     content: [
       {
@@ -135,7 +135,7 @@ export const blogPosts: BlogPost[] = [
       "A simple way to compare renovation and new build options when planning a major home upgrade in Queensland.",
     date: "2026-07-16",
     readTime: "4 min read",
-    image: "/images/renovation-kitchen.jpg",
+    image: "/images/renovation-kitchen.webp",
     category: "Renovations",
     content: [
       {
@@ -192,7 +192,7 @@ export const blogPosts: BlogPost[] = [
       "The site, design, inclusions, and contract terms that move a Brisbane build budget up or down — and where owners most often get caught out.",
     date: "2026-08-01",
     readTime: "7 min read",
-    image: "/assets/images/stock/home-brick-twilight.jpg",
+    image: "/assets/images/stock/home-brick-twilight.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -244,7 +244,7 @@ export const blogPosts: BlogPost[] = [
       "How to judge whether demolishing and rebuilding makes more sense than renovating an existing Brisbane home, including approvals, character protection, and cost logic.",
     date: "2026-08-01",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "New Homes",
     content: [
       {
@@ -296,7 +296,7 @@ export const blogPosts: BlogPost[] = [
       "A realistic timeline for a new home build in South East Queensland, stage by stage, and the factors that most often extend it.",
     date: "2026-08-01",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-single-modern.jpg",
+    image: "/assets/images/stock/home-single-modern.webp",
     category: "New Homes",
     content: [
       {
@@ -364,7 +364,7 @@ export const blogPosts: BlogPost[] = [
       "A short, practical guide to verifying that a Queensland builder is licensed for the work you are asking them to do, and what else to check alongside it.",
     date: "2026-08-01",
     readTime: "4 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -432,7 +432,7 @@ export const blogPosts: BlogPost[] = [
       "How slope affects foundations, cost, and design — plus the split-level and suspended-slab approaches that turn a difficult site into an advantage.",
     date: "2026-08-01",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-luxury-landscape.jpg",
+    image: "/assets/images/stock/home-luxury-landscape.webp",
     category: "Custom Builds",
     content: [
       {
@@ -502,7 +502,7 @@ export const blogPosts: BlogPost[] = [
       "The practical difference between fixed-price and cost-plus residential building contracts, where each one suits, and the clauses to read closely.",
     date: "2026-08-01",
     readTime: "5 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -640,7 +640,7 @@ export const blogPosts: BlogPost[] = [
       "The questions that reveal how a build will actually run — covering licensing, pricing, site management, communication, and what happens after handover.",
     date: "2026-08-01",
     readTime: "5 min read",
-    image: "/assets/images/stock/home-brick-contemporary.jpg",
+    image: "/assets/images/stock/home-brick-contemporary.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -718,7 +718,7 @@ export const blogPosts: BlogPost[] = [
       "How secondary dwellings work in South East Queensland — size limits, council rules, whether you can rent them out, and what they cost to build properly.",
     date: "2026-08-01",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-single-modern.jpg",
+    image: "/assets/images/stock/home-single-modern.webp",
     category: "Duplexes",
     content: [
       {
@@ -770,7 +770,7 @@ export const blogPosts: BlogPost[] = [
       "Orientation, ventilation, shading, insulation and glazing decisions that keep a South East Queensland home comfortable without running the air conditioning year round.",
     date: "2026-08-01",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "New Homes",
     content: [
       {
@@ -822,7 +822,7 @@ export const blogPosts: BlogPost[] = [
       "Design strategies for narrow and small lots in South East Queensland — setbacks, light, privacy, parking, and the plan decisions that make a compact home feel generous.",
     date: "2026-08-01",
     readTime: "5 min read",
-    image: "/assets/images/stock/townhouse-construction-new.jpg",
+    image: "/assets/images/stock/townhouse-construction-new.webp",
     category: "Custom Builds",
     content: [
       {
@@ -891,7 +891,7 @@ export const blogPosts: BlogPost[] = [
       "The cost drivers that actually decide a Brisbane duplex budget — site conditions, approvals, services and specification — and where investors most often get caught.",
     date: "2026-08-12",
     readTime: "7 min read",
-    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.webp",
     category: "Duplexes",
     content: [
       {
@@ -954,7 +954,7 @@ export const blogPosts: BlogPost[] = [
       "Why two identical houses on the same Brisbane street can differ by tens of thousands in footing cost, how AS 2870 site classification works, and when to get the soil test.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -1060,7 +1060,7 @@ export const blogPosts: BlogPost[] = [
       "How Bushfire Attack Level assessment works under AS 3959, what each rating changes about construction, and why hinterland buyers should check it before purchase.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-luxury-landscape.jpg",
+    image: "/assets/images/stock/home-luxury-landscape.webp",
     category: "New Homes",
     content: [
       {
@@ -1113,7 +1113,7 @@ export const blogPosts: BlogPost[] = [
       "The eight checks that decide whether a South East Queensland site supports a duplex — zone, frontage, services, title path and more — before you commit any money.",
     date: "2026-08-12",
     readTime: "7 min read",
-    image: "/assets/images/stock/townhouse-construction-new.jpg",
+    image: "/assets/images/stock/townhouse-construction-new.webp",
     category: "Duplexes",
     content: [
       {
@@ -1189,7 +1189,7 @@ export const blogPosts: BlogPost[] = [
       "How flood and storm tide overlays set minimum habitable floor levels, what that does to your design and driveway, and why it has to be checked before you draw anything.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-brick-twilight.jpg",
+    image: "/assets/images/stock/home-brick-twilight.webp",
     category: "New Homes",
     content: [
       {
@@ -1303,7 +1303,7 @@ export const blogPosts: BlogPost[] = [
       "Two different approvals, two different assessors, two different timeframes — and why confusing them is one of the most common causes of program delay.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -1356,7 +1356,7 @@ export const blogPosts: BlogPost[] = [
       "The line items that turn an attractive advertised price into a much larger final number, and how to get them priced properly before you sign anything.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -1411,7 +1411,7 @@ export const blogPosts: BlogPost[] = [
       "An honest comparison of the two models — what each does well, what each costs, and the block and brief conditions that should push you toward one or the other.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-luxury-twilight.jpg",
+    image: "/assets/images/stock/home-luxury-twilight.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -1465,7 +1465,7 @@ export const blogPosts: BlogPost[] = [
       "The three costs that separate an acreage build from a suburban one, plus bushfire, power and the driveway question nobody budgets for.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-luxury-landscape.jpg",
+    image: "/assets/images/stock/home-luxury-landscape.webp",
     category: "Custom Builds",
     content: [
       {
@@ -1518,7 +1518,7 @@ export const blogPosts: BlogPost[] = [
       "A short pre-purchase checklist for South East Queensland land — flood, bushfire, character, vegetation and infrastructure — using searches that are free or close to it.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -1586,7 +1586,7 @@ export const blogPosts: BlogPost[] = [
       "Why retaining is one of the largest hidden costs on a sloping Queensland block, what drives the price, and the height at which approval becomes mandatory.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -1640,7 +1640,7 @@ export const blogPosts: BlogPost[] = [
       "How north-facing living, eave depth and cross-ventilation decide whether a Queensland house is comfortable — and why orientation costs nothing at design stage.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-single-modern.jpg",
+    image: "/assets/images/stock/home-single-modern.webp",
     category: "New Homes",
     content: [
       {
@@ -1695,7 +1695,7 @@ export const blogPosts: BlogPost[] = [
       "The mandatory certifier inspections on a Queensland home, what is being checked at each one, and where owners should do their own walk-through.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -1754,7 +1754,7 @@ export const blogPosts: BlogPost[] = [
       "The two contract mechanisms that let a fixed-price build increase, how to tell a reasonable allowance from a warning sign, and what to ask before signing.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -1807,7 +1807,7 @@ export const blogPosts: BlogPost[] = [
       "An honest comparison of timber and steel framing for South East Queensland conditions — termites, coastal corrosion, thermal behaviour, cost and buildability.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "New Homes",
     content: [
       {
@@ -1860,7 +1860,7 @@ export const blogPosts: BlogPost[] = [
       "The termite management systems required on new Queensland homes, how each works, why the annual inspection matters more than the system, and what voids your cover.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-brick-twilight.jpg",
+    image: "/assets/images/stock/home-brick-twilight.webp",
     category: "New Homes",
     content: [
       {
@@ -1914,7 +1914,7 @@ export const blogPosts: BlogPost[] = [
       "Why sewer alignment is the highest-value pre-purchase search in South East Queensland, what build-over approval involves, and when a main has to be relocated.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -1967,7 +1967,7 @@ export const blogPosts: BlogPost[] = [
       "What a building certifier does, why most Queensland residential work uses a private certifier, who they act for, and what they do not check.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -2020,7 +2020,7 @@ export const blogPosts: BlogPost[] = [
       "What should happen at handover on a Queensland home, what the defects liability period covers, the statutory warranty periods, and how to raise a claim.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -2074,7 +2074,7 @@ export const blogPosts: BlogPost[] = [
       "How the selections process works on a custom build, why late decisions cost more than they appear to, and a practical order for making them.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "Custom Builds",
     content: [
       {
@@ -2130,7 +2130,7 @@ export const blogPosts: BlogPost[] = [
       "Dual living, secondary dwellings and homes built for three generations — what the planning rules allow, and the design decisions that make shared living work.",
     date: "2026-08-12",
     readTime: "7 min read",
-    image: "/assets/images/stock/home-stucco-twostory.jpg",
+    image: "/assets/images/stock/home-stucco-twostory.webp",
     category: "Custom Builds",
     content: [
       {
@@ -2187,7 +2187,7 @@ export const blogPosts: BlogPost[] = [
       "When a tank is required, how to size one properly for roof catchment and demand, the firefighting reserve on bushfire blocks, and what the full system costs.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-luxury-landscape.jpg",
+    image: "/assets/images/stock/home-luxury-landscape.webp",
     category: "New Homes",
     content: [
       {
@@ -2241,7 +2241,7 @@ export const blogPosts: BlogPost[] = [
       "Why the roof design decides your solar outcome, what to pre-wire even if you are not installing yet, and how to avoid the retrofit costs most owners pay later.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-single-modern.jpg",
+    image: "/assets/images/stock/home-single-modern.webp",
     category: "New Homes",
     content: [
       {
@@ -2297,7 +2297,7 @@ export const blogPosts: BlogPost[] = [
       "Which building eras contain asbestos, the materials it turns up in, the difference between bonded and friable, and what licensed removal actually involves.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "Renovations",
     content: [
       {
@@ -2353,7 +2353,7 @@ export const blogPosts: BlogPost[] = [
       "The two ways to separately title a Queensland dual occupancy, how each affects the design and services, and why the decision has to be made before you build.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.webp",
     category: "Duplexes",
     content: [
       {
@@ -2408,7 +2408,7 @@ export const blogPosts: BlogPost[] = [
       "Why building the pool with the house is usually cheaper, the access problem that catches people out, and what Queensland pool fencing law requires.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/villa-luxury-modern.jpg",
+    image: "/assets/images/stock/villa-luxury-modern.webp",
     category: "New Homes",
     content: [
       {
@@ -2463,7 +2463,7 @@ export const blogPosts: BlogPost[] = [
       "Why the driveway is a regulated structure, what a crossover approval involves, the gradient limits that catch steep blocks, and how access affects the whole build.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -2517,7 +2517,7 @@ export const blogPosts: BlogPost[] = [
       "How roof form drives comfort, running cost and solar potential in a subtropical climate — and why eave depth is the most valuable dimension in the whole house.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-brick-contemporary.jpg",
+    image: "/assets/images/stock/home-brick-contemporary.webp",
     category: "New Homes",
     content: [
       {
@@ -2572,7 +2572,7 @@ export const blogPosts: BlogPost[] = [
       "Why insulating for heat exclusion differs from insulating for warmth, where to spend first, and why ventilation does more than insulation in a subtropical climate.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-stucco-twostory.jpg",
+    image: "/assets/images/stock/home-stucco-twostory.webp",
     category: "New Homes",
     content: [
       {
@@ -2627,7 +2627,7 @@ export const blogPosts: BlogPost[] = [
       "A straight comparison for South East Queensland investors — yield, land content, resale market, finance, and the situations where each wins.",
     date: "2026-08-12",
     readTime: "7 min read",
-    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.webp",
     category: "Duplexes",
     content: [
       {
@@ -2683,7 +2683,7 @@ export const blogPosts: BlogPost[] = [
       "What happens at each stage of a build from site start to handover, roughly how long each takes, and what tends to cause delay at each point.",
     date: "2026-08-12",
     readTime: "7 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "New Homes",
     content: [
       {
@@ -2754,7 +2754,7 @@ export const blogPosts: BlogPost[] = [
       "Why a fixed-price contract still needs a contingency, how much to hold for a new build versus a renovation, and the costs outside the contract people forget.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -2810,7 +2810,7 @@ export const blogPosts: BlogPost[] = [
       "The three design professionals used on Queensland homes, what each is licensed to do, roughly what they cost, and which suits your project.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -2870,7 +2870,7 @@ export const blogPosts: BlogPost[] = [
       "Why the lowest number is frequently the most expensive, the six things to check line by line, and the questions that expose an incomplete price.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/blueprint-keys.jpg",
+    image: "/assets/images/stock/blueprint-keys.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -3000,7 +3000,7 @@ export const blogPosts: BlogPost[] = [
       "Why window selection is a thermal decision before an aesthetic one, what the ratings mean, and where glazing money is well spent and wasted.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "New Homes",
     content: [
       {
@@ -3058,7 +3058,7 @@ export const blogPosts: BlogPost[] = [
       "The rules that catch homeowners out on structures they assume are minor, and why an unapproved deck becomes a problem at resale.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "Renovations",
     content: [
       {
@@ -3117,7 +3117,7 @@ export const blogPosts: BlogPost[] = [
       "Two of the largest running costs in a Queensland home, why oversizing air conditioning makes comfort worse, and which hot water system suits a new build.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-single-modern.jpg",
+    image: "/assets/images/stock/home-single-modern.webp",
     category: "New Homes",
     content: [
       {
@@ -3176,7 +3176,7 @@ export const blogPosts: BlogPost[] = [
       "Fences, retaining walls, access, overshadowing and the conversations worth having before construction rather than during it.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -3235,7 +3235,7 @@ export const blogPosts: BlogPost[] = [
       "The savings that cost nothing later, the ones that cost a great deal, and how to stage a build so the expensive-to-change items get done first.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-brick-contemporary.jpg",
+    image: "/assets/images/stock/home-brick-contemporary.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -3296,7 +3296,7 @@ export const blogPosts: BlogPost[] = [
       "Why waterproofing failures dominate building defect claims, what the standard requires, and what to check before the tiler starts.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "New Homes",
     content: [
       {
@@ -3357,7 +3357,7 @@ export const blogPosts: BlogPost[] = [
       "The layout rules that survive fashion, why storage is the most complained-about omission in new homes, and the decisions that must happen before frame stage.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-entry-detail.jpg",
+    image: "/assets/images/stock/home-entry-detail.webp",
     category: "Custom Builds",
     content: [
       {
@@ -3476,7 +3476,7 @@ export const blogPosts: BlogPost[] = [
       "What to check at handover, what will move and crack in the first year, and the maintenance that protects your warranty.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/home-single-modern.jpg",
+    image: "/assets/images/stock/home-single-modern.webp",
     category: "New Homes",
     content: [
       {
@@ -3537,7 +3537,7 @@ export const blogPosts: BlogPost[] = [
       "Where a secondary dwelling beats a full duplex on cost and approvals, the restrictions that apply in Queensland, and how it affects valuation.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.webp",
     category: "Duplexes",
     content: [
       {
@@ -3596,7 +3596,7 @@ export const blogPosts: BlogPost[] = [
       "How to tell whether a site is being run well, the warning signs worth acting on early, and what to do when something is going wrong.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/construction-frame-new.jpg",
+    image: "/assets/images/stock/construction-frame-new.webp",
     category: "Choosing a Builder",
     content: [
       {
@@ -3658,7 +3658,7 @@ export const blogPosts: BlogPost[] = [
       "The features buyers pay for, the expensive ones they do not, and how to spend a renovation budget so it comes back at sale.",
     date: "2026-08-12",
     readTime: "6 min read",
-    image: "/assets/images/stock/villa-luxury-modern.jpg",
+    image: "/assets/images/stock/villa-luxury-modern.webp",
     category: "Cost & Budget",
     content: [
       {
@@ -3720,4 +3720,40 @@ export function getBlogPost(slug: string) {
 
 export function formatBlogDate(date: string, options: Intl.DateTimeFormatOptions) {
   return new Date(`${date}T12:00:00`).toLocaleDateString("en-AU", options);
+}
+
+export function slugifyCategory(category: string) {
+  return category
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export function getCategories() {
+  const counts = new Map<string, number>();
+  for (const post of blogPosts) {
+    counts.set(post.category, (counts.get(post.category) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([name, count]) => ({ name, slug: slugifyCategory(name), count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getCategoryBySlug(slug: string) {
+  return getCategories().find((category) => category.slug === slug);
+}
+
+export function getPostsByCategory(category: string) {
+  return blogPosts.filter((post) => post.category === category);
+}
+
+/** Same-category posts first, then most recent, so every post links onward. */
+export function getRelatedPosts(slug: string, limit = 4) {
+  const post = getBlogPost(slug);
+  if (!post) return [];
+  const others = blogPosts.filter((other) => other.slug !== slug);
+  const sameCategory = others.filter((other) => other.category === post.category);
+  const rest = others.filter((other) => other.category !== post.category);
+  return [...sameCategory, ...rest].slice(0, limit);
 }

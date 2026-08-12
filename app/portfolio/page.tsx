@@ -15,7 +15,7 @@ const categories = ["All", "Custom Build", "New Home Build", "Duplex & Townhouse
 
 const projects = [
   {
-    image: "/images/portfolio-modern-1.jpg",
+    image: "/images/portfolio-modern-1.webp",
     title: "Contemporary Timber Home",
     location: "Brisbane",
     category: "New Home Build",
@@ -24,7 +24,7 @@ const projects = [
     year: "2024",
   },
   {
-    image: "/images/custom-home-luxury.jpg",
+    image: "/images/custom-home-luxury.webp",
     title: "Coastal Luxury Estate",
     location: "Sunshine Coast",
     category: "Custom Build",
@@ -33,7 +33,7 @@ const projects = [
     year: "2024",
   },
   {
-    image: "/images/new-home-build-1.jpg",
+    image: "/images/new-home-build-1.webp",
     title: "Modern Suburban Home",
     location: "Brisbane",
     category: "New Home Build",
@@ -42,7 +42,7 @@ const projects = [
     year: "2023",
   },
   {
-    image: "/images/duplex-exterior.jpg",
+    image: "/images/duplex-exterior.webp",
     title: "Modern Duplex Development",
     location: "Sunshine Coast",
     category: "Duplex & Townhouse",
@@ -51,7 +51,7 @@ const projects = [
     year: "2023",
   },
   {
-    image: "/images/bespoke-architecture.jpg",
+    image: "/images/bespoke-architecture.webp",
     title: "Architectural Masterpiece",
     location: "Gold Coast",
     category: "Custom Build",
@@ -85,7 +85,7 @@ export default function PortfolioPage() {
         title="Our Portfolio of"
         highlight="Exceptional Builds"
         description="Explore our diverse range of completed projects across South East Queensland, from luxury custom homes to Queenslander builds."
-        image="/images/portfolio-luxury-1.jpg"
+        image="/images/portfolio-luxury-1.webp"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Portfolio", href: "/portfolio" }]}
       />
 

@@ -119,7 +119,7 @@ export default function FAQPage() {
         title="Frequently Asked"
         highlight="Questions"
         description="Everything you need to know about building with Design Homes. Can't find what you're looking for? Reach out to our team."
-        image="/assets/images/stock/home-luxury-twilight.jpg"
+        image="/assets/images/stock/home-luxury-twilight.webp"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "FAQ", href: "/faq" }]}
       />
 

@@ -17,7 +17,7 @@ const services = [
   {
     icon: Home,
     slug: "new-home-builds",
-    image: "/assets/images/stock/villa-luxury-modern.jpg",
+    image: "/assets/images/stock/villa-luxury-modern.webp",
     title: "New Home Builds",
     description: "Custom-designed homes tailored to your lifestyle and budget. From concept to completion, we bring your dream home to life with precision craftsmanship.",
     features: ["Custom Floor Plans", "Energy Efficient", "Quality Materials", "Fixed Price Contracts"],
@@ -25,7 +25,7 @@ const services = [
   {
     icon: Building2,
     slug: "duplex-townhouses",
-    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.webp",
     title: "Duplex & Townhouses",
     description: "Maximize your investment with expertly designed and built duplexes and townhouses. Smart layouts that maximize space and value.",
     features: ["Dual Occupancy", "Investment Ready", "Council Approval", "Smart Design"],
@@ -33,7 +33,7 @@ const services = [
   {
     icon: Wrench,
     slug: "custom-builds",
-    image: "/assets/images/stock/home-luxury-twilight.jpg",
+    image: "/assets/images/stock/home-luxury-twilight.webp",
     title: "Custom Builds",
     description: "Unique homes for unique visions. Our custom build service delivers one-of-a-kind homes that are truly yours in every detail.",
     features: ["Bespoke Design", "Premium Finishes", "Unique Architecture", "Full Customization"],
@@ -49,7 +49,7 @@ const services = [
   {
     icon: Hammer,
     slug: "renovations",
-    image: "/images/renovation-kitchen.jpg",
+    image: "/images/renovation-kitchen.webp",
     title: "Renovations & Extensions",
     description: "Transform your existing home with expert renovations and extensions. From kitchens and bathrooms to full home transformations, delivered with minimal disruption.",
     features: ["Kitchens & Bathrooms", "Home Extensions", "Full Renovations", "Modern Upgrades"],
@@ -57,7 +57,7 @@ const services = [
   {
     icon: Sofa,
     slug: "interior-design",
-    image: "/images/interior-modern-design.jpg",
+    image: "/images/interior-modern-design.webp",
     title: "Interior Design",
     description: "Bring your spaces to life with bespoke interior design. From concept boards and material selection to 3D visualisation and final styling.",
     features: ["Concept Boards", "Material Selection", "3D Visualisation", "Styling & Finishes"],
@@ -84,7 +84,7 @@ export default function ServicesPage() {
         title="Comprehensive Building &"
         highlight="Design Services"
         description="From new home builds to duplexes, custom builds and Queenslander homes, we deliver exceptional quality across every project we undertake."
-        image="/assets/images/stock/blueprint-keys.jpg"
+        image="/assets/images/stock/blueprint-keys.webp"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }]}
       />
 

@@ -121,7 +121,7 @@ export const suburbs: Suburb[] = [
     heroHighlight: "Ashgrove",
     heroDescription:
       "Ashgrovian and Queenslander renovation, extensions and new builds — with the character overlay and the suburb's distinctive housing stock handled properly.",
-    heroImage: "/assets/images/stock/home-brick-twilight.jpg",
+    heroImage: "/assets/images/stock/home-brick-twilight.webp",
     intro: [
       "Ashgrove has a housing type of its own. The Ashgrovian — an interwar timber home with a prominent front gable, a projecting entry portico and decorative gable detailing — is specific enough to this part of Brisbane that it carries the suburb's name.",
       "It is also a house that renovates extremely well, provided the front is treated with respect and the work happens at the rear. Blocks here are generally larger and less severely sloped than Paddington or Red Hill, which makes more ambitious projects viable.",
@@ -205,7 +205,7 @@ export const suburbs: Suburb[] = [
     heroHighlight: "Bardon",
     heroDescription:
       "Elevated character blocks with real outlook — renovation, raising and rear extensions handled with the slope and the overlay in mind from the start.",
-    heroImage: "/assets/images/stock/home-luxury-twilight.jpg",
+    heroImage: "/assets/images/stock/home-luxury-twilight.webp",
     intro: [
       "Bardon sits on the rising ground between Paddington and Mount Coot-tha, and the slope is the defining feature. Blocks are generally larger than Paddington's but the falls are frequently steeper, and the reward is outlook that flatter suburbs cannot offer.",
       "That combination — character housing on elevated sloping land — makes Bardon one of the better suburbs in Brisbane for a well-conceived raise-and-build-under, because the extra height buys a view rather than just floor area.",
@@ -289,7 +289,7 @@ export const suburbs: Suburb[] = [
     heroHighlight: "The Gap",
     heroDescription:
       "Bushland blocks with real slope and real bushfire exposure — assessed properly before design, so the construction requirements are in the first number.",
-    heroImage: "/assets/images/stock/home-luxury-landscape.jpg",
+    heroImage: "/assets/images/stock/home-luxury-landscape.webp",
     intro: [
       "The Gap is Brisbane's bushland suburb, backing onto the D'Aguilar Range and Enoggera Reservoir. The blocks are large, the trees are the reason people live there, and the building conditions are closer to a hinterland acreage site than to inner Brisbane.",
       "That means two things drive every project here: the bushfire rating and the slope. Both are establishable before you buy, and both change the budget substantially.",
@@ -373,7 +373,7 @@ export const suburbs: Suburb[] = [
     heroHighlight: "Camp Hill",
     heroDescription:
       "A mix of protected pre-war character and post-war stock where more is possible — which is why the overlay check comes before anything else here.",
-    heroImage: "/assets/images/stock/home-brick-contemporary.jpg",
+    heroImage: "/assets/images/stock/home-brick-contemporary.webp",
     intro: [
       "Camp Hill is one of the Brisbane suburbs where the overlay position genuinely varies street by street. Pre-war Queenslanders and workers' cottages sit alongside post-war brick and timber homes, and what you can do depends heavily on which you have bought.",
       "That makes the council property report the first step rather than a formality. Two apparently similar houses a block apart can have entirely different options.",
@@ -541,7 +541,7 @@ export const suburbs: Suburb[] = [
     heroHighlight: "Kenmore",
     heroDescription:
       "Larger western-suburbs blocks with 1970s and 1980s housing that renovates well — and a flood picture worth understanding before you buy.",
-    heroImage: "/assets/images/stock/home-single-modern.jpg",
+    heroImage: "/assets/images/stock/home-single-modern.webp",
     intro: [
       "Kenmore and the surrounding western suburbs were developed largely through the 1960s to 1980s, producing generous blocks with brick and timber homes that are structurally sound and thermally poor.",
       "Very little of the area carries character constraints, which means the full range of options is open — renovate, extend, or knock down and rebuild. The constraints here are physical rather than planning-based.",
@@ -625,7 +625,7 @@ export const suburbs: Suburb[] = [
     heroHighlight: "Red Hill",
     heroDescription:
       "Some of the steepest character blocks in Brisbane — where retaining, access and permitted height decide the project before design begins.",
-    heroImage: "/assets/images/stock/home-luxury-twilight.jpg",
+    heroImage: "/assets/images/stock/home-luxury-twilight.webp",
     intro: [
       "Red Hill is steep. Genuinely, consistently steep, in a way that shapes every project in the suburb. Combined with narrow allotments, tight access and a strictly applied character overlay, it is among the most demanding places to build in Brisbane.",
       "It is also close to the city with real outlook, which is why the work is worth doing properly. The suburbs that are hardest to build in tend to be the ones where a good result holds its value.",

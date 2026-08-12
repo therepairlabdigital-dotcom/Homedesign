@@ -5,7 +5,15 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, CalendarDays, Clock } from "lucide-react";
 import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
-import { blogPosts, formatBlogDate, getBlogPost } from "@/lib/blog-posts";
+import { ArrowRight } from "lucide-react";
+import CTABanner from "@/components/shared/CTABanner";
+import {
+  blogPosts,
+  formatBlogDate,
+  getBlogPost,
+  getRelatedPosts,
+  slugifyCategory,
+} from "@/lib/blog-posts";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -72,9 +80,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     datePublished: post.date,
     dateModified: post.date,
     author: {
-      "@type": "Organization",
-      name: "Design Homes Pty Ltd",
+      "@type": "Person",
+      "@id": `${siteUrl}/about/our-builder#harj-tiwana`,
+      name: "Harj Tiwana",
+      url: `${siteUrl}/about/our-builder`,
     },
+    articleSection: post.category,
     publisher: {
       "@id": `${siteUrl}/#organization`,
     },
@@ -82,12 +93,38 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     inLanguage: "en-AU",
   };
 
+  const related = getRelatedPosts(post.slug);
+  const categorySlug = slugifyCategory(post.category);
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog` },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.category,
+        item: `${siteUrl}/blog/category/${categorySlug}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: post.title,
+        item: `${siteUrl}/blog/${post.slug}`,
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen bg-white">
       <SiteNavbar />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([articleSchema, breadcrumbSchema]),
+        }}
       />
 
       <article>
@@ -100,7 +137,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               Back to blog
             </Link>
             <div className="mb-5 flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-wide text-white/65">
-              <span>{post.category}</span>
+              <Link href={`/blog/category/${categorySlug}`} className="hover:text-white">
+                {post.category}
+              </Link>
               <span className="h-1 w-1 rounded-full bg-white/35" />
               <span className="inline-flex items-center gap-1">
                 <CalendarDays className="h-3.5 w-3.5" />
@@ -143,13 +182,71 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
 
             <div className="mt-14 border-t border-black/10 pt-8">
-              <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-black px-6 py-3 text-sm font-semibold text-white">
+              <Link
+                href="/about/our-builder"
+                className="group flex flex-col gap-2 rounded-2xl border border-black/[0.08] bg-[#FAFAF9] px-6 py-6 transition-all hover:border-[#B69560]/40"
+              >
+                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-black/45">
+                  Written by
+                </span>
+                <span className="font-sora text-lg font-semibold text-black">
+                  Harj Tiwana — QBCC licensed builder
+                </span>
+                <span className="text-sm leading-7 text-black/60">
+                  A carpenter by trade with award-winning New Zealand new build experience, Harj
+                  runs every Design Homes site personally across South East Queensland.
+                </span>
+              </Link>
+
+              <Link
+                href="/contact"
+                className="mt-8 inline-flex items-center gap-2 rounded-full bg-black px-6 py-3 text-sm font-semibold text-white"
+              >
                 Talk to a builder
               </Link>
             </div>
           </div>
         </section>
       </article>
+
+      {related.length > 0 && (
+        <section className="bg-[#F7F6F4] py-14 lg:py-20">
+          <div className="mx-auto max-w-[1100px] px-6 lg:px-10">
+            <h2 className="font-sora text-2xl font-bold leading-tight text-black md:text-3xl">
+              Related reading
+            </h2>
+            <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              {related.map((other) => (
+                <Link
+                  key={other.slug}
+                  href={`/blog/${other.slug}`}
+                  className="group flex h-full flex-col gap-3 rounded-2xl border border-black/[0.08] bg-white px-6 py-6 transition-all hover:-translate-y-0.5 hover:border-[#B69560]/40 hover:shadow-lg"
+                >
+                  <span className="text-xs font-semibold uppercase tracking-wide text-black/45">
+                    {other.category}
+                  </span>
+                  <span className="font-sora text-base font-semibold leading-snug text-black">
+                    {other.title}
+                  </span>
+                  <span className="flex-1 text-sm leading-7 text-black/60">
+                    {other.description}
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-black">
+                    Read
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <CTABanner
+        title="Building in South East Queensland?"
+        highlight="Send us the address."
+        description="We will review the zoning, the overlays and the site conditions and come back with a straight assessment before any fees are involved."
+      />
 
       <SiteFooter />
     </main>

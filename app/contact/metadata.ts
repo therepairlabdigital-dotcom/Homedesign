@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/contact`,
     images: [
       {
-        url: "/assets/images/blueprint-key.jpg",
+        url: "/assets/images/blueprint-key.webp",
         width: 1200,
         height: 630,
         alt: "Contact Design Homes - Free Consultation",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact Us | Design Homes",
     description: "Get in touch with Design Homes. We are ready to answer your questions and start planning your new home build or custom project.",
-    images: ["/assets/images/blueprint-key.jpg"],
+    images: ["/assets/images/blueprint-key.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/contact`,

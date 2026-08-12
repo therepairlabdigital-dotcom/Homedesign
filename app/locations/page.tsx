@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/locations`,
     images: [
       {
-        url: "/assets/images/stock/home-luxury-landscape.jpg",
+        url: "/assets/images/stock/home-luxury-landscape.webp",
         width: 1200,
         height: 630,
         alt: "Design Homes — areas we build across South East Queensland",
@@ -73,7 +73,7 @@ export default function LocationsPage() {
         title="Where We"
         highlight="Build"
         description="Design Homes builds across South East Queensland — from inner Brisbane character blocks to Gold Coast waterfronts, Sunshine Coast acreage, and the growth corridors in between."
-        image="/assets/images/stock/home-luxury-landscape.jpg"
+        image="/assets/images/stock/home-luxury-landscape.webp"
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Locations", href: "/locations" },

@@ -69,7 +69,7 @@ export default function Innovation() {
             className="group relative h-[360px] overflow-hidden rounded-[2rem] lg:h-auto lg:min-h-[460px]"
           >
             <Image
-              src="/assets/images/stock/home-luxury-twilight.jpg"
+              src="/assets/images/stock/home-luxury-twilight.webp"
               alt="Custom built family home"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

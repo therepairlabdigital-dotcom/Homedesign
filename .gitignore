@@ -44,3 +44,6 @@ next-env.d.ts
 # local db
 ruvector.db
 *.db
+
+# Unused media kept locally, excluded from the build and repo
+_unused-assets/

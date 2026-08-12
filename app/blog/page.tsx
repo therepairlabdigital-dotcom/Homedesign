@@ -5,7 +5,7 @@ import { ArrowRight, CalendarDays } from "lucide-react";
 import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
 import PageHero from "@/components/shared/PageHero";
-import { blogPosts, formatBlogDate } from "@/lib/blog-posts";
+import { blogPosts, formatBlogDate, getCategories } from "@/lib/blog-posts";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/blog`,
     images: [
       {
-        url: "/assets/images/stock/home-luxury-twilight.jpg",
+        url: "/assets/images/stock/home-luxury-twilight.webp",
         width: 1200,
         height: 630,
         alt: "Design Homes building blog",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Building Blog | Design Homes",
     description: "Practical building advice for South East Queensland homes.",
-    images: ["/assets/images/stock/home-luxury-twilight.jpg"],
+    images: ["/assets/images/stock/home-luxury-twilight.webp"],
   },
 };
 
@@ -71,7 +71,7 @@ export default function BlogPage() {
         title="Building"
         highlight="Insights"
         description="Clear advice for planning, pricing, designing and building quality homes across South East Queensland."
-        image="/assets/images/stock/home-luxury-twilight.jpg"
+        image="/assets/images/stock/home-luxury-twilight.webp"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }]}
       />
 
@@ -112,6 +112,23 @@ export default function BlogPage() {
                   </div>
                 </Link>
               </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#F7F6F4] py-14">
+        <div className="mx-auto max-w-[1100px] px-6 lg:px-10">
+          <h2 className="font-sora text-lg font-semibold text-black">Browse by topic</h2>
+          <div className="mt-5 flex flex-wrap gap-3">
+            {getCategories().map((category) => (
+              <Link
+                key={category.slug}
+                href={`/blog/category/${category.slug}`}
+                className="rounded-full border border-black/12 bg-white px-5 py-2.5 text-sm font-medium text-black/75 transition-all hover:border-[#B69560]/50 hover:text-black"
+              >
+                {category.name} ({category.count})
+              </Link>
             ))}
           </div>
         </div>

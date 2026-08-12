@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/about`,
     images: [
       {
-        url: "/assets/images/stock/villa-luxury-modern.jpg",
+        url: "/assets/images/stock/villa-luxury-modern.webp",
         width: 1200,
         height: 630,
         alt: "About Design Homes | Design Homes Pty Ltd",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Design Homes | SEQ Home Builders",
     description: "Learn more about Design Homes, our history, and our commitment to building quality homes in South East Queensland.",
-    images: ["/assets/images/stock/villa-luxury-modern.jpg"],
+    images: ["/assets/images/stock/villa-luxury-modern.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/about`,

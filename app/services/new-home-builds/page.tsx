@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/new-home-builds`,
     images: [
       {
-        url: "/assets/images/stock/home-stucco-twostory.jpg",
+        url: "/assets/images/stock/home-stucco-twostory.webp",
         width: 1200,
         height: 630,
         alt: "New Home Builds - Design Homes",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "New Home Builds | Design Homes",
     description: "Custom new home builders across Brisbane, Gold Coast & Sunshine Coast. Fixed-price contracts & quality craftsmanship.",
-    images: ["/assets/images/stock/home-stucco-twostory.jpg"],
+    images: ["/assets/images/stock/home-stucco-twostory.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/services/new-home-builds`,
@@ -52,7 +52,7 @@ export default function NewHomeBuildsPage() {
       heroTitle="Custom New"
       heroHighlight="Home Builds"
       heroDescription="From concept to completion, we design and build custom homes tailored to your lifestyle, budget, and aspirations."
-      heroImage="/assets/images/stock/home-stucco-twostory.jpg"
+      heroImage="/assets/images/stock/home-stucco-twostory.webp"
       breadcrumbLabel="New Home Builds"
       overview={{
         title: "Your Dream Home,",
@@ -61,7 +61,7 @@ export default function NewHomeBuildsPage() {
           "Building a new home is one of life's most exciting journeys. At Design Homes, we make the process seamless and enjoyable, guiding you through every step from initial concept to handing over the keys.",
           "Our team of experienced architects, designers, and builders work together to create homes that are not only beautiful but also functional, energy-efficient, and built to the highest Australian standards.",
         ],
-        image: "/assets/images/stock/villa-luxury-modern.jpg",
+        image: "/assets/images/stock/villa-luxury-modern.webp",
       }}
       features={[
         { iconName: "Home", title: "Custom Floor Plans", description: "Every home is uniquely designed to match your family's needs, lifestyle, and the specific characteristics of your block." },
@@ -82,9 +82,9 @@ export default function NewHomeBuildsPage() {
         "Full project management",
       ]}
       galleryImages={[
-        { src: "/assets/images/stock/home-brick-twilight.jpg", alt: "New brick family home at twilight" },
-        { src: "/assets/images/stock/home-single-modern.jpg", alt: "Modern single-storey new build" },
-        { src: "/assets/images/stock/home-brick-contemporary.jpg", alt: "Contemporary two-storey brick home" },
+        { src: "/assets/images/stock/home-brick-twilight.webp", alt: "New brick family home at twilight" },
+        { src: "/assets/images/stock/home-single-modern.webp", alt: "Modern single-storey new build" },
+        { src: "/assets/images/stock/home-brick-contemporary.webp", alt: "Contemporary two-storey brick home" },
       ]}
       relatedServices={[
         { title: "Queenslander Homes", href: "/services/queenslander-homes", description: "Authentic Queenslander homes with traditional character and modern comfort." },

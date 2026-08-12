@@ -35,7 +35,7 @@ export default function About() {
                 transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
               >
                 <Image
-                  src="/assets/images/about-construction-new.jpg"
+                  src="/assets/images/about-construction-new.webp"
                   alt="Design Homes construction site"
                   width={600}
                   height={700}

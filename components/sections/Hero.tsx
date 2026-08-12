@@ -46,7 +46,7 @@ export default function Hero() {
       {/* Parallax Background Image */}
       <motion.div className="absolute inset-0 z-0" style={{ y: isMobile ? 0 : bgY }}>
         <Image
-          src="/assets/images/hero-new-home.jpg"
+          src="/assets/images/hero-new-home.webp"
           alt="Design Homes - Quality New Home"
           fill
           priority

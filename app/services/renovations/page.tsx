@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/renovations`,
     images: [
       {
-        url: "/images/renovation-kitchen.jpg",
+        url: "/images/renovation-kitchen.webp",
         width: 1200,
         height: 630,
         alt: "Home Renovations - Design Homes",
@@ -52,7 +52,7 @@ export default function RenovationsPage() {
       heroTitle="Home"
       heroHighlight="Renovations"
       heroDescription="Transform your existing space into something extraordinary. From kitchen makeovers to complete home transformations."
-      heroImage="/images/renovation-kitchen.jpg"
+      heroImage="/images/renovation-kitchen.webp"
       breadcrumbLabel="Renovations"
       overview={{
         title: "Breathing New Life Into",
@@ -61,7 +61,7 @@ export default function RenovationsPage() {
           "Whether you're looking to modernise an outdated kitchen, add an extension, or completely transform your home, our renovation team delivers exceptional results that exceed expectations.",
           "We understand that living through a renovation can be challenging. That's why we plan meticulously, communicate clearly, and work efficiently to minimise disruption to your daily life.",
         ],
-        image: "/images/renovation-bathroom.jpg",
+        image: "/images/renovation-bathroom.webp",
       }}
       features={[
         { iconName: "Hammer", title: "Kitchen & Bathroom", description: "Complete kitchen and bathroom renovations with modern finishes, quality fixtures, and smart storage solutions." },
@@ -82,9 +82,9 @@ export default function RenovationsPage() {
         "Regular communication",
       ]}
       galleryImages={[
-        { src: "/images/renovation-kitchen.jpg", alt: "Renovation 1" },
-        { src: "/images/renovation-bathroom.jpg", alt: "Renovation 2" },
-        { src: "/images/home-extension.jpg", alt: "Renovation 3" },
+        { src: "/images/renovation-kitchen.webp", alt: "Renovation 1" },
+        { src: "/images/renovation-bathroom.webp", alt: "Renovation 2" },
+        { src: "/images/home-extension.webp", alt: "Renovation 3" },
       ]}
       relatedServices={[
         { title: "Interior Design", href: "/services/interior-design", description: "Complement your renovation with professional interior design." },

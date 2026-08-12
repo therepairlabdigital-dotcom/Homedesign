@@ -11,7 +11,7 @@ const services = [
   {
     number: "01",
     icon: Home,
-    image: "/assets/images/stock/home-brick-twilight.jpg",
+    image: "/assets/images/stock/home-brick-twilight.webp",
     title: "New Home Builds",
     slug: "new-home-builds",
     description:
@@ -21,7 +21,7 @@ const services = [
   {
     number: "02",
     icon: Building2,
-    image: "/assets/images/stock/duplex-modern-dual.jpg",
+    image: "/assets/images/stock/duplex-modern-dual.webp",
     imagePosition: "object-top",
     title: "Duplex & Townhouses",
     slug: "duplex-townhouses",
@@ -32,7 +32,7 @@ const services = [
   {
     number: "03",
     icon: Wrench,
-    image: "/assets/images/stock/home-luxury-twilight.jpg",
+    image: "/assets/images/stock/home-luxury-twilight.webp",
     title: "Custom Builds",
     slug: "custom-builds",
     description:

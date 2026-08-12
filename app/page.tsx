@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     images: [
       {
-        url: "/images/hero-home.jpg",
+        url: "/images/hero-home.webp",
         width: 1200,
         height: 630,
         alt: "Design Homes - Quality residential builders in South East Queensland",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Design Homes | New Home Builders SEQ",
     description: "Quality residential builders in South East Queensland. New homes, duplexes, townhouses & custom builds. QBCC Licensed.",
-    images: ["/images/hero-home.jpg"],
+    images: ["/images/hero-home.webp"],
   },
   alternates: {
     canonical: siteUrl,

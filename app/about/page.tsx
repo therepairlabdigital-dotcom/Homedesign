@@ -36,7 +36,7 @@ export default function AboutPage() {
         title="Quality Homes Built with"
         highlight="Care & Pride"
         description="Led by Harj Tiwana, Design Homes brings over 10 years of building experience to every project across South East Queensland."
-        image="/assets/images/stock/villa-luxury-modern.jpg"
+        image="/assets/images/stock/villa-luxury-modern.webp"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "About Us", href: "/about" }]}
       />
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
             >
               <div className="relative rounded-3xl overflow-hidden">
                 <Image
-                  src="/assets/images/about-construction-new.jpg"
+                  src="/assets/images/about-construction-new.webp"
                   alt="Design Homes team on site"
                   width={600}
                   height={700}
@@ -125,9 +125,9 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: Home, slug: "new-home-builds", title: "New Home Builds", image: "/assets/images/stock/home-brick-twilight.jpg", description: "Custom-designed homes tailored to your lifestyle and budget." },
-              { icon: Building2, slug: "duplex-townhouses", title: "Duplex & Townhouses", image: "/assets/images/stock/duplex-modern-dual.jpg", description: "Dual occupancy solutions for investors and families." },
-              { icon: Wrench, slug: "custom-builds", title: "Custom Builds", image: "/assets/images/stock/home-luxury-twilight.jpg", description: "Bespoke homes for unique sites and specific requirements." },
+              { icon: Home, slug: "new-home-builds", title: "New Home Builds", image: "/assets/images/stock/home-brick-twilight.webp", description: "Custom-designed homes tailored to your lifestyle and budget." },
+              { icon: Building2, slug: "duplex-townhouses", title: "Duplex & Townhouses", image: "/assets/images/stock/duplex-modern-dual.webp", description: "Dual occupancy solutions for investors and families." },
+              { icon: Wrench, slug: "custom-builds", title: "Custom Builds", image: "/assets/images/stock/home-luxury-twilight.webp", description: "Bespoke homes for unique sites and specific requirements." },
               { icon: Landmark, slug: "queenslander-homes", title: "Queenslander Homes", image: "/assets/images/queenslander-classic-new.webp", description: "Traditional character with modern living standards." },
             ].map((item, index) => (
               <motion.div

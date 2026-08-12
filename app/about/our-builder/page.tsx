@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/about/our-builder`,
     images: [
       {
-        url: "/assets/images/about-construction-new.jpg",
+        url: "/assets/images/about-construction-new.webp",
         width: 1200,
         height: 630,
         alt: "Harj Tiwana — Design Homes",
@@ -103,7 +103,7 @@ export default function OurBuilderPage() {
       description:
         "QBCC licensed builder and founder of Design Homes Pty Ltd, with a carpentry trade background and award-winning new build experience from New Zealand.",
       url: `${siteUrl}/about/our-builder`,
-      image: `${siteUrl}/assets/images/about-construction-new.jpg`,
+      image: `${siteUrl}/assets/images/about-construction-new.webp`,
       worksFor: { "@id": `${siteUrl}/#organization` },
       knowsAbout: [
         "Custom home building",
@@ -139,7 +139,7 @@ export default function OurBuilderPage() {
         title="Meet"
         highlight="Harj Tiwana"
         description="The QBCC licensed builder behind Design Homes — a carpenter by trade, award-winning New Zealand new build experience, and on every one of our sites personally."
-        image="/assets/images/about-construction-new.jpg"
+        image="/assets/images/about-construction-new.webp"
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About", href: "/about" },

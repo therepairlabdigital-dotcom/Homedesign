@@ -37,7 +37,7 @@ export const locations: Location[] = [
     heroHighlight: "Brisbane",
     heroDescription:
       "New homes, duplexes, townhouses and custom builds across Greater Brisbane — delivered by a QBCC licensed builder with fixed-price contracts and hands-on site management.",
-    heroImage: "/assets/images/stock/home-brick-twilight.jpg",
+    heroImage: "/assets/images/stock/home-brick-twilight.webp",
     intro: [
       "Brisbane building sites are rarely simple. Character overlays, reactive clay soils, sloping blocks, narrow inner-suburban frontages, and flood levels all shape what can be built and how it has to be built. A builder who knows the city plan and the ground conditions saves you money long before construction starts.",
       "Design Homes builds new homes, duplexes, townhouses and custom projects across Greater Brisbane. Every project runs on a fixed-price contract with a documented scope, so the number you sign is the number you plan around.",
@@ -126,7 +126,7 @@ export const locations: Location[] = [
     heroHighlight: "Gold Coast",
     heroDescription:
       "Custom homes, duplexes and townhouses built from Coomera to Coolangatta — coastal-appropriate detailing, fixed-price contracts, and a builder on site.",
-    heroImage: "/assets/images/stock/villa-luxury-modern.jpg",
+    heroImage: "/assets/images/stock/villa-luxury-modern.webp",
     intro: [
       "Building on the Gold Coast means designing for the coast. Salt exposure, wind loading, high water tables in canal and beachside suburbs, and strong demand for indoor-outdoor living all shape the specification well beyond what an inland build requires.",
       "Design Homes builds new homes, duplexes, townhouses and custom projects across the Gold Coast, from the northern growth corridor through to the southern beaches, with fixed-price contracts and direct site supervision.",
@@ -216,7 +216,7 @@ export const locations: Location[] = [
     heroHighlight: "Sunshine Coast",
     heroDescription:
       "New homes, custom builds and acreage projects from Caloundra to Noosa and out to the hinterland — built by a QBCC licensed builder on fixed-price contracts.",
-    heroImage: "/assets/images/stock/home-luxury-landscape.jpg",
+    heroImage: "/assets/images/stock/home-luxury-landscape.webp",
     intro: [
       "The Sunshine Coast covers an unusually wide range of building conditions in a short distance — coastal sand, low-lying canal estates, elevated hinterland slopes, and large acreage sites with their own water and wastewater requirements. What suits a block at Kawana rarely suits one at Maleny.",
       "Design Homes builds new homes, custom projects, duplexes and acreage builds across the Sunshine Coast, with a fixed-price contract and hands-on supervision on every job.",
@@ -305,7 +305,7 @@ export const locations: Location[] = [
     heroHighlight: "Ipswich",
     heroDescription:
       "New homes, duplexes and custom builds across Ipswich, Springfield and the Ripley Valley — fixed-price contracts from a QBCC licensed builder.",
-    heroImage: "/assets/images/stock/home-single-modern.jpg",
+    heroImage: "/assets/images/stock/home-single-modern.webp",
     intro: [
       "Ipswich is one of the fastest growing parts of South East Queensland, and the building conditions vary sharply across it — established suburbs with character housing and older infrastructure on one side, greenfield estates at Ripley and Springfield on the other.",
       "Design Homes builds new homes, duplexes, townhouses and custom projects throughout the Ipswich region on fixed-price contracts, with direct supervision on every site.",
@@ -394,7 +394,7 @@ export const locations: Location[] = [
     heroHighlight: "Logan",
     heroDescription:
       "New homes, duplexes and townhouses across the Logan region — a QBCC licensed builder delivering fixed-price contracts and proper site supervision.",
-    heroImage: "/assets/images/stock/home-brick-contemporary.jpg",
+    heroImage: "/assets/images/stock/home-brick-contemporary.webp",
     intro: [
       "Logan sits between Brisbane and the Gold Coast and carries characteristics of both. It has established suburbs with generous older blocks, strong investor demand supporting duplex and dual-living projects, and active greenfield growth areas at Park Ridge, Yarrabilba and Flagstone.",
       "Design Homes builds new homes, duplexes, townhouses and custom projects throughout Logan on fixed-price contracts with a documented scope.",
@@ -483,7 +483,7 @@ export const locations: Location[] = [
     heroHighlight: "Moreton Bay",
     heroDescription:
       "New homes, custom builds and acreage projects across the Moreton Bay region — from Redcliffe and North Lakes through to Caboolture and the hinterland.",
-    heroImage: "/assets/images/stock/home-stucco-twostory.jpg",
+    heroImage: "/assets/images/stock/home-stucco-twostory.webp",
     intro: [
       "The Moreton Bay region spans bayside suburbs, established residential areas, fast-growing estates and genuine acreage within a relatively small area. Site conditions change quickly across it, and so do the costs of building.",
       "Design Homes builds new homes, custom projects, duplexes and acreage builds across the region, always on a fixed-price contract priced against the actual block.",
@@ -572,7 +572,7 @@ export const locations: Location[] = [
     heroHighlight: "Redlands",
     heroDescription:
       "New homes, custom builds and renovations across Redland City — bayside detailing, fixed-price contracts, and a builder you can actually reach.",
-    heroImage: "/assets/images/stock/home-luxury-twilight.jpg",
+    heroImage: "/assets/images/stock/home-luxury-twilight.webp",
     intro: [
       "Redland City combines bayside suburbs, established residential areas and semi-rural pockets, with a strong emphasis on outdoor living and, in many suburbs, significant protected vegetation.",
       "Design Homes builds new homes, custom projects and renovations across the Redlands on fixed-price contracts with a fully documented scope.",

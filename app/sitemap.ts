@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { blogPosts } from "@/lib/blog-posts";
+import { blogPosts, getCategories } from "@/lib/blog-posts";
 import { locations } from "@/lib/locations";
 import { locationServices } from "@/lib/location-services";
 import { suburbs } from "@/lib/suburbs";
@@ -62,6 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.95,
+    })),
+    ...getCategories().map((category) => ({
+      url: `${siteUrl}/blog/category/${category.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
     })),
     ...blogPosts.map((post) => ({
       url: `${siteUrl}/blog/${post.slug}`,

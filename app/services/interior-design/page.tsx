@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/interior-design`,
     images: [
       {
-        url: "/images/interior-living-room.jpg",
+        url: "/images/interior-living-room.webp",
         width: 1200,
         height: 630,
         alt: "Interior Design Services - Design Homes",
@@ -52,7 +52,7 @@ export default function InteriorDesignPage() {
       heroTitle="Premium Interior"
       heroHighlight="Design"
       heroDescription="Creating inspiring interiors that reflect your personality, lifestyle, and taste. From concept boards to final styling."
-      heroImage="/images/interior-living-room.jpg"
+      heroImage="/images/interior-living-room.webp"
       breadcrumbLabel="Interior Design"
       overview={{
         title: "Spaces That Inspire &",
@@ -61,7 +61,7 @@ export default function InteriorDesignPage() {
           "Our interior design team brings spaces to life with a perfect blend of aesthetics and functionality. We work closely with you to understand your style preferences, how you use each space, and what makes you feel at home.",
           "From initial concept boards and 3D visualisations to material selection and final styling, we handle every aspect of the design process to deliver interiors that truly reflect who you are.",
         ],
-        image: "/images/interior-luxury-modern.jpg",
+        image: "/images/interior-luxury-modern.webp",
       }}
       features={[
         { iconName: "Palette", title: "Colour Consulting", description: "Expert colour schemes that set the mood and create cohesion throughout your home's interior spaces." },
@@ -82,9 +82,9 @@ export default function InteriorDesignPage() {
         "End-to-end service",
       ]}
       galleryImages={[
-        { src: "/images/interior-living-room.jpg", alt: "Interior Design 1" },
-        { src: "/images/interior-luxury-modern.jpg", alt: "Interior Design 2" },
-        { src: "/images/interior-modern-design.jpg", alt: "Interior Design 3" },
+        { src: "/images/interior-living-room.webp", alt: "Interior Design 1" },
+        { src: "/images/interior-luxury-modern.webp", alt: "Interior Design 2" },
+        { src: "/images/interior-modern-design.webp", alt: "Interior Design 3" },
       ]}
       relatedServices={[
         { title: "New Home Builds", href: "/services/new-home-builds", description: "Build a new home with interior design included from day one." },

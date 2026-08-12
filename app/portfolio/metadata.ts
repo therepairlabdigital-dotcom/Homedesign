@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/portfolio`,
     images: [
       {
-        url: "/images/portfolio-luxury-1.jpg",
+        url: "/images/portfolio-luxury-1.webp",
         width: 1200,
         height: 630,
         alt: "Design Homes Portfolio - Completed Projects",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Portfolio | Design Homes",
     description: "Explore our completed projects across Brisbane, Gold Coast & Sunshine Coast. Custom homes, duplexes & Queenslander builds.",
-    images: ["/images/portfolio-luxury-1.jpg"],
+    images: ["/images/portfolio-luxury-1.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/portfolio`,

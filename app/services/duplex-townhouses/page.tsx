@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/duplex-townhouses`,
     images: [
       {
-        url: "/assets/images/stock/duplex-modern-dual.jpg",
+        url: "/assets/images/stock/duplex-modern-dual.webp",
         width: 1200,
         height: 630,
         alt: "Duplex & Townhouse Builders - Design Homes",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Duplex & Townhouses | Design Homes",
     description: "Expert duplex & townhouse builders across SEQ. Maximise your investment with dual occupancy properties.",
-    images: ["/assets/images/stock/duplex-modern-dual.jpg"],
+    images: ["/assets/images/stock/duplex-modern-dual.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/services/duplex-townhouses`,
@@ -52,7 +52,7 @@ export default function DuplexTownhousesPage() {
       heroTitle="Duplex &"
       heroHighlight="Townhouses"
       heroDescription="Maximise your property's potential with expertly designed and built duplexes and townhouses. Smart investments, beautifully built."
-      heroImage="/assets/images/stock/duplex-modern-dual.jpg"
+      heroImage="/assets/images/stock/duplex-modern-dual.webp"
       breadcrumbLabel="Duplex & Townhouses"
       overview={{
         title: "Smart Investments,",
@@ -61,7 +61,7 @@ export default function DuplexTownhousesPage() {
           "Dual occupancy and multi-dwelling builds are one of the smartest property investment strategies available. Our experienced team specialises in designing and building duplexes and townhouses that maximise return while maintaining exceptional living standards.",
           "We navigate the complex planning and approval processes, optimise designs for your specific block, and deliver builds that attract quality tenants or buyers. Whether you're building to live in one and rent the other, or as a pure investment, we have the expertise to make it work.",
         ],
-        image: "/assets/images/stock/townhouse-construction-new.jpg",
+        image: "/assets/images/stock/townhouse-construction-new.webp",
       }}
       features={[
         { iconName: "Building2", title: "Dual Occupancy Design", description: "Optimised designs that maximise the use of your block while meeting all council requirements and setback rules." },
@@ -82,9 +82,9 @@ export default function DuplexTownhousesPage() {
         "Rental-ready finish",
       ]}
       galleryImages={[
-        { src: "/assets/images/stock/duplex-modern-dual.jpg", alt: "Modern duplex render" },
-        { src: "/assets/images/stock/townhouse-construction-new.jpg", alt: "Townhouse development under construction" },
-        { src: "/assets/images/townhouse-facade.jpg", alt: "Two-storey townhouse façade" },
+        { src: "/assets/images/stock/duplex-modern-dual.webp", alt: "Modern duplex render" },
+        { src: "/assets/images/stock/townhouse-construction-new.webp", alt: "Townhouse development under construction" },
+        { src: "/assets/images/townhouse-facade.webp", alt: "Two-storey townhouse façade" },
       ]}
       relatedServices={[
         { title: "New Home Builds", href: "/services/new-home-builds", description: "Looking for a single dwelling? Check out our new home builds." },

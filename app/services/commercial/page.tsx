@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/commercial`,
     images: [
       {
-        url: "/images/commercial-building-modern.jpg",
+        url: "/images/commercial-building-modern.webp",
         width: 1200,
         height: 630,
         alt: "Commercial Construction - Design Homes",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Commercial Construction | Design Homes",
     description: "Professional commercial construction across SEQ. Office fit-outs, retail spaces & mixed-use developments.",
-    images: ["/images/commercial-building-modern.jpg"],
+    images: ["/images/commercial-building-modern.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/services/commercial`,
@@ -52,7 +52,7 @@ export default function CommercialPage() {
       heroTitle="Commercial"
       heroHighlight="Construction"
       heroDescription="Professional commercial building services for offices, retail spaces, and mixed-use developments. Built to the highest standards."
-      heroImage="/images/commercial-building-modern.jpg"
+      heroImage="/images/commercial-building-modern.webp"
       breadcrumbLabel="Commercial"
       overview={{
         title: "Professional Commercial",
@@ -61,7 +61,7 @@ export default function CommercialPage() {
           "Our commercial construction division delivers high-quality office fit-outs, retail spaces, and mixed-use developments across South East Queensland. We bring the same attention to detail and quality standards from our residential work to every commercial project.",
           "Whether you're fitting out a new office, building a retail space, or developing a mixed-use property, our experienced team manages every aspect of the project to ensure it's delivered on time, on budget, and to specification.",
         ],
-        image: "/images/retail-store-exterior.jpg",
+        image: "/images/retail-store-exterior.webp",
       }}
       features={[
         { iconName: "Store", title: "Office Fit-outs", description: "Modern office spaces designed for productivity, collaboration, and employee wellbeing." },
@@ -82,9 +82,9 @@ export default function CommercialPage() {
         "Timely completion",
       ]}
       galleryImages={[
-        { src: "/images/commercial-building-modern.jpg", alt: "Commercial 1" },
-        { src: "/images/retail-store-exterior.jpg", alt: "Commercial 2" },
-        { src: "/images/commercial-building-modern.jpg", alt: "Commercial 3" },
+        { src: "/images/commercial-building-modern.webp", alt: "Commercial 1" },
+        { src: "/images/retail-store-exterior.webp", alt: "Commercial 2" },
+        { src: "/images/commercial-building-modern.webp", alt: "Commercial 3" },
       ]}
       relatedServices={[
         { title: "Duplex & Townhouses", href: "/services/duplex-townhouses", description: "Multi-dwelling residential developments." },

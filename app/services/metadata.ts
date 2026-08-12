@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services`,
     images: [
       {
-        url: "/assets/images/stock/blueprint-keys.jpg",
+        url: "/assets/images/stock/blueprint-keys.webp",
         width: 1200,
         height: 630,
         alt: "Design Homes Building Services",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Services | Design Homes",
     description: "New home builds, duplexes, custom builds & Queenslander homes across SEQ.",
-    images: ["/assets/images/stock/blueprint-keys.jpg"],
+    images: ["/assets/images/stock/blueprint-keys.webp"],
   },
   alternates: {
     canonical: `${siteUrl}/services`,

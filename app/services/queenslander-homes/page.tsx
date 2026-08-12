@@ -83,8 +83,8 @@ export default function QueenslanderHomesPage() {
       ]}
       galleryImages={[
         { src: "/assets/images/queenslander-classic-new.webp", alt: "Queenslander Build 1" },
-        { src: "/assets/images/new-home-render-single.jpg", alt: "Queenslander Build 2" },
-        { src: "/assets/images/home-portico-detail.jpg", alt: "Queenslander Build 3" },
+        { src: "/assets/images/new-home-render-single.webp", alt: "Queenslander Build 2" },
+        { src: "/assets/images/home-portico-detail.webp", alt: "Queenslander Build 3" },
       ]}
       relatedServices={[
         { title: "New Home Builds", href: "/services/new-home-builds", description: "Custom-designed new homes tailored to your lifestyle and budget." },

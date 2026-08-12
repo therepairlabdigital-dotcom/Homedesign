@@ -60,7 +60,7 @@ export default function ContactPage() {
         title="Let's Talk About Your"
         highlight="Project"
         description="Ready to start building? Contact us today for a free consultation and quote. Our team is ready to bring your vision to life."
-        image="/assets/images/custom-luxury-twilight.jpg"
+        image="/assets/images/custom-luxury-twilight.webp"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]}
       />
 

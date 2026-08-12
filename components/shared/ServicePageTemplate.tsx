@@ -49,12 +49,12 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 
 /* ---------- fallback images for related service cards ---------- */
 const SERVICE_IMAGE_MAP: Record<string, string> = {
-  "/services/new-home-builds": "/assets/images/stock/home-brick-twilight.jpg",
-  "/services/custom-builds": "/assets/images/stock/home-luxury-twilight.jpg",
-  "/services/duplex-townhouses": "/assets/images/stock/duplex-modern-dual.jpg",
+  "/services/new-home-builds": "/assets/images/stock/home-brick-twilight.webp",
+  "/services/custom-builds": "/assets/images/stock/home-luxury-twilight.webp",
+  "/services/duplex-townhouses": "/assets/images/stock/duplex-modern-dual.webp",
   "/services/queenslander-homes": "/assets/images/queenslander-classic-new.webp",
-  "/services/renovations": "/images/renovation-kitchen.jpg",
-  "/services/interior-design": "/images/interior-modern-design.jpg",
+  "/services/renovations": "/images/renovation-kitchen.webp",
+  "/services/interior-design": "/images/interior-modern-design.webp",
 };
 
 // Icon component that renders based on icon name
