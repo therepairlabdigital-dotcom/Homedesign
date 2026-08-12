@@ -3,7 +3,7 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Design Homes | Design Homes Pty Ltd",
+  title: "Contact Design Homes | SEQ Home Builders",
   description: "Get in touch with Design Homes. We are ready to answer your questions and start planning your new home build or custom project.",
   keywords: [
     "contact home builders Brisbane",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "new home quote Queensland",
   ],
   openGraph: {
-    title: "Contact Us | Design Homes | Design Homes Pty Ltd",
+    title: "Contact Design Homes | SEQ Home Builders",
     description: "Get in touch with Design Homes. We are ready to answer your questions and start planning your new home build or custom project.",
     type: "website",
     url: `${siteUrl}/contact`,

@@ -12,7 +12,7 @@ import { locations } from "@/lib/locations";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Areas We Build | Home Builders Across South East Queensland | Design Homes Pty Ltd",
+  title: "Areas We Build | Home Builders Across SEQ",
   description:
     "Design Homes builds new homes, duplexes, townhouses and custom projects across Brisbane, the Gold Coast, Sunshine Coast, Ipswich, Logan, Moreton Bay and the Redlands.",
   keywords: [

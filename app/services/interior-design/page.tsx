@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Interior Design Services Brisbane, Gold Coast & Sunshine Coast",
+  title: "Interior Design Services SEQ | Design Homes",
   description: "Premium interior design services across SEQ. Space planning, material selection, 3D visualisation & styling for homes in Brisbane, Gold Coast & Sunshine Coast.",
   keywords: [
     "interior design Brisbane",

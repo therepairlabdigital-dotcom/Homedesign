@@ -15,7 +15,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   applicationName: "Design Homes",
-  title: "Design Homes Pty Ltd | Custom Home Builders Brisbane, Gold Coast & Sunshine Coast",
+  title: "Design Homes | Home Builders Brisbane & SEQ",
   description: "Award-winning custom home builders in South East Queensland. We specialise in new home builds, duplexes, townhouses, custom builds & Queenslander homes across Brisbane, Gold Coast & Sunshine Coast.",
   referrer: "origin-when-cross-origin",
   keywords: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     locale: "en_AU",
     url: siteUrl,
     siteName: "Design Homes Pty Ltd",
-    title: "Design Homes Pty Ltd | Custom Home Builders Brisbane, Gold Coast & Sunshine Coast",
+    title: "Design Homes | Home Builders Brisbane & SEQ",
     description: "Award-winning custom home builders in South East Queensland. New homes, duplexes, custom builds & Queenslander homes.",
     images: [
       {

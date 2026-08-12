@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Custom Home Builders Brisbane, Gold Coast & Sunshine Coast | Design Homes Pty Ltd",
+  title: "Custom Home Builders Brisbane & SEQ | Design Homes",
   description: "Bespoke custom home builders across SEQ. Unique architectural designs, challenging sites & premium finishes in Brisbane, Gold Coast & Sunshine Coast.",
   keywords: [
     "custom home builders Brisbane",

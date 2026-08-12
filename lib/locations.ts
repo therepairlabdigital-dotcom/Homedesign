@@ -112,7 +112,7 @@ export const locations: Location[] = [
     name: "Gold Coast",
     region: "Gold Coast",
     title: "Home Builders Gold Coast",
-    metaTitle: "Home Builders Gold Coast | New Homes, Duplexes & Custom Builds",
+    metaTitle: "Home Builders Gold Coast | New Homes & Duplexes",
     metaDescription:
       "QBCC licensed home builders on the Gold Coast. New home builds, duplexes, townhouses and custom homes from Coomera to Coolangatta. Fixed-price contracts.",
     keywords: [
@@ -558,7 +558,7 @@ export const locations: Location[] = [
     name: "Redlands",
     region: "Redland City",
     title: "Home Builders Redlands",
-    metaTitle: "Home Builders Redlands | New Homes & Custom Builds Redland City",
+    metaTitle: "Home Builders Redlands | Redland City Builders",
     metaDescription:
       "QBCC licensed home builders in the Redlands. New home builds, custom homes and renovations across Cleveland, Victoria Point, Capalaba and Thornlands.",
     keywords: [

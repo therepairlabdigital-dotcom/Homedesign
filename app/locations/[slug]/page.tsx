@@ -8,6 +8,7 @@ import PageHero from "@/components/shared/PageHero";
 import CTABanner from "@/components/shared/CTABanner";
 import MobileCTA from "@/components/shared/MobileCTA";
 import { getLocation, locations } from "@/lib/locations";
+import { getServicesForLocation } from "@/lib/location-services";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
   if (!location) return {};
 
   return {
-    title: `${location.metaTitle} | Design Homes Pty Ltd`,
+    title: location.metaTitle,
     description: location.metaDescription,
     keywords: location.keywords,
     alternates: {
@@ -70,6 +71,8 @@ export default async function LocationPage({ params }: LocationPageProps) {
   const location = getLocation(slug);
 
   if (!location) notFound();
+
+  const localServices = getServicesForLocation(location.slug);
 
   const schema = [
     {
@@ -188,6 +191,38 @@ export default async function LocationPage({ params }: LocationPageProps) {
           </p>
         </div>
       </section>
+
+      {/* Location-specific service pages */}
+      {localServices.length > 0 && (
+        <section className="bg-white pb-4 pt-16 lg:pb-6 lg:pt-24">
+          <div className="mx-auto max-w-[1100px] px-6 lg:px-10">
+            <h2 className="font-sora text-2xl font-bold leading-tight text-black md:text-3xl">
+              Our {location.name} specialities
+            </h2>
+            <p className="mt-4 max-w-[640px] text-base leading-8 text-black/68">
+              These are the projects we build most often in {location.name}, with the local
+              planning rules, site conditions and costs set out in detail.
+            </p>
+            <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {localServices.map((entry) => (
+                <Link
+                  key={entry.serviceSlug}
+                  href={`/locations/${entry.locationSlug}/${entry.serviceSlug}`}
+                  className="group flex flex-col gap-2 rounded-2xl border border-black/[0.08] bg-[#FAFAF9] px-6 py-6 transition-all hover:-translate-y-0.5 hover:border-[#B69560]/40 hover:shadow-lg"
+                >
+                  <span className="flex items-center justify-between gap-3 font-sora text-base font-semibold text-black">
+                    {entry.serviceName} in {entry.locationName}
+                    <ArrowRight className="h-4 w-4 shrink-0 text-[#B69560] transition-transform group-hover:translate-x-1" />
+                  </span>
+                  <span className="text-sm leading-7 text-black/60">
+                    {entry.heroDescription}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Services in this location */}
       <section className="bg-[#F7F6F4] py-16 lg:py-24">

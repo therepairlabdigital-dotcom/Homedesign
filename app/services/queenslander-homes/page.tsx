@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Queenslander Home Builders Brisbane, Gold Coast & Sunshine Coast | Design Homes Pty Ltd",
+  title: "Queenslander Home Builders SEQ | Design Homes",
   description: "Authentic Queenslander home builders. We design & build traditional character homes with modern comfort across Brisbane, Gold Coast & Sunshine Coast.",
   keywords: [
     "Queenslander home builders Brisbane",

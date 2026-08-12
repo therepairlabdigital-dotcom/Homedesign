@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-posts";
 import { locations } from "@/lib/locations";
+import { locationServices } from "@/lib/location-services";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -44,6 +45,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.9,
+    })),
+    // Location × service pages — highest commercial intent on the site
+    ...locationServices.map((entry) => ({
+      url: `${siteUrl}/locations/${entry.locationSlug}/${entry.serviceSlug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.95,
     })),
     ...blogPosts.map((post) => ({
       url: `${siteUrl}/blog/${post.slug}`,

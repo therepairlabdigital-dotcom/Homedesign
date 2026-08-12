@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Home Renovations Brisbane, Gold Coast & Sunshine Coast | Design Homes",
+  title: "Home Renovations Brisbane & SEQ | Design Homes",
   description: "Expert home renovation services across SEQ. Kitchen, bathroom, extensions & full home transformations. Quality craftsmanship in Brisbane, Gold Coast & Sunshine Coast.",
   keywords: [
     "home renovations Brisbane",

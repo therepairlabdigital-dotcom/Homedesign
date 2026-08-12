@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   return {
-    title: `${post.title} | Design Homes Pty Ltd`,
+    title: post.title,
     description: post.description,
     alternates: {
       canonical: `${siteUrl}/blog/${post.slug}`,
@@ -129,9 +129,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <h2 className="font-sora text-2xl font-bold leading-tight text-black md:text-3xl">{section.heading}</h2>
                   <div className="mt-5 space-y-5">
                     {section.body.map((paragraph) => (
-                      <p key={paragraph} className="text-base leading-8 text-black/68">
-                        {paragraph}
-                      </p>
+                      // Body copy is trusted static content from lib/blog-posts.ts and may
+                      // contain inline <a> links to service and location pages.
+                      <p
+                        key={paragraph}
+                        className="text-base leading-8 text-black/68 [&_a]:font-semibold [&_a]:text-black [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-[#B69560]"
+                        dangerouslySetInnerHTML={{ __html: paragraph }}
+                      />
                     ))}
                   </div>
                 </section>

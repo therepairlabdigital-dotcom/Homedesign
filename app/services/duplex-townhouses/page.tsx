@@ -4,7 +4,7 @@ import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Duplex & Townhouse Builders Brisbane, Gold Coast & Sunshine Coast | Design Homes Pty Ltd",
+  title: "Duplex & Townhouse Builders SEQ | Design Homes",
   description: "Expert duplex & townhouse builders across SEQ. Maximise your investment with dual occupancy properties in Brisbane, Gold Coast & Sunshine Coast. Council approvals handled.",
   keywords: [
     "duplex builders Brisbane",

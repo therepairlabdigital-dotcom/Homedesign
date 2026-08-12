@@ -3,7 +3,7 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "About Us | Design Homes | Design Homes Pty Ltd",
+  title: "About Design Homes | SEQ Home Builders",
   description: "Learn more about Design Homes, our history, and our commitment to building quality homes in South East Queensland.",
   keywords: [
     "about Design Homes",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Queensland construction company",
   ],
   openGraph: {
-    title: "About Us | Design Homes | Design Homes Pty Ltd",
+    title: "About Design Homes | SEQ Home Builders",
     description: "Learn more about Design Homes, our history, and our commitment to building quality homes in South East Queensland.",
     type: "website",
     url: `${siteUrl}/about`,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us | Design Homes | Design Homes Pty Ltd",
+    title: "About Design Homes | SEQ Home Builders",
     description: "Learn more about Design Homes, our history, and our commitment to building quality homes in South East Queensland.",
     images: ["/assets/images/stock/villa-luxury-modern.jpg"],
   },

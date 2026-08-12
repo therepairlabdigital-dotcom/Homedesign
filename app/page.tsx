@@ -15,7 +15,7 @@ import SiteFooter from "@/components/shared/SiteFooter";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Design Homes Pty Ltd | New Home Builders Brisbane, Gold Coast & Sunshine Coast",
+  title: "Design Homes | Home Builders Brisbane & SEQ",
   description: "Quality residential builders in South East Queensland. New homes, duplexes, townhouses, custom builds & Queenslander homes across Brisbane, Gold Coast & Sunshine Coast. QBCC Licensed.",
   keywords: [
     "new home builders Brisbane",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "QBCC licensed builder",
   ],
   openGraph: {
-    title: "Design Homes Pty Ltd | New Home Builders Brisbane, Gold Coast & Sunshine Coast",
+    title: "Design Homes | Home Builders Brisbane & SEQ",
     description: "Quality residential builders in South East Queensland. New homes, duplexes, townhouses & custom builds. QBCC Licensed.",
     type: "website",
     url: siteUrl,
