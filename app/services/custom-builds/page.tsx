@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
+import { serviceContent } from "@/lib/service-content";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -90,6 +91,8 @@ export default function CustomBuildsPage() {
         { title: "Queenslander Homes", href: "/services/queenslander-homes", description: "Authentic Queenslander homes with traditional character and modern comfort." },
         { title: "Duplex & Townhouses", href: "/services/duplex-townhouses", description: "Maximise your investment with expertly built dual occupancy properties." },
       ]}
+      sections={serviceContent["custom-builds"].sections}
+      faqs={serviceContent["custom-builds"].faqs}
     />
   );
 }

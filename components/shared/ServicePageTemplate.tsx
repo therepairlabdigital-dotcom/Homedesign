@@ -114,6 +114,8 @@ interface ServicePageProps {
     description: string;
     image?: string;
   }[];
+  sections?: { heading: string; body: string[] }[];
+  faqs?: { question: string; answer: string }[];
 }
 
 export default function ServicePageTemplate({
@@ -127,6 +129,8 @@ export default function ServicePageTemplate({
   benefits,
   galleryImages,
   relatedServices,
+  sections = [],
+  faqs = [],
 }: ServicePageProps) {
   const overviewRef = useRef(null);
   const overviewInView = useInView(overviewRef, { once: true, margin: "-100px" });
@@ -204,7 +208,22 @@ export default function ServicePageTemplate({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(serviceSchema),
+          __html: JSON.stringify(
+            faqs.length > 0
+              ? [
+                  serviceSchema,
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    mainEntity: faqs.map((faq) => ({
+                      "@type": "Question",
+                      name: faq.question,
+                      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+                    })),
+                  },
+                ]
+              : serviceSchema,
+          ),
         }}
       />
 
@@ -393,6 +412,52 @@ export default function ServicePageTemplate({
                     </p>
                   </div>
                 </motion.button>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ─── Long-form detail ─── */}
+      {sections.length > 0 && (
+        <section className="bg-[#F7F6F4] py-14 lg:py-20">
+          <div className="mx-auto max-w-[900px] px-6 lg:px-10">
+            <div className="space-y-12">
+              {sections.map((section) => (
+                <div key={section.heading}>
+                  <h2 className="font-sora text-2xl font-bold leading-tight text-black md:text-3xl">
+                    {section.heading}
+                  </h2>
+                  <div className="mt-5 space-y-5">
+                    {section.body.map((paragraph) => (
+                      <p key={paragraph} className="text-base leading-8 text-black/68">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ─── FAQs ─── */}
+      {faqs.length > 0 && (
+        <section className="bg-white py-14 lg:py-20">
+          <div className="mx-auto max-w-[820px] px-6 lg:px-10">
+            <h2 className="font-sora text-2xl font-bold leading-tight text-black md:text-3xl">
+              Common questions
+            </h2>
+            <div className="mt-8 space-y-6">
+              {faqs.map((faq) => (
+                <div
+                  key={faq.question}
+                  className="rounded-2xl border border-black/[0.08] bg-[#FAFAF9] p-6"
+                >
+                  <h3 className="font-sora text-lg font-semibold text-black">{faq.question}</h3>
+                  <p className="mt-3 text-base leading-8 text-black/68">{faq.answer}</p>
+                </div>
               ))}
             </div>
           </div>

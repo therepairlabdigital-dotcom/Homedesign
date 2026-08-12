@@ -1,0 +1,27 @@
+# Design Homes — canonical host + HTTPS
+# Copied into out/ by the Next.js static export.
+# Only takes effect if Apache/LiteSpeed serves the exported files. If the site
+# is running as a Hostinger Node.js app, set the redirect in hPanel instead.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://thedesignhomes.com.au/$1 [R=301,L]
+
+  # Force non-www (canonical host is the apex domain)
+  RewriteCond %{HTTP_HOST} ^www\.thedesignhomes\.com\.au$ [NC]
+  RewriteRule ^(.*)$ https://thedesignhomes.com.au/$1 [R=301,L]
+</IfModule>
+
+# Long cache for immutable build assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+</IfModule>

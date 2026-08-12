@@ -2413,6 +2413,964 @@ export const locationServices: LocationService[] = [
     parentServiceHref: "/services/new-home-builds",
     parentServiceName: "New Home Builds",
   },
+
+  // -------------------------------------------------------- THIRD EXPANSION
+  {
+    locationSlug: "sunshine-coast",
+    serviceSlug: "knockdown-rebuild",
+    locationName: "Sunshine Coast",
+    serviceName: "Knockdown Rebuild",
+    region: "Sunshine Coast",
+    metaTitle: "Knockdown Rebuild Sunshine Coast | Design Homes",
+    metaDescription:
+      "Knockdown rebuild builders on the Sunshine Coast. Demolition, asbestos removal, bushfire and flood checks, and a fixed-price rebuild on your existing block.",
+    keywords: [
+      "knockdown rebuild Sunshine Coast",
+      "demolish and rebuild Sunshine Coast",
+      "rebuild Caloundra",
+      "rebuild Buderim",
+      "knockdown rebuild builders Sunshine Coast",
+      "demolition Sunshine Coast",
+    ],
+    heroTitle: "Knockdown Rebuild on the",
+    heroHighlight: "Sunshine Coast",
+    heroDescription:
+      "Replace the house, keep the location — demolition, approvals and a fixed-price rebuild, with bushfire and flood conditions established before design.",
+    heroImage: "/assets/images/stock/construction-frame-new.jpg",
+    intro: [
+      "A great deal of Sunshine Coast housing dates from the 1970s and 1980s, built when the region was a holiday destination rather than a place people lived year-round. Those houses sit on land that has since become very valuable, and many of them no longer suit how the block could be used.",
+      "For owners already in a suburb they like, replacing the building is usually better value than buying the same location again with someone else's floor plan attached. The question is what the site now requires that it did not when the original house went up.",
+    ],
+    sections: [
+      {
+        heading: "The requirements have changed since the house was built",
+        body: [
+          "This is the central issue in a Sunshine Coast rebuild. Bushfire hazard mapping, flood mapping and energy efficiency requirements have all been introduced or tightened since much of the region's older housing was constructed.",
+          "A house built in 1978 on a bushland-fringe block was built to no bushfire standard at all. The replacement will be assessed for a Bushfire Attack Level under AS 3959, and the resulting rating drives requirements for glazing, decks, screens, eaves and cladding.",
+          "Similarly, a low-lying block may now carry a minimum habitable floor level that the existing house sits below. The replacement has to meet it, which changes the slab height, the driveway grade and sometimes the whole structural approach.",
+          "None of this makes a rebuild a bad idea. It does mean the budget has to reflect current requirements rather than the cost of replacing what is there.",
+        ],
+      },
+      {
+        heading: "What demolition involves",
+        body: [
+          "Service disconnections for power, water, sewer and gas have to be arranged and certified before demolition starts. Asbestos is very likely in a house from this era — commonly in eaves, wet area sheeting and sometimes flooring — and requires licensed removal and disposal with documentation.",
+          "Vegetation is a bigger factor here than in most regions. Protected trees may require approval to remove, and on bushland-fringe blocks the vegetation is also what drives the bushfire rating, so clearing decisions interact with construction requirements.",
+          "Access varies enormously. A flat coastal block with a wide driveway is straightforward. A steep hinterland block with a long approach means machinery access has to be planned rather than assumed.",
+        ],
+      },
+      {
+        heading: "Rebuilding to suit the site properly",
+        body: [
+          "The advantage of a rebuild over the original house is that you can finally use the site as it deserves. Older Sunshine Coast houses frequently ignore their own orientation, put living areas on the wrong side, and waste the outlook entirely.",
+          "North-facing living, deep eaves, protected western glazing and a plan that lets the sea breeze through will make the replacement dramatically more comfortable than what it replaced, at no extra construction cost.",
+          "On coastal blocks, corrosion protection needs specifying for salt exposure throughout — fixings, hardware, roof sheeting, balustrades and structural connections. This is a specification decision at design stage, not a substitution on site.",
+        ],
+      },
+      {
+        heading: "Rebuild or renovate",
+        body: [
+          "Where the existing house sits below a current required flood level, renovation becomes much less attractive, because you would be investing in a structure that does not meet the standard the replacement would.",
+          "Where the structure is sound, the level is compliant and the layout can be reworked without moving everything, renovation may well be the better project. We will say so.",
+          "The common trap on 1970s and 1980s coastal housing is corrosion in fixings and frames that is invisible until you open the building up. That discovery mid-renovation is what turns a renovation budget into a rebuild budget without any of the rebuild benefits.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Current requirements priced",
+        body: "Bushfire rating and flood level assessed against today's standards, not the old house's.",
+      },
+      {
+        title: "Demolition under one contract",
+        body: "Disconnections, licensed asbestos removal and vegetation approvals handled with the rebuild.",
+      },
+      {
+        title: "Site finally used properly",
+        body: "Orientation, breeze and outlook designed for, which most original houses here ignored.",
+      },
+      {
+        title: "Coastal specification",
+        body: "Corrosion protection rated for actual salt exposure across the whole build.",
+      },
+    ],
+    suburbs: [
+      "Caloundra & Currimundi",
+      "Maroochydore & Alexandra Headland",
+      "Buderim & Mountain Creek",
+      "Mooloolaba & Buddina",
+      "Coolum Beach & Marcoola",
+      "Nambour & Woombye",
+      "Palmwoods & Eudlo",
+      "Sippy Downs",
+      "Beerwah & Landsborough",
+    ],
+    faqs: [
+      {
+        question: "Will my rebuild have to meet bushfire requirements the old house did not?",
+        answer:
+          "Very likely, if a bushfire hazard overlay applies. The site is assessed for a Bushfire Attack Level under AS 3959 and that rating sets requirements for glazing, decks, screens, eaves and cladding. Older houses were built before these requirements existed.",
+      },
+      {
+        question: "How long does a knockdown rebuild take here?",
+        answer:
+          "Allow roughly two to four months for demolition approval and demolition, plus design and building approval, then nine to fourteen months of construction. Bushfire assessment, asbestos removal and vegetation approvals are the usual front-end variables.",
+      },
+      {
+        question: "Do I need approval to remove trees?",
+        answer:
+          "Often yes. Protected vegetation requires approval to remove, and on bushland-fringe blocks the vegetation also drives the bushfire rating, so clearing and construction requirements interact. We check both before design.",
+      },
+      {
+        question: "Is rebuilding better than renovating a 1980s coastal house?",
+        answer:
+          "Frequently, because corrosion in fixings and framing on older coastal housing is often invisible until you open it up, and because flood and bushfire requirements have changed. Where the structure is genuinely sound, we will tell you renovating is the better project.",
+      },
+      {
+        question: "Do you handle the demolition?",
+        answer:
+          "Yes — service disconnections, licensed asbestos removal, vegetation approvals and demolition, all under the same contract as the rebuild.",
+      },
+    ],
+    parentServiceHref: "/services/new-home-builds",
+    parentServiceName: "New Home Builds",
+  },
+  {
+    locationSlug: "gold-coast",
+    serviceSlug: "renovations",
+    locationName: "Gold Coast",
+    serviceName: "Home Renovations",
+    region: "Gold Coast",
+    metaTitle: "Home Renovations Gold Coast | Design Homes",
+    metaDescription:
+      "Renovation and extension builders on the Gold Coast. Structural renovations, coastal corrosion repair and fixed-price contracts. QBCC licensed.",
+    keywords: [
+      "home renovations Gold Coast",
+      "renovation builders Gold Coast",
+      "house extension Gold Coast",
+      "home extension Gold Coast",
+      "apartment renovation Gold Coast",
+      "structural renovation Gold Coast",
+    ],
+    heroTitle: "Home Renovations on the",
+    heroHighlight: "Gold Coast",
+    heroDescription:
+      "Extensions, structural renovations and full transformations across the Gold Coast — investigated before contract, so what is behind the walls does not become a variation.",
+    heroImage: "/assets/images/stock/home-entry-detail.jpg",
+    intro: [
+      "Gold Coast renovation has one characteristic that inland work does not: a large share of the housing stock has spent decades in salt air, and what that does to a building is not visible from the outside.",
+      "That makes investigation before contract more important here than almost anywhere. We open up and inspect before pricing rather than quoting optimistically and issuing variations once the walls are off.",
+    ],
+    sections: [
+      {
+        heading: "What salt air does over forty years",
+        body: [
+          "Corrosion is the defining issue in older Gold Coast housing. Fixings, structural connections, roof sheeting, balustrade fixings, window and door hardware and reinforcement in concrete all degrade at a rate that depends on distance from the water and how the original work was specified.",
+          "Much of the region's 1970s and 1980s housing was built to a standard that did not anticipate this. Galvanised fixings that would last indefinitely inland can be substantially degraded within sight of the beach.",
+          "The practical consequence for a renovation is that the scope frequently expands once the building is opened. A kitchen renovation becomes a structural repair when the wall behind it is opened and the framing connections have gone.",
+          "We inspect for this specifically before quoting. It is the single most common cause of Gold Coast renovation budgets doubling.",
+        ],
+      },
+      {
+        heading: "Concrete, balconies and balustrades",
+        body: [
+          "Concrete cancer — where reinforcement corrodes, expands and spalls the surrounding concrete — is common in older coastal buildings, particularly on balconies and exposed slab edges.",
+          "It is repairable, but the repair is specialised and the extent is rarely obvious until investigation. A balcony that looks tired may need structural remediation rather than a new tile finish.",
+          "Balustrades are the related safety item. Fixings corrode where they penetrate the slab, and a balustrade that feels solid can be poorly attached. On any coastal renovation involving a balcony, this should be checked as a matter of course.",
+        ],
+      },
+      {
+        heading: "Extensions and structural work",
+        body: [
+          "Connecting new to old means matching floor levels, tying in roof structure and dealing with an existing wall that may not be load-bearing where you assumed. Where the wall is structural, the answer is an engineered beam with supports carried down to adequate footings, which sometimes means new footings inside a finished house.",
+          "Where the extension increases the building footprint, setbacks, site cover and overlays apply as on a new build. On the Gold Coast that means checking flood and storm tide levels, because an addition generally has to meet the current required floor level even where the existing house does not.",
+          "That last point catches people out regularly. A ground-level rear extension on a low-lying block may have to sit noticeably higher than the floor it connects to.",
+        ],
+      },
+      {
+        heading: "How we contract renovation work",
+        body: [
+          "Fixed price where the scope can genuinely be defined, with a clearly stated contingency for what is behind the walls. We report what we find before acting on it, and price it in writing before proceeding.",
+          "A coastal renovation contract with no contingency at all is either carrying a hidden margin or set up to generate variations. A stated allowance is more honest and usually cheaper.",
+          "This is work that rewards an owner-run builder. Decisions have to be made on site, quickly, by someone with the authority to make them.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Corrosion investigated first",
+        body: "Fixings, connections and framing inspected before pricing, not discovered mid-job.",
+      },
+      {
+        title: "Concrete and balcony checks",
+        body: "Spalling and balustrade fixings assessed as standard on older coastal buildings.",
+      },
+      {
+        title: "Extension floor levels confirmed",
+        body: "New work generally has to meet current flood levels even where the old house does not.",
+      },
+      {
+        title: "Honest contingency",
+        body: "A stated allowance for hidden conditions rather than a variation trap.",
+      },
+    ],
+    suburbs: [
+      "Burleigh Heads & Miami",
+      "Palm Beach & Currumbin",
+      "Mermaid Beach & Broadbeach",
+      "Southport & Labrador",
+      "Main Beach & Surfers Paradise",
+      "Robina & Varsity Lakes",
+      "Runaway Bay & Paradise Point",
+      "Nerang & Carrara",
+      "Coolangatta & Tugun",
+    ],
+    faqs: [
+      {
+        question: "Why do Gold Coast renovations so often go over budget?",
+        answer:
+          "Corrosion. Decades of salt air degrade fixings, structural connections and reinforcement in ways that are invisible until the building is opened. A cosmetic renovation becomes a structural repair. We investigate for this specifically before quoting.",
+      },
+      {
+        question: "What is concrete cancer and should I be worried?",
+        answer:
+          "It is where reinforcement inside concrete corrodes, expands and cracks the surrounding concrete. It is common on older coastal balconies and exposed slab edges. It is repairable but the repair is specialised, and the extent is rarely obvious without investigation.",
+      },
+      {
+        question: "Will my extension have to sit higher than the existing house?",
+        answer:
+          "On a low-lying block, quite possibly. New work generally has to meet the current required minimum habitable floor level even where the existing house predates it. We confirm the level before design.",
+      },
+      {
+        question: "Do I need approval for a renovation?",
+        answer:
+          "Structural work, extensions and anything changing the building footprint generally need building approval, and often development approval. We confirm what applies to your address before design.",
+      },
+      {
+        question: "Can you renovate a unit or townhouse?",
+        answer:
+          "Yes, though body corporate approval is required for anything affecting common property or the building exterior, and that process should start early because it can take time.",
+      },
+    ],
+    parentServiceHref: "/services/renovations",
+    parentServiceName: "Renovations",
+  },
+  {
+    locationSlug: "sunshine-coast",
+    serviceSlug: "renovations",
+    locationName: "Sunshine Coast",
+    serviceName: "Home Renovations",
+    region: "Sunshine Coast",
+    metaTitle: "Home Renovations Sunshine Coast | Design Homes",
+    metaDescription:
+      "Renovation and extension builders on the Sunshine Coast. Structural renovations, extensions and full transformations on fixed-price contracts. QBCC licensed.",
+    keywords: [
+      "home renovations Sunshine Coast",
+      "renovation builders Sunshine Coast",
+      "house extension Sunshine Coast",
+      "renovation Buderim",
+      "renovation Caloundra",
+      "home extension Maroochydore",
+    ],
+    heroTitle: "Home Renovations on the",
+    heroHighlight: "Sunshine Coast",
+    heroDescription:
+      "Extensions and structural renovations from the coast to the hinterland — scoped properly before contract, with the conditions behind the walls investigated first.",
+    heroImage: "/assets/images/stock/home-entry-detail.jpg",
+    intro: [
+      "Much of the Sunshine Coast's housing stock was built for a different purpose than it now serves. Holiday houses from the 1970s and 1980s are now permanent family homes, and the mismatch between how they were designed and how they are used is what most renovations here are trying to fix.",
+      "That usually means opening up the plan, connecting living space to outdoors properly, and dealing with a building envelope that was never insulated or oriented with year-round living in mind.",
+    ],
+    sections: [
+      {
+        heading: "The holiday-house problem",
+        body: [
+          "Houses built as holiday accommodation were designed for short stays in good weather. They tend to have small windows in the wrong places, minimal or no insulation, poor cross-ventilation, and living areas that ignore the aspect entirely.",
+          "The highest-value renovation moves are usually environmental rather than cosmetic: reorienting living space toward the north, adding proper eaves or shading, insulating the roof and walls, and creating a genuine indoor-outdoor connection.",
+          "These changes do far more for how the house feels to live in than a new kitchen does, and they reduce running costs permanently. A kitchen in a hot, dark, poorly ventilated house is still in a hot, dark, poorly ventilated house.",
+        ],
+      },
+      {
+        heading: "What we usually find",
+        body: [
+          "Asbestos in anything built before the late 1980s, typically in eaves and wet area sheeting, requiring licensed removal with documentation. Termite damage in timber framing, particularly in the hinterland and anywhere with subfloor moisture.",
+          "Previous unapproved work is common in this region — enclosed carports, added rooms, converted subfloor space — done without approval and often without engineering. Each instance has to be assessed and frequently corrected as part of the renovation.",
+          "Undersized electrical switchboards with no capacity for modern loads, failing plumbing, and no insulation whatsoever round out the usual list.",
+        ],
+      },
+      {
+        heading: "Extensions, overlays and approvals",
+        body: [
+          "Where an extension increases the footprint, setbacks, site cover and overlays apply as they would on a new build. On the Sunshine Coast that most often means bushfire on bushland-fringe and hinterland blocks, and flood on low-lying coastal land.",
+          "Where a bushfire hazard overlay applies, new work may need to meet requirements under AS 3959 that the existing house does not. That affects glazing, decks, screens, eaves and cladding on the addition.",
+          "It is also worth confirming which council assesses your block — Noosa Shire is a separate local government area with its own planning scheme, and the provisions differ from Sunshine Coast Council's.",
+        ],
+      },
+      {
+        heading: "How we contract this work",
+        body: [
+          "Fixed price where the scope can genuinely be defined, with a clearly stated contingency for hidden conditions. We report what we find before acting on it and price it in writing before proceeding.",
+          "Renovation is the least standardised work in residential construction. Nothing is square, dimensions vary across a single room, and the surprises are structural rather than cosmetic.",
+          "That is why it suits a builder who is on site rather than running the job from a schedule. Harj runs our sites, so decisions come from someone who has seen the actual condition.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Environmental fixes first",
+        body: "Orientation, shading, insulation and ventilation before cosmetic upgrades.",
+      },
+      {
+        title: "Unapproved work assessed",
+        body: "Enclosed carports and converted subfloors identified and corrected properly.",
+      },
+      {
+        title: "Bushfire rules on new work",
+        body: "Additions may need to meet AS 3959 requirements the existing house never did.",
+      },
+      {
+        title: "Right council confirmed",
+        body: "Sunshine Coast or Noosa Shire — different schemes, checked before design.",
+      },
+    ],
+    suburbs: [
+      "Buderim & Mountain Creek",
+      "Caloundra & Currimundi",
+      "Maroochydore & Alexandra Headland",
+      "Mooloolaba & Buddina",
+      "Coolum Beach & Peregian",
+      "Nambour & Woombye",
+      "Palmwoods & Eudlo",
+      "Maleny & Montville",
+      "Sippy Downs & Chevallum",
+    ],
+    faqs: [
+      {
+        question: "What is the highest-value renovation on an older coastal house?",
+        answer:
+          "Usually the environmental work rather than the cosmetic work — reorienting living space, adding shading and eaves, insulating properly, and creating a real indoor-outdoor connection. These change how the house feels year-round and reduce running costs permanently.",
+      },
+      {
+        question: "Will you find asbestos?",
+        answer:
+          "In anything built before the late 1980s, very likely, commonly in eaves and wet area sheeting. It requires licensed removal and disposal with documentation, which we establish and price before demolition begins.",
+      },
+      {
+        question: "What if previous work was done without approval?",
+        answer:
+          "It is common here — enclosed carports, added rooms, converted subfloor space. Each instance has to be assessed and frequently corrected or approved retrospectively as part of the renovation. We identify it during investigation, before contract.",
+      },
+      {
+        question: "Do bushfire requirements apply to an extension?",
+        answer:
+          "Where a bushfire hazard overlay applies, new work may need to meet AS 3959 requirements the existing house never did. That affects glazing, decks, screens, eaves and cladding on the addition. We check before design.",
+      },
+      {
+        question: "Is my block assessed by Sunshine Coast Council or Noosa?",
+        answer:
+          "Noosa Shire is a separate local government area with its own planning scheme and different provisions. We confirm which applies to your address before anything else.",
+      },
+    ],
+    parentServiceHref: "/services/renovations",
+    parentServiceName: "Renovations",
+  },
+  {
+    locationSlug: "logan",
+    serviceSlug: "custom-builds",
+    locationName: "Logan",
+    serviceName: "Custom Home Builds",
+    region: "Logan & Redlands",
+    metaTitle: "Custom Home Builders Logan | Design Homes",
+    metaDescription:
+      "QBCC licensed custom home builders in Logan. Acreage, sloping and larger-lot builds designed around the site, on fixed-price contracts.",
+    keywords: [
+      "custom home builders Logan",
+      "custom builder Logan",
+      "acreage builders Logan",
+      "custom home Jimboomba",
+      "sloping block builders Logan",
+      "architectural builders Logan",
+    ],
+    heroTitle: "Custom Home Builders in",
+    heroHighlight: "Logan",
+    heroDescription:
+      "One-off homes on Logan's larger and rural-residential blocks — where the land finally leaves enough budget to build the house properly.",
+    heroImage: "/assets/images/stock/home-luxury-landscape.jpg",
+    intro: [
+      "Logan is where a custom build becomes affordable for people who could not justify one closer to Brisbane. Land here costs less per square metre than the inner and middle ring, and rural-residential blocks around Jimboomba, Park Ridge, Cedar Grove and Munruben offer genuine acreage within commuting distance.",
+      "That changes the arithmetic. Money that would have gone entirely into land in Brisbane can go into the building instead, which is the situation where a one-off home makes obvious sense.",
+    ],
+    sections: [
+      {
+        heading: "Larger blocks change what is worth designing",
+        body: [
+          "On a 400-square-metre suburban lot, the design problem is fitting a house onto the block. On a 4,000-square-metre rural-residential block, the problem is choosing where on the site the house should go, and that is a much better problem.",
+          "Siting decisions on a larger block have real consequences: aspect and northern sun, prevailing breeze, the outlook, distance from the road and its noise, the driveway length, and where the wastewater land application area can sit.",
+          "This is where a custom approach earns its money. A standard plan dropped anywhere on a large block wastes most of what you paid for.",
+        ],
+      },
+      {
+        heading: "Rural-residential services",
+        body: [
+          "Many Logan acreage blocks sit outside reticulated water and sewer. That means rainwater tanks sized to the roof catchment, household demand and any firefighting requirement, plus an on-site wastewater treatment system designed for the soil and the available land.",
+          "The wastewater land application area has to be genuinely available — clear of the building, driveway, tanks and any protected vegetation. On a constrained block it can influence where the house goes, which is another reason to establish it before design.",
+          "Power connection distance matters too. Where the connection point is far from the building envelope, extending supply is a real cost and a standalone system is sometimes the better answer.",
+        ],
+      },
+      {
+        heading: "Site conditions across the area",
+        body: [
+          "Soil classification under AS 2870 determines the footing system, and reactive clay is present across parts of Logan. Uncontrolled fill from earlier subdivision is a specific risk in some suburbs and requires either removal or a footing system designed to span it.",
+          "Bushfire hazard overlays apply through the more rural western and southern parts of the area, triggering a BAL assessment under AS 3959 with construction requirements attached. On acreage these can also extend to access width and gradient, and a dedicated firefighting water supply.",
+          "Flood mapping applies along the Logan and Albert Rivers and their tributaries. Where it applies, minimum habitable floor levels are set.",
+        ],
+      },
+      {
+        heading: "Designing for an inland climate",
+        body: [
+          "Logan runs hotter than the coast. It is further from the moderating sea breeze and the summer difference is noticeable, which makes orientation, shading and insulation more valuable here, not less.",
+          "North-facing living areas, deep eaves, protected western glazing and cross-ventilation through the plan do the work that an air conditioner otherwise does continuously.",
+          "New homes in Queensland meet a raised energy performance standard under the National Construction Code. Meeting it through design costs nothing at the drawing stage and keeps paying every summer afterwards — which matters more on a hot western block than almost anywhere.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Siting as a design decision",
+        body: "On acreage, where the house sits matters more than the floor plan does.",
+      },
+      {
+        title: "Rural services designed",
+        body: "Rainwater, on-site wastewater, power and driveway access costed before construction.",
+      },
+      {
+        title: "Fill and bushfire checked",
+        body: "Uncontrolled fill and BAL rating established before footings and design.",
+      },
+      {
+        title: "Built for inland heat",
+        body: "Orientation, eaves and insulation carrying the load instead of the air conditioner.",
+      },
+    ],
+    suburbs: [
+      "Jimboomba & Cedar Grove",
+      "Park Ridge & Munruben",
+      "Chambers Flat & Logan Reserve",
+      "Greenbank & New Beith",
+      "Cornubia & Carbrook",
+      "Daisy Hill & Shailer Park",
+      "Springwood & Rochedale South",
+      "Veresdale & Undullah",
+      "Stockleigh & Flagstone",
+    ],
+    faqs: [
+      {
+        question: "Do you build on acreage in Logan?",
+        answer:
+          "Yes. Acreage builds need rainwater supply, an on-site wastewater treatment system, driveway access suitable for heavy deliveries and sometimes a power supply extension. We design and cost all of it before construction rather than treating it as extras.",
+      },
+      {
+        question: "Why build custom in Logan rather than use a volume builder?",
+        answer:
+          "On a flat suburban lot with a standard plan, a volume builder will often beat us on price and we will say so. On a larger or rural-residential block, where siting, aspect, slope and services all matter, a standard plan wastes most of what the land offers.",
+      },
+      {
+        question: "Are there bushfire requirements?",
+        answer:
+          "In the more rural western and southern parts, yes. A BAL assessment under AS 3959 sets construction requirements, and on acreage it can also affect access width and gradient and require a dedicated firefighting water supply.",
+      },
+      {
+        question: "What is uncontrolled fill?",
+        answer:
+          "Fill placed during earlier subdivision without engineering control or documentation. Building on it requires either removal or a footing system designed to span it. A geotechnical investigation identifies it before design.",
+      },
+      {
+        question: "How much does a custom home cost in Logan?",
+        answer:
+          "Land is generally cheaper than comparable Brisbane sites, which leaves more budget for the house. Build cost varies with soil classification, fill, bushfire rating, slope, services and access, so we check the site before quoting.",
+      },
+    ],
+    parentServiceHref: "/services/custom-builds",
+    parentServiceName: "Custom Builds",
+  },
+  {
+    locationSlug: "ipswich",
+    serviceSlug: "custom-builds",
+    locationName: "Ipswich",
+    serviceName: "Custom Home Builds",
+    region: "Ipswich & West Moreton",
+    metaTitle: "Custom Home Builders Ipswich | Design Homes",
+    metaDescription:
+      "QBCC licensed custom home builders in Ipswich. Acreage and larger-lot builds, character housing, flood-aware design and fixed-price contracts.",
+    keywords: [
+      "custom home builders Ipswich",
+      "custom builder Ipswich",
+      "acreage builders Ipswich",
+      "custom home Karalee",
+      "builders Brookwater",
+      "architectural builders Ipswich",
+    ],
+    heroTitle: "Custom Home Builders in",
+    heroHighlight: "Ipswich",
+    heroDescription:
+      "One-off homes across Ipswich and West Moreton — where affordable land leaves room in the budget to build something designed for the site rather than the catalogue.",
+    heroImage: "/assets/images/stock/home-luxury-twilight.jpg",
+    intro: [
+      "Ipswich land prices are among the most accessible in South East Queensland, and that creates an unusual opportunity: a custom home here can cost less in total than a standard house-and-land package closer to Brisbane.",
+      "It also has genuine character housing stock in the older parts of the city, and rural-residential land at Karalee, Barellan Point, Chuwar and further west that suits acreage building within commuting distance.",
+    ],
+    sections: [
+      {
+        heading: "Confirm which authority assesses your block",
+        body: [
+          "This is the first check on any Ipswich site. Most of the area is assessed under the Ipswich planning scheme by the city council, but the Ripley Valley is a Priority Development Area assessed under a development scheme administered by Economic Development Queensland.",
+          "The requirements, the process and the timeframes differ. Assuming the wrong one produces a design that has to be reworked and a program that slips.",
+          "Getting this right at the start costs nothing. Getting it wrong after paying for design is an expensive way to learn how Queensland planning works.",
+        ],
+      },
+      {
+        heading: "Flood is the design constraint here",
+        body: [
+          "Ipswich has a long and well-documented flood history, and flood overlays associated with the Bremer River and its tributaries apply across parts of the area. Where they apply, a minimum habitable floor level is set.",
+          "On a custom build that level is a design input rather than an obstacle. An elevated house with non-habitable uses at ground level, living above, and a proper relationship to the driveway can be a considerably better house than a slab-on-ground alternative would have been.",
+          "It also affects insurance and how buyers assess the property later, so building comfortably above the required level rather than exactly at it is often worth the extra cost.",
+        ],
+      },
+      {
+        heading: "Acreage and rural-residential building",
+        body: [
+          "Blocks at Karalee, Barellan Point, Chuwar and further west frequently sit outside reticulated services. That means rainwater tanks sized to catchment and demand, and an on-site wastewater treatment system designed for the soil and available land.",
+          "Driveway access is the cost most often underestimated. A long approach over sloping ground needs grading, drainage, and a surface that carries a concrete truck rather than a car.",
+          "Soil classification under AS 2870 still applies. Reactive clay is common through the area and an engineered footing system costs substantially more than a conventional slab, so the test happens before design.",
+        ],
+      },
+      {
+        heading: "Designing for a hot inland summer",
+        body: [
+          "Ipswich is further inland than the rest of South East Queensland and it runs hotter. Summer temperatures here are consistently above the coastal averages, which makes passive design more valuable rather than less.",
+          "North-facing living, generous eaves, well-protected western glazing, good insulation and cross-ventilation do most of the work. Getting the orientation right costs nothing at the drawing stage.",
+          "The alternative — a poorly oriented house meeting the energy standard through equipment — complies on paper and costs you every summer for the life of the building.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Right authority identified",
+        body: "Council scheme or Ripley Valley PDA confirmed before any design work begins.",
+      },
+      {
+        title: "Flood level as a design input",
+        body: "An elevated house designed around the required level, not fighting it.",
+      },
+      {
+        title: "Rural services costed",
+        body: "Rainwater, on-site wastewater and driveway access designed before construction.",
+      },
+      {
+        title: "Built for inland heat",
+        body: "Orientation and shading doing the work in the hottest part of South East Queensland.",
+      },
+    ],
+    suburbs: [
+      "Karalee & Barellan Point",
+      "Chuwar & Muirlea",
+      "Brookwater & Augustine Heights",
+      "Springfield & Springfield Lakes",
+      "Ripley & South Ripley",
+      "Yamanto & Deebing Heights",
+      "Brassall & Pine Mountain",
+      "Walloon & Thagoona",
+      "Rosewood & Marburg",
+    ],
+    faqs: [
+      {
+        question: "Who assesses my Ipswich building application?",
+        answer:
+          "Most of the area is assessed by Ipswich City Council under the city planning scheme, but the Ripley Valley is a Priority Development Area assessed under a development scheme administered by Economic Development Queensland. We confirm which applies before design.",
+      },
+      {
+        question: "Can I build on a flood-affected block?",
+        answer:
+          "Usually yes, to a minimum habitable floor level set by the overlay. On a custom build that level is a design input — an elevated house with living above and non-habitable uses below can be a better house than a slab-on-ground alternative.",
+      },
+      {
+        question: "Do you build on acreage around Ipswich?",
+        answer:
+          "Yes, including Karalee, Barellan Point, Chuwar and further west. Acreage builds need rainwater supply, an on-site wastewater system and driveway access suitable for heavy deliveries, all designed and costed before construction.",
+      },
+      {
+        question: "Is a custom home affordable in Ipswich?",
+        answer:
+          "More so than almost anywhere else in South East Queensland, because land costs less and leaves more of the budget for the building. A custom home here can total less than a standard package closer to Brisbane.",
+      },
+      {
+        question: "How hot does it get compared to the coast?",
+        answer:
+          "Consistently hotter, because Ipswich is inland and away from the moderating sea breeze. That makes orientation, eaves, insulation and cross-ventilation more valuable here, not less, and they cost nothing extra at design stage.",
+      },
+    ],
+    parentServiceHref: "/services/custom-builds",
+    parentServiceName: "Custom Builds",
+  },
+  {
+    locationSlug: "moreton-bay",
+    serviceSlug: "custom-builds",
+    locationName: "Moreton Bay",
+    serviceName: "Custom Home Builds",
+    region: "Moreton Bay",
+    metaTitle: "Custom Home Builders Moreton Bay | Design Homes",
+    metaDescription:
+      "QBCC licensed custom home builders across Moreton Bay. Bayside, acreage and hinterland builds designed around the site, on fixed-price contracts.",
+    keywords: [
+      "custom home builders Moreton Bay",
+      "custom builder North Lakes",
+      "acreage builders Samford",
+      "custom home Redcliffe",
+      "builders Dayboro",
+      "architectural builders Moreton Bay",
+    ],
+    heroTitle: "Custom Home Builders across",
+    heroHighlight: "Moreton Bay",
+    heroDescription:
+      "One-off homes from the bayside peninsula to the Samford and Dayboro hinterland — designed around the site, its aspect and its constraints.",
+    heroImage: "/assets/images/stock/villa-luxury-modern.jpg",
+    intro: [
+      "Moreton Bay covers an unusually wide range of building conditions for a single local government area. The Redcliffe peninsula is coastal and established. The northern corridor is flat, serviced estate land. Samford, Dayboro and the western hinterland are acreage with slope, bushfire and rural services.",
+      "A standard plan can work in one of those three. It rarely works in the other two, which is why custom building here is more common than the volume-heavy housing statistics suggest.",
+    ],
+    sections: [
+      {
+        heading: "Bayside sites",
+        body: [
+          "On the peninsula around Redcliffe, Scarborough, Margate and Woody Point, the constraints are salt exposure, wind rating and, on low-lying land, flood and storm tide levels.",
+          "Corrosion protection has to be specified throughout for fixings, hardware, roof sheeting, balustrades and structural connections, matched to the actual distance from the water. This is a design-stage decision, not a substitution on site.",
+          "These are also generally older, smaller blocks with existing houses, which means demolition, licensed asbestos removal and neighbours a few metres away. They reward a custom approach because a standard plan rarely suits an established block with its own levels and mature trees.",
+        ],
+      },
+      {
+        heading: "Acreage in the western hinterland",
+        body: [
+          "Samford, Dayboro, Closeburn, Mount Nebo and the surrounding areas offer genuine acreage within reach of Brisbane, on land with slope, vegetation and outlooks worth designing for.",
+          "Rural services apply: rainwater tanks sized to catchment, demand and any firefighting requirement, plus an on-site wastewater treatment system designed for the soil and the available land application area.",
+          "Bushfire hazard overlays apply across much of this country, triggering a BAL assessment under AS 3959. That rating drives glazing, deck, screen, eave and cladding requirements, and can also impose access standards so a fire appliance can reach and turn.",
+          "Access is the other acreage cost. If a concrete truck cannot climb the driveway, the answer is pumping, smaller loads or an upgraded track, and each costs money per delivery.",
+        ],
+      },
+      {
+        heading: "Site conditions to establish first",
+        body: [
+          "Soil classification under AS 2870 determines the footing system and varies widely across the region. Reactive clay is present in parts, and an engineered footing costs substantially more than a conventional slab.",
+          "Flood mapping applies around the bay and through the Caboolture River catchment, setting minimum habitable floor levels where it applies.",
+          "Vegetation protection applies in parts of the area and can restrict clearing, which on a treed hinterland block may determine the building envelope before any design work happens.",
+          "All of it is visible on the council property report, and all of it belongs in the first estimate rather than the final invoice.",
+        ],
+      },
+      {
+        heading: "Designing for the site you bought",
+        body: [
+          "People buy acreage and bayside blocks for a reason — the outlook, the trees, the breeze, the water. The most common failure is a house that ignores all of it.",
+          "Siting on a larger block is the highest-value decision in the project: where the northern sun falls, where the breeze comes from, what the outlook is, how far from the road, and where the wastewater application area can sit.",
+          "On the peninsula the equivalent decision is orientation against a small block and close neighbours, which needs careful thought about privacy, light and where the outdoor space actually works.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Three very different conditions",
+        body: "Bayside, corridor and hinterland need genuinely different designs, not one plan.",
+      },
+      {
+        title: "Coastal specification",
+        body: "Corrosion protection and wind rating matched to actual peninsula exposure.",
+      },
+      {
+        title: "Acreage services designed",
+        body: "Rainwater, on-site wastewater, BAL rating and driveway access costed up front.",
+      },
+      {
+        title: "Siting done properly",
+        body: "On a large block, where the house sits decides more than the floor plan does.",
+      },
+    ],
+    suburbs: [
+      "Samford & Closeburn",
+      "Dayboro & Mount Nebo",
+      "Redcliffe & Scarborough",
+      "Margate & Woody Point",
+      "North Lakes & Mango Hill",
+      "Albany Creek & Eatons Hill",
+      "Narangba & Burpengary",
+      "Petrie & Kallangur",
+      "Caboolture & Wamuran",
+    ],
+    faqs: [
+      {
+        question: "Do you build acreage around Samford and Dayboro?",
+        answer:
+          "Yes. Those blocks need rainwater supply, an on-site wastewater treatment system, a BAL assessment where bushfire overlays apply, and driveway access suitable for concrete and crane deliveries. We design and cost all of it before construction.",
+      },
+      {
+        question: "What is different about building on the Redcliffe peninsula?",
+        answer:
+          "Salt exposure, wind rating and, on low-lying land, flood and storm tide levels. Corrosion protection has to be specified throughout at design stage. Most peninsula projects also involve demolition of an existing house, which we handle under the same contract.",
+      },
+      {
+        question: "Will vegetation rules affect where I can build?",
+        answer:
+          "On treed hinterland blocks, often yes. Vegetation protection can restrict clearing and effectively determine the building envelope before design begins. We check the council property report first.",
+      },
+      {
+        question: "How much does a custom home cost in Moreton Bay?",
+        answer:
+          "The site drives it more than the floor area. Soil classification, bushfire rating, required flood level, slope, rural services and access can each move the number materially. We give a realistic range after assessing the block.",
+      },
+      {
+        question: "Should I use a volume builder in the northern estates?",
+        answer:
+          "On a flat, serviced estate block with a standard plan that genuinely suits you, quite possibly, and we will say so. On acreage, bayside or any block with real constraints, a modified standard plan usually costs more than a purpose-designed one.",
+      },
+    ],
+    parentServiceHref: "/services/custom-builds",
+    parentServiceName: "Custom Builds",
+  },
+  {
+    locationSlug: "redland",
+    serviceSlug: "duplex-townhouses",
+    locationName: "Redlands",
+    serviceName: "Duplex & Townhouse Builds",
+    region: "Redland City",
+    metaTitle: "Duplex Builders Redlands | Design Homes",
+    metaDescription:
+      "QBCC licensed duplex and townhouse builders in Redland City. Dual occupancy feasibility, vegetation and koala overlay checks, and fixed-price builds.",
+    keywords: [
+      "duplex builders Redlands",
+      "dual occupancy Redland City",
+      "townhouse builders Cleveland",
+      "duplex Capalaba",
+      "duplex Victoria Point",
+      "investment builders Redlands",
+    ],
+    heroTitle: "Duplex & Townhouse Builders in",
+    heroHighlight: "Redlands",
+    heroDescription:
+      "Dual occupancy across Redland City — with the vegetation and koala habitat constraints checked before design, because they decide the building envelope.",
+    heroImage: "/assets/images/stock/townhouse-construction-new.jpg",
+    intro: [
+      "Redland City is a harder place to build a duplex than its neighbours, and the reason is trees. Vegetation protection and koala habitat overlays apply across parts of the local government area, and on a two-dwelling project they constrain the building envelope in ways that can decide whether the site works at all.",
+      "That is not a reason to avoid the area. It is a reason to do the overlay work before you buy, because a Redlands block that clears these checks is a good place to build.",
+    ],
+    sections: [
+      {
+        heading: "Vegetation and koala habitat come first",
+        body: [
+          "On a single dwelling, vegetation constraints shape where the house sits. On a duplex they can determine whether two dwellings, their private open space, their parking and their driveway fit at all.",
+          "Where the overlays apply, clearing is restricted, and the retained vegetation has to be worked around rather than through. That interacts directly with the site cover, deep planting and private open space requirements the planning scheme imposes on dual occupancy.",
+          "This check comes before zone, before frontage, before anything. It is visible on the council property report and it costs nothing.",
+        ],
+      },
+      {
+        heading: "Then the standard feasibility checks",
+        body: [
+          "Zone and the dual occupancy provisions applying to the site — minimum lot size, frontage, site cover, setbacks, private open space, deep planting and car parking. Frontage rules out more sites than area does.",
+          "Sewer alignment across the block, because building over or near a main requires approval and specific measures, and relocating one can end a project. Stormwater discharge next, because every site needs a legal discharge point and the answer sometimes involves an easement over a neighbour's land.",
+          "Then water meter sizing and electrical supply capacity, since two dwellings need more of both than one, and in older Redlands suburbs the existing infrastructure does not always deliver it without an upgrade.",
+        ],
+      },
+      {
+        heading: "Bayside site conditions",
+        body: [
+          "Proximity to Moreton Bay means salt exposure, and corrosion protection has to be specified for fixings, hardware, roof sheeting and structural connections across both dwellings, matched to the actual distance from the water.",
+          "Low-lying land carries flood and storm tide mapping. Where overlays apply, minimum habitable floor levels are set for both dwellings, affecting slab height, driveway grade and sometimes the structural approach.",
+          "Soil classification under AS 2870 determines the footing system, and conditions vary across the city. It should be established by test rather than carried over from a neighbouring project.",
+        ],
+      },
+      {
+        heading: "Designing for the local market",
+        body: [
+          "Redlands attracts a mix of families and downsizers, and dual occupancy here frequently performs better aimed at owner-occupier downsizers than at pure rental yield. That means single-level living where the site allows, level thresholds, genuine storage and real private outdoor space.",
+          "Retained mature vegetation, which starts as a constraint, is a genuine asset in this market. A duplex with established trees and real shade sells better than one on a cleared block, and it is worth designing around rather than merely working around.",
+          "Acoustic separation between dwellings matters more for downsizer buyers than for tenants, because they have usually owned a detached house and notice it immediately.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Overlays checked before anything",
+        body: "Vegetation and koala habitat constraints decide whether two dwellings fit at all.",
+      },
+      {
+        title: "Services confirmed early",
+        body: "Sewer alignment, stormwater discharge and supply capacity verified before design.",
+      },
+      {
+        title: "Bayside specification",
+        body: "Corrosion protection and flood levels applied across both dwellings.",
+      },
+      {
+        title: "Trees as an asset",
+        body: "Retained vegetation designed around, because this market pays for real shade.",
+      },
+    ],
+    suburbs: [
+      "Cleveland & Ormiston",
+      "Capalaba & Alexandra Hills",
+      "Victoria Point & Redland Bay",
+      "Thornlands & Wellington Point",
+      "Birkdale & Thorneside",
+      "Sheldon & Mount Cotton",
+      "Wynnum West & Lota",
+      "Carbrook & Redland Bay",
+      "Point Lookout & bay islands",
+    ],
+    faqs: [
+      {
+        question: "Will vegetation overlays stop me building a duplex?",
+        answer:
+          "Sometimes, and more often than on a single dwelling. Where vegetation protection or koala habitat overlays apply, retained trees plus the scheme's site cover, deep planting and private open space requirements can leave insufficient room for two dwellings. We check before you buy.",
+      },
+      {
+        question: "What size block do I need?",
+        answer:
+          "It depends on the zone and the provisions applying to your site, and in Redlands also on what vegetation has to be retained. Minimum lot size, frontage, site cover and parking all interact. Send the address and we will check the property report.",
+      },
+      {
+        question: "Should I build for tenants or downsizers?",
+        answer:
+          "In Redlands, owner-occupier downsizers frequently represent the better exit. That changes the design toward single-level living, level thresholds, genuine storage and strong acoustic separation. Decide before design, because it shapes the whole plan.",
+      },
+      {
+        question: "Do flood levels apply?",
+        answer:
+          "On low-lying land around the bay, yes. Minimum habitable floor levels apply to both dwellings and affect slab height, driveway grade and sometimes the structure. We confirm them before design.",
+      },
+      {
+        question: "Can I sell the two dwellings separately?",
+        answer:
+          "Often yes, but the title path has to be planned from the start because it affects the survey, the services layout and sometimes the structure. Tell us your intended exit before design begins.",
+      },
+    ],
+    parentServiceHref: "/services/duplex-townhouses",
+    parentServiceName: "Duplex & Townhouses",
+  },
+  {
+    locationSlug: "redland",
+    serviceSlug: "renovations",
+    locationName: "Redlands",
+    serviceName: "Home Renovations",
+    region: "Redland City",
+    metaTitle: "Home Renovations Redlands | Design Homes",
+    metaDescription:
+      "Renovation and extension builders in Redland City. Structural renovations, extensions and bayside repairs on fixed-price contracts. QBCC licensed.",
+    keywords: [
+      "home renovations Redlands",
+      "renovation builders Cleveland",
+      "house extension Redlands",
+      "renovation Capalaba",
+      "home extension Victoria Point",
+      "structural renovation Redland City",
+    ],
+    heroTitle: "Home Renovations in",
+    heroHighlight: "Redlands",
+    heroDescription:
+      "Extensions and structural renovations across Redland City — investigated before contract, with vegetation and bayside conditions accounted for from the start.",
+    heroImage: "/assets/images/stock/home-entry-detail.jpg",
+    intro: [
+      "Most Redlands housing dates from the growth decades of the 1970s through the 1990s, built on generous blocks with mature planting that has since become the suburb's defining feature. The houses have aged less well than the gardens.",
+      "The typical renovation here is about connecting a closed-off plan to the outdoor space that surrounds it, and dealing with a building envelope that was never insulated for year-round comfort.",
+    ],
+    sections: [
+      {
+        heading: "The Redlands renovation brief",
+        body: [
+          "Houses from this era tend to have small, separated rooms, living areas that face away from the best aspect, minimal insulation, and a poor connection to the garden — which on a Redlands block is usually the best thing the property has.",
+          "The highest-value work is generally opening the rear of the plan, creating a genuine covered outdoor living space, improving cross-ventilation and insulating properly.",
+          "Retained mature trees make this more rewarding here than in most places. A rear living space that opens onto established shade is a genuinely different house to live in, and it costs no more than a poorly placed one.",
+        ],
+      },
+      {
+        heading: "Vegetation constraints apply to renovations too",
+        body: [
+          "Where vegetation protection or koala habitat overlays apply, they affect extensions as well as new builds. An addition that requires removing a protected tree may need approval that is not granted.",
+          "Root zones matter as much as canopies. Excavating for footings close to a mature tree can damage it and may be restricted, which affects where an extension can physically go.",
+          "We check the overlays before design so the extension is planned around what has to stay, rather than redesigned after a refusal.",
+        ],
+      },
+      {
+        heading: "What we usually find",
+        body: [
+          "Asbestos in anything built before the late 1980s, typically in eaves and wet area sheeting, requiring licensed removal with documentation. Termite damage in timber framing, particularly where subfloor ventilation is poor or garden beds sit against the building.",
+          "Previous unapproved work — enclosed carports, added rooms, converted patios — is common and each instance has to be assessed and frequently corrected or approved retrospectively.",
+          "Undersized switchboards, failing plumbing and no insulation are the standard list. On bayside properties, corrosion in fixings and roof sheeting is added to it.",
+        ],
+      },
+      {
+        heading: "How we contract renovation work",
+        body: [
+          "Fixed price where the scope can genuinely be defined, with a clearly stated contingency for hidden conditions. We report what we find before acting on it and price it in writing before proceeding.",
+          "Where an extension increases the footprint, setbacks, site cover and overlays apply as on a new build, and on low-lying bayside land the new work generally has to meet the current required floor level even where the existing house does not.",
+          "Renovation is the work that most rewards a builder who is on site. Nothing in a forty-year-old house is square, and the decisions have to be made by someone who can see the actual condition.",
+        ],
+      },
+    ],
+    highlights: [
+      {
+        title: "Designed around the garden",
+        body: "Opening the plan to established planting is the highest-value move on these blocks.",
+      },
+      {
+        title: "Tree constraints checked",
+        body: "Protected canopies and root zones assessed before an extension is designed.",
+      },
+      {
+        title: "Hidden conditions investigated",
+        body: "Asbestos, termite damage and unapproved work found before contract, not after.",
+      },
+      {
+        title: "New work meets current levels",
+        body: "Bayside additions built to today's flood requirements even where the house predates them.",
+      },
+    ],
+    suburbs: [
+      "Cleveland & Ormiston",
+      "Alexandra Hills & Capalaba",
+      "Thornlands & Wellington Point",
+      "Victoria Point & Redland Bay",
+      "Birkdale & Thorneside",
+      "Sheldon & Mount Cotton",
+      "Wynnum West & Lota",
+      "Coochiemudlo & bay islands",
+      "Carbrook & Cornubia",
+    ],
+    faqs: [
+      {
+        question: "Can I extend if there are protected trees on my block?",
+        answer:
+          "Often yes, but the extension has to be planned around what must stay. Root zones matter as much as canopies, because excavating for footings near a mature tree can damage it and may be restricted. We check the overlays before design.",
+      },
+      {
+        question: "What is the highest-value renovation on a 1980s Redlands house?",
+        answer:
+          "Usually opening the rear of the plan to the garden, adding genuine covered outdoor living, improving cross-ventilation and insulating properly. On these blocks the established planting is the best asset the property has, and most original plans ignore it.",
+      },
+      {
+        question: "Will you find asbestos?",
+        answer:
+          "In anything built before the late 1980s, very likely — commonly in eaves and wet area sheeting. It requires licensed removal and disposal with documentation, established and priced before demolition begins.",
+      },
+      {
+        question: "Does my extension have to sit higher than the house?",
+        answer:
+          "On low-lying bayside land, possibly. New work generally has to meet the current required minimum habitable floor level even where the existing house predates that requirement. We confirm the level before design.",
+      },
+      {
+        question: "How do you price work you cannot see?",
+        answer:
+          "We investigate before contract — opening up where we can, inspecting framing, subfloor and services — then price on a fixed basis with a stated contingency for what remains hidden. Anything found is reported and priced in writing before we act on it.",
+      },
+    ],
+    parentServiceHref: "/services/renovations",
+    parentServiceName: "Renovations",
+  },
 ];
 
 export function getLocationService(locationSlug: string, serviceSlug: string) {

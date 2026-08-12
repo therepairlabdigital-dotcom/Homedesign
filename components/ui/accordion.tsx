@@ -56,7 +56,10 @@ function AccordionContent({
   return (
     <AccordionPrimitive.Panel
       data-slot="accordion-content"
-      className="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+      // keepMounted renders panel content into the HTML even when collapsed, so
+      // crawlers see the answers instead of just the questions.
+      keepMounted
+      className="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up data-closed:h-0"
       {...props}
     >
       <div

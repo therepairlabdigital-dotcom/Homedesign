@@ -8,6 +8,8 @@ import Link from "next/link";
 import { ArrowRight, Home, Building2, Wrench, Landmark, Hammer, Sofa } from "lucide-react";
 import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
+import ProseSection from "@/components/shared/ProseSection";
+import { pageProse } from "@/lib/page-content";
 import PageHero from "@/components/shared/PageHero";
 import CTABanner from "@/components/shared/CTABanner";
 
@@ -167,6 +169,8 @@ export default function ServicesPage() {
       </section>
 
       <CTABanner />
+      <ProseSection title={pageProse["services"].title} sections={pageProse["services"].sections} />
+
       <SiteFooter />
     </main>
   );

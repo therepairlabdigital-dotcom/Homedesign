@@ -4,6 +4,8 @@ import Image from "next/image";
 import { ArrowRight, MapPin } from "lucide-react";
 import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
+import ProseSection from "@/components/shared/ProseSection";
+import { pageProse } from "@/lib/page-content";
 import PageHero from "@/components/shared/PageHero";
 import CTABanner from "@/components/shared/CTABanner";
 import MobileCTA from "@/components/shared/MobileCTA";
@@ -134,6 +136,8 @@ export default function LocationsPage() {
         highlight="your area?"
         description="Send through the address. We will tell you straight away whether we can build there, and what the site is likely to involve."
       />
+
+      <ProseSection title={pageProse["locations"].title} sections={pageProse["locations"].sections} />
 
       <SiteFooter />
     </main>

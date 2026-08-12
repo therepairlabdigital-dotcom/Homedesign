@@ -8,6 +8,8 @@ import Link from "next/link";
 import { Shield, Award, Target, Heart, Zap, Users, Home, Building2, Wrench, Landmark, ArrowRight } from "lucide-react";
 import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
+import ProseSection from "@/components/shared/ProseSection";
+import { pageProse } from "@/lib/page-content";
 import PageHero from "@/components/shared/PageHero";
 import CTABanner from "@/components/shared/CTABanner";
 
@@ -224,6 +226,8 @@ export default function AboutPage() {
       </section>
 
       <CTABanner title="Ready to Build Your" highlight="Dream Home?" description="Contact us to discuss your project. We're here to answer any questions and bring your vision to life." />
+      <ProseSection title={pageProse["about"].title} sections={pageProse["about"].sections} />
+
       <SiteFooter />
     </main>
   );

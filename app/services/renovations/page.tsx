@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
+import { serviceContent } from "@/lib/service-content";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -90,6 +91,8 @@ export default function RenovationsPage() {
         { title: "New Home Builds", href: "/services/new-home-builds", description: "Starting from scratch? Explore our new home build service." },
         { title: "Custom Builds", href: "/services/custom-builds", description: "For truly bespoke transformations and unique projects." },
       ]}
+      sections={serviceContent["renovations"].sections}
+      faqs={serviceContent["renovations"].faqs}
     />
   );
 }

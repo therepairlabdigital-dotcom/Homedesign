@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
+import { serviceContent } from "@/lib/service-content";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -90,6 +91,8 @@ export default function QueenslanderHomesPage() {
         { title: "Custom Builds", href: "/services/custom-builds", description: "Bespoke homes for unique sites and specific requirements." },
         { title: "Renovations & Extensions", href: "/services/renovations", description: "Restore or extend an existing Queenslander with expert care." },
       ]}
+      sections={serviceContent["queenslander-homes"].sections}
+      faqs={serviceContent["queenslander-homes"].faqs}
     />
   );
 }

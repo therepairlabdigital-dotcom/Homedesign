@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ServicePageTemplate from "@/components/shared/ServicePageTemplate";
+import { serviceContent } from "@/lib/service-content";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -90,6 +91,8 @@ export default function NewHomeBuildsPage() {
         { title: "Custom Builds", href: "/services/custom-builds", description: "Looking for something truly unique? Explore our custom build options." },
         { title: "Duplex & Townhouses", href: "/services/duplex-townhouses", description: "Maximise your investment with dual occupancy builds." },
       ]}
+      sections={serviceContent["new-home-builds"].sections}
+      faqs={serviceContent["new-home-builds"].faqs}
     />
   );
 }

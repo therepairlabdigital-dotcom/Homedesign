@@ -6,6 +6,8 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
+import ProseSection from "@/components/shared/ProseSection";
+import { pageProse } from "@/lib/page-content";
 import PageHero from "@/components/shared/PageHero";
 import CTABanner from "@/components/shared/CTABanner";
 
@@ -172,6 +174,8 @@ export default function PortfolioPage() {
         highlight="See?"
         description="Let's create something extraordinary for you. Start your journey with a free consultation."
       />
+      <ProseSection title={pageProse["portfolio"].title} sections={pageProse["portfolio"].sections} />
+
       <SiteFooter />
     </main>
   );

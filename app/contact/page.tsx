@@ -8,6 +8,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import SiteNavbar from "@/components/shared/SiteNavbar";
 import SiteFooter from "@/components/shared/SiteFooter";
+import ProseSection from "@/components/shared/ProseSection";
+import { pageProse } from "@/lib/page-content";
 import PageHero from "@/components/shared/PageHero";
 
 const contactInfo = [
@@ -202,6 +204,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <ProseSection title={pageProse["contact"].title} sections={pageProse["contact"].sections} />
 
       <SiteFooter />
     </main>
