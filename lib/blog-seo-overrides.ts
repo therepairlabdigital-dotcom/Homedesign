@@ -97,6 +97,13 @@ export const blogMetaDescriptions: Record<string, string> = {
  * box in the post template so informational traffic is routed to a conversion page.
  */
 export const blogRelatedService: Record<string, { href: string; label: string; blurb: string }> = {
+  "how-long-does-a-knockdown-rebuild-take-queensland": { href: "/services/knockdown-rebuild/", label: "Knockdown Rebuild", blurb: "Demolition, approvals and a fixed-price new home programmed as one project." },
+  "cut-and-fill-vs-split-level-sloping-block": { href: "/services/sloping-block-homes/", label: "Sloping Block Homes", blurb: "All three approaches priced against your survey and soil test." },
+  "legal-head-height-building-under-queenslander": { href: "/services/house-raising-build-under/", label: "House Raising & Build Under", blurb: "Measured raise, engineered posts and a lower level that complies." },
+  "built-to-boundary-walls-small-lots-brisbane": { href: "/services/small-lot-narrow-block-homes/", label: "Small Lot & Narrow Block Homes", blurb: "Boundary walls, fire separation and light designed in from the start." },
+  "hstp-vs-septic-acreage-queensland": { href: "/services/acreage-homes/", label: "Acreage Homes", blurb: "Wastewater, water supply and bushfire rating resolved before the plan is drawn." },
+  "can-my-house-take-a-second-storey": { href: "/services/home-extensions-second-storey-additions/", label: "Extensions & Second Storey Additions", blurb: "Engineering assessment first, then a fixed price for going up or out." },
+  "granny-flat-cost-drivers-queensland": { href: "/services/granny-flats-secondary-dwellings/", label: "Granny Flats & Secondary Dwellings", blurb: "Services, access and council caps checked before you get a price." },
   "knockdown-rebuild-brisbane": { href: "/services/knockdown-rebuild/", label: "Knockdown Rebuild", blurb: "Demolition approvals, overlay checks and a fixed-price rebuild on your existing block." },
   "renovation-or-new-build": { href: "/services/knockdown-rebuild/", label: "Knockdown Rebuild", blurb: "When the numbers favour starting again, this is how we run it." },
   "granny-flat-secondary-dwelling-queensland": { href: "/services/granny-flats-secondary-dwellings/", label: "Granny Flats & Secondary Dwellings", blurb: "Attached, detached and above-garage secondary dwellings across SEQ." },

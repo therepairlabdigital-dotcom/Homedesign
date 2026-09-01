@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Facebook, Instagram, ArrowUp, ArrowRight } from "lucide-react";
+import { ArrowUp, ArrowRight } from "lucide-react";
+import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -34,8 +35,8 @@ const moreServices = [
 ];
 
 const socials = [
-  { icon: Facebook, href: "https://www.facebook.com/tiwanabuilders.co.nz", label: "Facebook" },
-  { icon: Instagram, href: "https://www.instagram.com/designhomes69", label: "Instagram" },
+  { icon: FacebookIcon, href: "https://www.facebook.com/tiwanabuilders.co.nz", label: "Facebook" },
+  { icon: InstagramIcon, href: "https://www.instagram.com/designhomes69", label: "Instagram" },
 ];
 
 export default function SiteFooter() {

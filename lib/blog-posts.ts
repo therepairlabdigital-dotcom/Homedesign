@@ -3712,6 +3712,399 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "how-long-does-a-knockdown-rebuild-take-queensland",
+    title: "How Long Does a Knockdown Rebuild Take in Queensland?",
+    description: "The realistic timeline for a knockdown rebuild in South East Queensland, stage by stage, and the decisions that add months if they are made late.",
+    date: "2026-09-01",
+    readTime: "6 min read",
+    image: "/assets/images/stock/construction-frame-new.webp",
+    category: "New Homes",
+    content: [
+      {
+        heading: "Two programs, not one",
+        body: [
+          "A knockdown rebuild is really two projects joined end to end: getting the old house off the block lawfully, then building a new one. People tend to estimate the second and forget the first, which is why the overall timeline surprises them. The construction period for the new home is usually the most predictable part. The months before demolition are where the variation lives.",
+          "The honest answer to how long it takes is that the pre-construction phase depends on your council, your overlays and how quickly design decisions get made, while the construction phase depends on the size and complexity of the new home and the ground conditions found once the site is cleared. Both can be planned. Neither should be guessed.",
+          "This article walks the stages in order. For what the service involves as a whole, see our <a href=\"/services/knockdown-rebuild/\">knockdown rebuild page</a>.",
+        ],
+      },
+      {
+        heading: "Stage one: feasibility and overlays",
+        body: [
+          "Before any drawing is worth paying for, the block has to be checked for anything that stops or shapes demolition. In Brisbane that means the Traditional building character overlay, which generally protects pre-1947 houses from removal. Elsewhere it means heritage listings, flood and storm tide overlays that set the new floor level, bushfire overlays and vegetation protection.",
+          "This stage takes days, not months, if it is done properly at the start. Skipping it is the single most common cause of a stalled rebuild, because a design gets developed for a house that cannot be demolished or a floor level that cannot be built.",
+          "If the overlay check says demolition is unlikely to be supported, the practical alternative is often <a href=\"/services/house-raising-build-under/\">raising and building under</a> rather than replacing the house.",
+        ],
+      },
+      {
+        heading: "Stage two: design, engineering and selections",
+        body: [
+          "Concept design, then developed drawings, then engineering and energy assessment. The pace here is set by how quickly you make decisions. A brief that keeps changing adds weeks each time; a brief that is settled early lets the drawings move through in a straightforward sequence.",
+          "Selections belong in this stage as well. Fixtures, finishes, windows and roofing all need to be chosen before contract so that the price is a real fixed price rather than a set of allowances. Leaving selections until after signing is how a fixed price stops being fixed, and it is also how programs slip once construction has started.",
+          "A soil test cannot be done properly until the old house is gone, so engineering is usually finalised in two passes: a design based on the expected site classification, then confirmation after demolition. That is normal and is built into a well-run program.",
+        ],
+      },
+      {
+        heading: "Stage three: approvals",
+        body: [
+          "Demolition needs its own approval, issued through a building certifier and, in some areas, requiring council assessment first. The new dwelling needs building approval and sometimes development approval, depending on zoning, lot size, overlays and whether the design relies on any performance outcomes rather than the standard acceptable outcomes.",
+          "Building approval through a private certifier for a compliant design is usually a matter of weeks. Development approval through council is measured in months and depends on the council, the complexity of the application and whether further information is requested. Knowing which path applies before design starts is what keeps this stage predictable.",
+          "Services disconnection, asbestos identification and demolition contractor scheduling run alongside approvals, so that the day the demolition permit is issued is the day work can start.",
+        ],
+      },
+      {
+        heading: "Stage four: demolition and site preparation",
+        body: [
+          "Demolition itself is quick. Asbestos removal, if required, comes first and is done by a licensed removalist with clearance certification. Then the house comes down, the slab and footings come out, and the site is levelled and cleared. Depending on access and the size of the house this is typically a matter of days to a couple of weeks.",
+          "Once the site is clear the soil test is taken, engineering is confirmed, and set-out can begin. This is also when anything unexpected under the old house is found: fill of unknown depth, old tanks, abandoned services. Good contracts carry a stated contingency for exactly this, so a discovery becomes a line item rather than a dispute.",
+        ],
+      },
+      {
+        heading: "Stage five: construction",
+        body: [
+          "From footings to handover, a new home follows the normal sequence of slab, frame, roof, lock-up, fit-out and finishing. A single-storey home of moderate size on a straightforward site sits at the shorter end; a two-storey custom home on a sloping block with retaining and a suspended slab sits at the longer end.",
+          "Weather is the variable nobody controls. South East Queensland's wet season, roughly December to March, can add weeks to the early stages when the site is open. Programs that start the slab in late spring tend to run more smoothly than those that pour in January.",
+          "Because you are living elsewhere for the duration, the construction period is the number that matters most for your rental lease. We set the demolition date and the target handover before contract so both can be planned. The same logic applies to our <a href=\"/locations/brisbane/knockdown-rebuild/\">Brisbane knockdown rebuild</a> projects, where inner-city access adds its own scheduling constraints.",
+        ],
+      },
+      {
+        heading: "What adds months, and how to avoid it",
+        body: [
+          "Late overlay discovery, an unsettled brief, selections left until after contract, and a development application that could have been avoided by designing to the code. All four are decisions, not accidents, and all four are made before a single trade arrives on site.",
+          "The rebuild that runs to program is the one where the boring work was done first: overlays checked, soil understood, drawings complete, selections locked, approvals path chosen. That front-loading is what an owner-run builder brings, because the person pricing the job is the same person who will be standing on the block when the questions come up.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "cut-and-fill-vs-split-level-sloping-block",
+    title: "Cut and Fill or Split-Level? Designing for a Sloping Block",
+    description: "How the three main approaches to a sloping block compare on cost, drainage, access and liveability, and which one suits a typical South East Queensland fall.",
+    date: "2026-08-31",
+    readTime: "6 min read",
+    image: "/assets/images/stock/home-luxury-landscape.webp",
+    category: "Custom Builds",
+    content: [
+      {
+        heading: "The fall decides the design before you do",
+        body: [
+          "Every sloping block in South East Queensland pushes the design towards one of three answers: flatten the site and build a conventional home, step the home down the slope as a split-level, or lift the home off the ground on posts and a suspended floor. Each has a cost profile, a drainage story and a way of living that follows from it.",
+          "The wrong answer is choosing a plan first and then forcing the site to accept it. The right answer starts with a contour survey and a soil classification, because the amount of fall across the building footprint and the ground you are cutting into decide which of the three is even sensible.",
+          "This article compares them. For the way we approach these sites end to end, see our <a href=\"/services/sloping-block-homes/\">sloping block homes page</a>.",
+        ],
+      },
+      {
+        heading: "Cut and fill: the conventional answer",
+        body: [
+          "Cut and fill excavates the high side, pushes the material to the low side and creates a level platform for a standard slab-on-ground home. It is the default on gentle slopes because the house itself is the cheapest kind of house to build: no suspended floors, no split structure, standard trades.",
+          "The cost lives outside the house. Retaining walls are needed on the cut and often on the fill, and once a wall passes a certain height or carries a surcharge it needs engineering and approval. Fill has to be placed and compacted in controlled layers to be classified as engineered fill; uncontrolled fill under a slab is a footing problem waiting to happen.",
+          "Drainage is the other trap. Cutting into a slope intercepts subsurface water that used to move under the surface, and if it is not collected with agricultural drains behind the retaining it ends up under the slab or in the neighbour's yard. On reactive clay the moisture change alone can move the footings.",
+        ],
+      },
+      {
+        heading: "Split-level: working with the fall",
+        body: [
+          "A split-level home steps the floor plates down the slope, typically by half a storey at a time, so that each part of the house sits close to natural ground. Less soil is moved, retaining is lower and shorter, and the house gains natural separation between living, sleeping and utility zones.",
+          "Structurally it is more complex. There are more slab edges, more step-downs, more junctions where waterproofing and termite management have to be detailed carefully. Internal stairs of a few risers between levels are a design feature for many owners and a barrier for others; if ageing in place matters, a split-level needs to be planned with that in mind.",
+          "On a moderate fall, the extra structure is usually cheaper than the retaining and fill it replaces, and the result is a home that feels designed for the block rather than dropped on it.",
+        ],
+      },
+      {
+        heading: "Suspended and pole construction: lifting off the ground",
+        body: [
+          "On steep falls, or where the ground is poor, the most economical answer is often to leave the slope alone. The home sits on piers or poles with a suspended timber or concrete floor, and the undercroft becomes a carport, storage or, with the right head height, additional living space later.",
+          "Earthworks and retaining almost disappear, drainage stays close to natural, and the building sits above overland flow paths. The trade-off is in the structure: piers to a depth set by the engineer, a stiffer floor system, and services that run under the house rather than through a slab.",
+          "This is the traditional Queensland answer for a reason. Elevated homes catch breeze, avoid damp and handle water well. On hinterland and coastal escarpment sites it is frequently the only approach that makes financial sense.",
+        ],
+      },
+      {
+        heading: "Access, driveways and the cost nobody quotes early",
+        body: [
+          "Whichever approach you choose, the car has to get from the street to the garage, and driveway gradient limits are set by council standards. A steep block can rule out a garage at the high side, force a long switchback driveway, or push the garage to street level with the house above or below it.",
+          "Construction access matters too. Concrete pumps, cranes for frames and trusses, and delivery trucks all need somewhere to stand. A block with no level area near the street costs more to build on regardless of design, and that cost belongs in the fixed price rather than in a variation.",
+        ],
+      },
+      {
+        heading: "How to choose",
+        body: [
+          "Gentle fall on stable ground: cut and fill is usually right, provided the retaining and drainage are designed properly. Moderate fall: split-level tends to win on both cost and outcome. Steep fall or poor ground: suspended construction. The ground classification under AS 2870 and the <a href=\"/blog/retaining-walls-queensland-cost-and-approval/\">retaining wall requirements</a> tip the balance in individual cases.",
+          "We price all three where the site allows, so you are comparing real numbers rather than guessing. The comparison is part of the feasibility work described on our <a href=\"/blog/building-on-a-sloping-block/\">sloping block guide</a>, and it is the reason a sloping block does not have to mean an expensive build.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "legal-head-height-building-under-queenslander",
+    title: "Legal Head Height When You Build Under a Queenslander",
+    description: "What the National Construction Code requires for ceiling height under a raised Queenslander, how much lift that means, and what limits how high you can go.",
+    date: "2026-08-30",
+    readTime: "5 min read",
+    image: "/assets/images/queenslander-classic-new.webp",
+    category: "Renovations",
+    content: [
+      {
+        heading: "The number that decides the whole project",
+        body: [
+          "Building under a Queenslander only works if the space underneath can lawfully be lived in, and that comes down to ceiling height. The National Construction Code sets minimum heights for habitable rooms and for other spaces, and the difference between what you have now and what you need is the amount the house has to be raised.",
+          "Habitable rooms such as bedrooms, living areas and kitchens need a higher ceiling than non-habitable spaces such as bathrooms, laundries, hallways and garages. Measure from the finished floor to the underside of the floor structure above, allow for the new lower-level ceiling lining and the new slab, and the required lift becomes clear.",
+          "For the process as a whole, see our <a href=\"/services/house-raising-build-under/\">house raising and build under page</a>.",
+        ],
+      },
+      {
+        heading: "Measuring what you actually have",
+        body: [
+          "Most pre-war Queenslanders sit on stumps that give somewhere between a crawl space and a usable but low undercroft. The existing height is measured from the ground to the underside of the bearers, and it varies across the footprint because the ground under an old house is rarely level.",
+          "The new floor is a concrete slab, which sits above the current ground level, and the new ceiling is lined below the existing bearers and joists. Both eat into the clear height. The habitable-height requirement applies to the finished space, so the raise has to account for slab thickness, ceiling lining, and any beams that will drop below the joists to carry the old floor across the new rooms.",
+          "A builder who quotes a raise in round figures without measuring is guessing. The lift required is a specific number for each house.",
+        ],
+      },
+      {
+        heading: "What limits how high you can go",
+        body: [
+          "Council height limits apply to the overall building, measured from natural ground. In a character or low-density residential zone the limit is generally set in storeys and metres, and a raised Queenslander with a full lower level is a two-storey house. On sloping sites the measurement point matters and can work for or against you.",
+          "Inside Brisbane's Traditional building character overlay, the raised house also has to remain recognisably a Queenslander from the street. Very high raises with a lower level that dominates the facade are unlikely to be supported. The usual answer is a lower level set back or screened so the original house still reads as the primary form.",
+          "Check the current requirements for your council and zone before committing to a design, because the height limit and the character provisions together set the maximum lift, and the code sets the minimum. The project has to fit between them.",
+        ],
+      },
+      {
+        heading: "Flood levels can force the raise higher",
+        body: [
+          "In flood-affected parts of Brisbane, Ipswich, Logan and the Gold Coast, the new habitable floor has to sit at or above a minimum level set from the defined flood level. That level can require a raise well beyond what head height alone would need, and it decides what the lower level can be used for.",
+          "Where the required floor level cannot be achieved for the lower level, it may be limited to non-habitable uses such as garage, storage and laundry, with the habitable rooms staying upstairs. Our article on <a href=\"/blog/flood-levels-minimum-floor-height-seq/\">flood levels and minimum floor heights</a> covers how the level is set.",
+        ],
+      },
+      {
+        heading: "Stairs, structure and services once the height is settled",
+        body: [
+          "Once the raise is fixed, the lower level has to work as a house. Internal stairs need a compliant rise and going, with sufficient headroom at the top landing under the old floor. The new posts, whether steel or concrete, are engineered to carry the raised house and are founded to suit the soil classification, which on Brisbane's clay soils often means piers rather than pad footings.",
+          "Services move as well. Plumbing that dropped straight to ground now runs through a lived-in space and has to be relocated into walls and bulkheads; the switchboard usually needs upgrading; and termite management has to be reinstated for the whole building. None of this is difficult, but all of it belongs in the fixed price.",
+        ],
+      },
+      {
+        heading: "The short version",
+        body: [
+          "Measure the existing height, work out the lift to achieve habitable head height after slab and ceiling, check that the result sits under the council height limit and within character controls, then check the flood level. If all four line up, building under is usually the most efficient way to double a Queenslander's living area. If they do not, the alternative is often a rear extension or a second-storey approach, which we compare in <a href=\"/blog/second-storey-addition-or-raise-queensland/\">second-storey addition or raise</a>.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "built-to-boundary-walls-small-lots-brisbane",
+    title: "Built-to-Boundary Walls on Small Lots in Brisbane",
+    description: "When a wall can sit on the boundary of a small lot, what fire rating and neighbour access it triggers, and how it changes the plan of a narrow-block home.",
+    date: "2026-08-29",
+    readTime: "5 min read",
+    image: "/assets/images/townhouse-facade.webp",
+    category: "Custom Builds",
+    content: [
+      {
+        heading: "Why the boundary wall exists",
+        body: [
+          "On a narrow lot every metre of width counts. A standard side setback on both sides can take a fifth or more of the frontage before the house starts. Small lot provisions in Brisbane and other South East Queensland councils generally allow one side wall, within limits on length and height, to be built at or very near the boundary so the plan can use the full width where it matters.",
+          "That single allowance is what makes a comfortable home possible on a lot that would otherwise only fit a corridor. It also carries construction consequences that have to be designed in from the start, not discovered on site.",
+          "The design approach for these lots is covered on our <a href=\"/services/small-lot-narrow-block-homes/\">small lot and narrow block homes page</a>.",
+        ],
+      },
+      {
+        heading: "What the codes generally allow",
+        body: [
+          "Small lot codes and the Queensland Development Code siting provisions typically permit a built-to-boundary wall on one side, up to a maximum length and height, provided it is not on the street frontage and the other side keeps a compliant setback. The exact figures depend on the council, the zone and the lot size, so check the current code rather than relying on what was done next door.",
+          "Where both neighbours build to the same boundary you get a party-wall arrangement, which is common in townhouse developments and possible on freehold small lots with agreement. Where only one side builds to the boundary, the neighbour's setback and windows are protected by the code's provisions for light and privacy.",
+        ],
+      },
+      {
+        heading: "Fire separation",
+        body: [
+          "A wall close to a boundary has to protect the neighbouring property from fire spread. Within a set distance of the boundary the external wall needs a fire-resistance level, and openings such as windows and vents are restricted or prohibited in that zone. This changes the construction from a standard framed wall to a fire-rated system, usually with specific linings, and it changes the cost of that wall accordingly.",
+          "It also changes the plan. A boundary wall with no windows means the rooms along it rely on the other side, the front, the rear or the roof for light and ventilation. On a well-designed narrow home this is where courtyards, light wells, clerestory windows and skylights earn their place.",
+        ],
+      },
+      {
+        heading: "Neighbour access and construction",
+        body: [
+          "You cannot build a boundary wall without standing on the neighbour's side to do it. Access for scaffolding, cladding and finishing has to be agreed in writing before work starts, and the neighbour's fences, gardens and services protected. Where agreement cannot be reached, the design may have to move the wall inboard enough to work from your own side, which is a decision to make before drawings are finalised.",
+          "Stormwater cannot discharge onto the neighbour either. A boundary wall usually means a box gutter or a parapet with internal drainage, both of which need careful detailing to avoid the overflow problems that show up in the first major storm.",
+          "Our article on <a href=\"/blog/boundaries-neighbours-and-building-work-queensland/\">boundaries, neighbours and building work</a> covers the broader legal side.",
+        ],
+      },
+      {
+        heading: "How it reshapes the plan",
+        body: [
+          "The boundary side becomes the service spine: garage, laundry, bathrooms, stairs and storage line up along the blank wall, while living rooms and bedrooms turn towards the open side, the rear yard or an internal courtyard. Garages on small lots are often on the boundary for exactly this reason, which frees the frontage for the entry and a habitable room with a window to the street.",
+          "Two storeys are the norm because floor area has to come from height once width is capped. The upper level typically steps back from the boundary wall to satisfy height and overshadowing provisions, which produces the familiar profile of a two-storey narrow home with a single-storey element hard on one side.",
+        ],
+      },
+      {
+        heading: "Why a plan-library home rarely fits",
+        body: [
+          "Standard plans assume setbacks on both sides, windows on every wall and a driveway width the lot may not allow. Fitting one onto a narrow lot usually means shaving rooms until the house no longer works. Designing from the lot outward, with the boundary wall as a deliberate move rather than a compromise, produces a better home for the same money. That is the case for a custom design on these sites, and it is why we treat small lots as <a href=\"/services/custom-builds/\">custom builds</a> rather than adaptations.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hstp-vs-septic-acreage-queensland",
+    title: "HSTP or Septic? Wastewater for a Queensland Acreage Build",
+    description: "How on-site wastewater works on unsewered land in South East Queensland, the soil evaluation that decides the system, and what it means for siting the house.",
+    date: "2026-08-28",
+    readTime: "6 min read",
+    image: "/images/modern-villa-with-pool-and-deck-H27FA57-1.webp",
+    category: "New Homes",
+    content: [
+      {
+        heading: "No sewer means the block treats its own waste",
+        body: [
+          "Most acreage and rural-residential lots across the Sunshine Coast hinterland, the Gold Coast hinterland, Samford, Dayboro and the outer parts of Logan and Ipswich have no council sewer. Wastewater from the house has to be treated and dispersed on the block, and the system that does it is approved by council as plumbing work separate from the building approval.",
+          "The choice of system, and where the treated water goes, is decided by a site and soil evaluation rather than by preference. That evaluation should happen before the house is sited, because the land application area competes with the house, the shed, the driveway and the pool for the usable parts of the block.",
+          "For the wider picture on rural lots, see our <a href=\"/services/acreage-homes/\">acreage homes page</a>.",
+        ],
+      },
+      {
+        heading: "The site and soil evaluation",
+        body: [
+          "A qualified assessor tests the soil's ability to absorb water, checks the slope, the distance to boundaries, watercourses, bores and buildings, and sizes the land application area for the number of bedrooms the house will have. Heavy clay soils common through parts of South East Queensland absorb slowly and need larger areas or a system that produces cleaner effluent; sandy soils drain fast and can need controls for the opposite reason.",
+          "The output is a report specifying a system type, a land application method and an area. Council approval of the plumbing follows the report, and the house cannot be occupied until the system is installed, inspected and commissioned.",
+        ],
+      },
+      {
+        heading: "Septic tank and trenches",
+        body: [
+          "A conventional septic tank separates solids and passes the liquid to absorption trenches or beds in the ground, where soil bacteria complete the treatment. It is simple, has no moving parts and needs no power. The trade-off is space and soil: trenches need a large area of suitable ground, they cannot be built on, planted with trees or driven over, and on slow-draining clay they can be impractical.",
+          "Where the soil evaluation supports it and the block is large, a septic system is often the lowest-maintenance answer. Desludging of the tank at intervals is the main ongoing task.",
+        ],
+      },
+      {
+        heading: "Home sewage treatment plant",
+        body: [
+          "A home sewage treatment plant, usually called an HSTP or aerated wastewater treatment system, treats the wastewater to a much higher standard using aeration and disinfection, then disperses it through irrigation over a designated area. Because the effluent is cleaner, the land application area can be smaller and can be lawn or garden rather than a fenced-off trench field.",
+          "The system needs power, has pumps and blowers that wear, and requires a service contract with regular inspections, which councils typically make a condition of approval. On smaller acreage lots, sloping blocks or poor soils it is often the only approach that fits, and the irrigation area doubles as landscaping.",
+        ],
+      },
+      {
+        heading: "Setbacks and where the house can go",
+        body: [
+          "Both systems come with minimum distances from the land application area to boundaries, dwellings, watercourses, dams, bores and rainwater tanks. On a large lot these are easy to meet. On a smaller rural-residential lot they can decide where the house sits, which way the fall runs from the tanks, and whether the pool or shed has to move.",
+          "This is why the wastewater report belongs at the start of the design process. It is the same logic that applies to bushfire assessment on these blocks, covered in our article on <a href=\"/blog/bushfire-attack-level-bal-queensland/\">Bushfire Attack Level</a>: the site constraints have to be known before the plan is drawn.",
+        ],
+      },
+      {
+        heading: "What it means for the build",
+        body: [
+          "The system, tanks, pumps, irrigation or trenches, and the electrical and plumbing connections are part of the build scope and belong in the fixed price with the approval fees. Site establishment on acreage also has to allow for the excavation and access the installation needs, which is straightforward when planned and disruptive when it is not.",
+          "We treat the wastewater design, the water supply and the <a href=\"/blog/rainwater-tanks-queensland-requirements/\">rainwater tank requirements</a> as one package of site services on an acreage build, resolved before the house design is finalised so the block works as a whole.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "can-my-house-take-a-second-storey",
+    title: "Can Your House Take a Second Storey? Structural Checks First",
+    description: "The engineering questions that decide whether an existing Queensland home can carry a second storey, and what happens when the answer is partly no.",
+    date: "2026-08-27",
+    readTime: "5 min read",
+    image: "/images/home-extension.webp",
+    category: "Renovations",
+    content: [
+      {
+        heading: "The question comes before the design",
+        body: [
+          "A second-storey addition puts the weight of a new floor, new walls and a new roof onto a house that was designed to carry a roof and nothing else. Whether the existing structure can take it, and what has to change so it can, is an engineering question that should be answered before any concept drawing is commissioned.",
+          "The good news is that most post-war brick and timber homes in South East Queensland can be extended upwards. The realistic news is that almost all of them need some strengthening to do it, and the extent of that work is what decides whether going up is the right call compared with extending out.",
+          "For how we approach both, see our <a href=\"/services/home-extensions-second-storey-additions/\">extensions and second storey additions page</a>.",
+        ],
+      },
+      {
+        heading: "Footings and slab",
+        body: [
+          "Everything ends up in the ground. The existing footings were sized for a single-storey load on whatever soil classification applied, and a second storey roughly doubles the load on the walls that carry it. The engineer needs to know the footing size and depth, which usually means a few test holes at the base of the external walls, and the soil classification, which means a soil test.",
+          "On reactive clays across Brisbane's western and southern suburbs the existing footings may already be working hard. Where they are inadequate, the answer is underpinning or new footings alongside, both of which are established techniques but neither of which is cheap. Where the house is on stumps, new posts and footings for the upper structure are usually simpler.",
+        ],
+      },
+      {
+        heading: "Walls and load paths",
+        body: [
+          "The upper floor has to land on something. In a brick veneer home the brick skin is not structural; the timber frame behind it carries the load, and it was not designed for a floor above. In a double-brick home the walls can often carry more, but the connections and the lintels over openings need checking. In a timber home the frame is typically light and will need new posts and beams to bring the upper loads down to the footings.",
+          "The engineer maps a load path from the new roof, through the new walls and floor, down through the existing house to the ground, and identifies every element that needs to be added or strengthened. Steel posts hidden in walls, new beams over living areas and new footings under them are the usual result.",
+        ],
+      },
+      {
+        heading: "Roof, stairs and the ground floor plan",
+        body: [
+          "The existing roof comes off, which exposes the house to weather until the new floor is on and the new roof is up. Staging this, with temporary roofing or a rapid enclosure sequence, is a construction planning issue rather than a structural one, but it decides whether you can live in the house during the work.",
+          "The stair is the other big change. It takes floor space on the ground level and has to land somewhere sensible upstairs, and it often forces a rework of the ground floor plan around it. A second storey that is designed without the stair location settled tends to produce a ground floor nobody wanted.",
+        ],
+      },
+      {
+        heading: "Services and compliance",
+        body: [
+          "New bathrooms upstairs need drainage stacks that come down through the ground floor, a switchboard that can handle the added circuits, and hot water capacity for more people. The upper level must meet current energy efficiency, safety glazing, smoke alarm and balustrade requirements even though the lower level was built to older standards.",
+          "Approval is normally building approval through a certifier, with development approval triggered where the addition affects height limits, setbacks, small-lot provisions or a character overlay. The distinction is covered in our article on <a href=\"/blog/development-approval-vs-building-approval-qld/\">development approval versus building approval</a>.",
+        ],
+      },
+      {
+        heading: "When the answer is partly no",
+        body: [
+          "Sometimes the engineering says the house can take a second storey only with strengthening that approaches the cost of a new structure. At that point the honest comparison is between going up, extending out on the ground, or, if the house is a Queenslander on stumps, <a href=\"/services/house-raising-build-under/\">raising it and building under</a>. Each delivers the same extra floor area by a different route, and the right one depends on the block, the house and the budget.",
+          "We put those options side by side with real pricing rather than steering towards one. The assessment costs far less than committing to the wrong approach, and it is the first thing we do on any extension enquiry.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "granny-flat-cost-drivers-queensland",
+    title: "What Drives the Cost of a Granny Flat in Queensland",
+    description: "The factors that actually decide what a secondary dwelling costs to build in South East Queensland, from services and access to size limits and finish level.",
+    date: "2026-08-26",
+    readTime: "5 min read",
+    image: "/assets/images/stock/home-single-modern.webp",
+    category: "Cost & Budget",
+    content: [
+      {
+        heading: "A small house is still a house",
+        body: [
+          "A granny flat has a kitchen, a bathroom, a laundry, a bedroom and a living space, plus the footings, frame, roof, plumbing, electrical and finishes to make them work. Per square metre it is often more expensive than a large home for exactly that reason: the expensive rooms are all there, and the cheap floor area that dilutes them in a big house is not.",
+          "This article is about what moves the number, not the number itself, because the range between a simple attached flat on a level block with services nearby and a detached flat at the bottom of a sloping yard is wide enough that a single figure would mislead.",
+          "For what we build and how, see our <a href=\"/services/granny-flats-secondary-dwellings/\">granny flats and secondary dwellings page</a>.",
+        ],
+      },
+      {
+        heading: "Services: the biggest hidden variable",
+        body: [
+          "Sewer, water, power and stormwater all have to reach the new dwelling. Where the flat is attached to the house or close to it, the connections are short and simple. Where it sits at the rear of a deep block, trenching for sewer at the right fall, a new water line, a sub-board fed from the main switchboard and a stormwater path to a lawful point of discharge can together become a significant part of the cost.",
+          "Sewer is the one to check first. If the flat's drainage cannot reach the existing connection by gravity, a pump station is needed, and that adds both capital cost and ongoing maintenance. A quick check of where the sewer connection is and the levels between it and the proposed flat is worth doing before any design work.",
+        ],
+      },
+      {
+        heading: "Access and the block",
+        body: [
+          "Getting materials, concrete and tradespeople to the back of a block past an existing house is slower than building on an open site. Narrow side access can mean hand-carrying materials, pumping concrete over the house and smaller equipment, all of which add labour. A sloping rear yard adds retaining, stepped footings or a suspended floor.",
+          "Soil matters as much as it does for a full home. Reactive clays need engineered footings regardless of how small the building is. Our article on <a href=\"/blog/reactive-clay-soil-brisbane-footings/\">reactive clay soil and footings</a> explains why the same slab can cost very different amounts on two nearby blocks.",
+        ],
+      },
+      {
+        heading: "Size caps and what they do to design",
+        body: [
+          "Councils cap the floor area of a secondary dwelling, with the figure varying by council and zone, so check the current limit before designing. The cap forces efficiency: every square metre has to work, corridors disappear, and storage has to be built in rather than added later. Good small design costs more per square metre in thought and detailing, and it is the difference between a flat that rents or houses a parent comfortably and one that does not.",
+          "Attached and above-garage options share structure with the existing building and can be cheaper for the same floor area than a fully detached flat, but they bring fire separation, sound separation and sometimes structural strengthening into scope.",
+        ],
+      },
+      {
+        heading: "Finish level and fixtures",
+        body: [
+          "A flat for an elderly parent might prioritise a level entry, a hobless shower, wider doors and good lighting. A flat for rental income might prioritise durability and low maintenance. A flat for adult children might sit somewhere between. The specification follows the purpose, and the purpose should be settled before selections start, because the kitchen and bathroom are where the cost concentrates in a small building.",
+          "The same logic applies to the compliance items that are easy to overlook: energy efficiency, termite management, smoke alarms interconnected with the main house where required, and the 2022 change that allows secondary dwellings in Queensland to be rented to people outside the household. Our article on <a href=\"/blog/granny-flat-secondary-dwelling-queensland/\">what is allowed for secondary dwellings</a> covers the planning side.",
+        ],
+      },
+      {
+        heading: "How to get a real price",
+        body: [
+          "Locate the sewer and check the levels. Get a soil test. Confirm the council cap and the setbacks for your lot. Decide the purpose and the finish level. With those four settled, a builder can give you a fixed price that means something, with any genuine unknown carried as a stated contingency rather than buried in the margin.",
+          "Without them, any figure is an allowance dressed up as a quote, and the difference tends to arrive as variations once the ground is open. We would rather do the checks first and price once.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string) {

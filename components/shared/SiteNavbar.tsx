@@ -47,11 +47,15 @@ export default function SiteNavbar() {
     };
   }, [isMobileMenuOpen]);
 
-  // Close the menu on route change so a tapped link never leaves the overlay open
-  useEffect(() => {
+  // Close the menu on route change so a tapped link never leaves the overlay open.
+  // Implemented as a render-time state reset (React's documented pattern for
+  // "adjusting state when a prop changes") rather than a setState-in-effect.
+  const [menuPathname, setMenuPathname] = useState(pathname);
+  if (menuPathname !== pathname) {
+    setMenuPathname(pathname);
     setIsMobileMenuOpen(false);
     setServicesOpen(false);
-  }, [pathname]);
+  }
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
