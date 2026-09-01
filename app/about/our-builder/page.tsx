@@ -12,7 +12,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 export const metadata: Metadata = {
   title: "Harj Tiwana | Design Homes Builder",
   description:
-    "Meet Harj Tiwana, the QBCC licensed builder behind Design Homes. Carpentry trade background, award-winning New Zealand new build experience, and hands-on site management.",
+    "Meet Harj Tiwana, the QBCC licensed builder behind Design Homes: carpentry trade, award-winning NZ new-build experience and hands-on site management.",
   keywords: [
     "Harj Tiwana builder",
     "Design Homes builder Brisbane",
@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     "owner builder Brisbane",
     "custom home builder South East Queensland",
   ],
-  alternates: { canonical: `${siteUrl}/about/our-builder` },
+  alternates: { canonical: `${siteUrl}/about/our-builder/` },
   openGraph: {
     title: "Harj Tiwana | Design Homes Builder",
     description:
       "The QBCC licensed builder behind Design Homes — trade background, award-winning New Zealand new build experience, and hands-on site management on every project.",
     type: "profile",
-    url: `${siteUrl}/about/our-builder`,
+    url: `${siteUrl}/about/our-builder/`,
     images: [
       {
         url: "/assets/images/about-construction-new.webp",
@@ -102,7 +102,7 @@ export default function OurBuilderPage() {
       jobTitle: "Builder",
       description:
         "QBCC licensed builder and founder of Design Homes Pty Ltd, with a carpentry trade background and award-winning new build experience from New Zealand.",
-      url: `${siteUrl}/about/our-builder`,
+      url: `${siteUrl}/about/our-builder/`,
       image: `${siteUrl}/assets/images/about-construction-new.webp`,
       worksFor: { "@id": `${siteUrl}/#organization` },
       knowsAbout: [
@@ -122,7 +122,7 @@ export default function OurBuilderPage() {
       "@context": "https://schema.org",
       "@type": "ProfilePage",
       mainEntity: { "@id": `${siteUrl}/about/our-builder#harj-tiwana` },
-      url: `${siteUrl}/about/our-builder`,
+      url: `${siteUrl}/about/our-builder/`,
     },
   ];
 

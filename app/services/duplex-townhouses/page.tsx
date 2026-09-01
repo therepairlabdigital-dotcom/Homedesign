@@ -6,7 +6,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 
 export const metadata: Metadata = {
   title: "Duplex & Townhouse Builders SEQ | Design Homes",
-  description: "Expert duplex & townhouse builders across SEQ. Maximise your investment with dual occupancy properties in Brisbane, Gold Coast & Sunshine Coast. Council approvals handled.",
+  description: "Duplex and townhouse builders across SEQ. Dual occupancy projects in Brisbane, Gold Coast and Sunshine Coast on fixed-price contracts. Approvals handled.",
   keywords: [
     "duplex builders Brisbane",
     "townhouse construction Gold Coast",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Duplex & Townhouse Builders | Dual Occupancy Specialists",
     description: "Expert duplex & townhouse builders across Brisbane, Gold Coast & Sunshine Coast. Maximise your investment with dual occupancy properties.",
     type: "article",
-    url: `${siteUrl}/services/duplex-townhouses`,
+    url: `${siteUrl}/services/duplex-townhouses/`,
     images: [
       {
         url: "/assets/images/stock/duplex-modern-dual.webp",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ["/assets/images/stock/duplex-modern-dual.webp"],
   },
   alternates: {
-    canonical: `${siteUrl}/services/duplex-townhouses`,
+    canonical: `${siteUrl}/services/duplex-townhouses/`,
   },
   robots: {
     index: true,

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "New Home Builds | Custom Home Construction SEQ",
     description: "Custom new home builders across Brisbane, Gold Coast & Sunshine Coast. Fixed-price contracts, energy efficient designs & quality craftsmanship.",
     type: "article",
-    url: `${siteUrl}/services/new-home-builds`,
+    url: `${siteUrl}/services/new-home-builds/`,
     images: [
       {
         url: "/assets/images/stock/home-stucco-twostory.webp",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ["/assets/images/stock/home-stucco-twostory.webp"],
   },
   alternates: {
-    canonical: `${siteUrl}/services/new-home-builds`,
+    canonical: `${siteUrl}/services/new-home-builds/`,
   },
   robots: {
     index: true,

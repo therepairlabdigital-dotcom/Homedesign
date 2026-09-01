@@ -22,6 +22,17 @@ const services = [
   { name: "Queenslander Homes", href: "/services/queenslander-homes" },
 ];
 
+const moreServices = [
+  { name: "Knockdown Rebuild", href: "/services/knockdown-rebuild" },
+  { name: "Granny Flats & Secondary Dwellings", href: "/services/granny-flats-secondary-dwellings" },
+  { name: "Sloping Block Homes", href: "/services/sloping-block-homes" },
+  { name: "House Raising & Build Under", href: "/services/house-raising-build-under" },
+  { name: "Small Lot & Narrow Block Homes", href: "/services/small-lot-narrow-block-homes" },
+  { name: "Acreage Homes", href: "/services/acreage-homes" },
+  { name: "Extensions & Second Storeys", href: "/services/home-extensions-second-storey-additions" },
+  { name: "Renovations", href: "/services/renovations" },
+];
+
 const socials = [
   { icon: Facebook, href: "https://www.facebook.com/tiwanabuilders.co.nz", label: "Facebook" },
   { icon: Instagram, href: "https://www.instagram.com/designhomes69", label: "Instagram" },
@@ -59,7 +70,7 @@ export default function SiteFooter() {
 
       {/* Main Footer */}
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 pt-16 pb-10">
-        <div className="grid md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr] gap-12 lg:gap-16 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_1fr_1.2fr_1fr] gap-12 lg:gap-12 mb-16">
           {/* Brand */}
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <Link href="/" className="relative h-32 w-auto mb-6 block">
@@ -103,6 +114,20 @@ export default function SiteFooter() {
             <h4 className="font-sora text-white font-bold text-sm uppercase tracking-wider mb-6">Services</h4>
             <ul className="space-y-3">
               {services.map((service) => (
+                <li key={service.name}>
+                  <Link href={service.href} className="text-white/70 hover:text-[#B69560] transition-colors text-sm inline-block">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+
+          {/* More services */}
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.25 }}>
+            <h4 className="font-sora text-white font-bold text-sm uppercase tracking-wider mb-6">More Services</h4>
+            <ul className="space-y-3">
+              {moreServices.map((service) => (
                 <li key={service.name}>
                   <Link href={service.href} className="text-white/70 hover:text-[#B69560] transition-colors text-sm inline-block">
                     {service.name}

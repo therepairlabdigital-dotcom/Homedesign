@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Queenslander Home Builders | Authentic Character Homes",
     description: "Authentic Queenslander home builders across Brisbane, Gold Coast & Sunshine Coast. Traditional character with modern comfort.",
     type: "article",
-    url: `${siteUrl}/services/queenslander-homes`,
+    url: `${siteUrl}/services/queenslander-homes/`,
     images: [
       {
         url: "/assets/images/queenslander-classic-new.webp",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ["/assets/images/queenslander-classic-new.webp"],
   },
   alternates: {
-    canonical: `${siteUrl}/services/queenslander-homes`,
+    canonical: `${siteUrl}/services/queenslander-homes/`,
   },
   robots: {
     index: true,

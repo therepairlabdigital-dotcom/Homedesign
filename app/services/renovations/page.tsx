@@ -6,7 +6,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 
 export const metadata: Metadata = {
   title: "Home Renovations Brisbane & SEQ | Design Homes",
-  description: "Expert home renovation services across SEQ. Kitchen, bathroom, extensions & full home transformations. Quality craftsmanship in Brisbane, Gold Coast & Sunshine Coast.",
+  description: "Home renovation builders across SEQ. Kitchens, bathrooms, extensions and whole-home transformations in Brisbane, Gold Coast and Sunshine Coast.",
   keywords: [
     "home renovations Brisbane",
     "kitchen renovations Gold Coast",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Home Renovations | Transform Your Space",
     description: "Expert home renovation services across Brisbane, Gold Coast & Sunshine Coast. Kitchen, bathroom, extensions & full home transformations.",
     type: "article",
-    url: `${siteUrl}/services/renovations`,
+    url: `${siteUrl}/services/renovations/`,
     images: [
       {
         url: "/images/renovation-kitchen.webp",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ["/images/modern-rooftop-patio-with-sunset-view-8SF9VVP.webp"],
   },
   alternates: {
-    canonical: `${siteUrl}/services/renovations`,
+    canonical: `${siteUrl}/services/renovations/`,
   },
   robots: {
     index: true,

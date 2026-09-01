@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Interior Design Services | Premium Home Styling",
     description: "Premium interior design services across Brisbane, Gold Coast & Sunshine Coast. Space planning, material selection & 3D visualisation.",
     type: "article",
-    url: `${siteUrl}/services/interior-design`,
+    url: `${siteUrl}/services/interior-design/`,
     images: [
       {
         url: "/images/interior-living-room.webp",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ["/images/ImageGen-1-1.webp"],
   },
   alternates: {
-    canonical: `${siteUrl}/services/interior-design`,
+    canonical: `${siteUrl}/services/interior-design/`,
   },
   robots: {
     index: true,

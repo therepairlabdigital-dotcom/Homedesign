@@ -4,7 +4,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 
 export const metadata: Metadata = {
   title: "Portfolio | Completed Projects Across SEQ",
-  description: "View our portfolio of completed projects. Custom homes, duplexes, Queenslander homes & new builds across Brisbane, Gold Coast & Sunshine Coast. Award-winning craftsmanship.",
+  description: "Custom homes, duplexes, Queenslander homes and new builds across Brisbane, Gold Coast and Sunshine Coast from a QBCC licensed, owner-run builder.",
   keywords: [
     "home building portfolio Brisbane",
     "completed projects Gold Coast",

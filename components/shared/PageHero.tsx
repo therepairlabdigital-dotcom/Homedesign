@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
@@ -13,17 +14,30 @@ interface PageHeroProps {
   breadcrumb: { label: string; href: string }[];
 }
 
+/** Site uses trailingSlash: true — every internal URL must end in "/" so links and schema never hit a 308. */
+function withSlash(href: string) {
+  if (href.startsWith("http")) return href.endsWith("/") ? href : `${href}/`;
+  return href.endsWith("/") ? href : `${href}/`;
+}
+
 export default function PageHero({ title, highlight, description, image, breadcrumb }: PageHeroProps) {
-  // Generate BreadcrumbList schema
+  // Generate BreadcrumbList schema. The current page ("#") is listed by name only,
+  // which is valid — Google does not require an item URL for the last element.
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": breadcrumb.map((item, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "name": item.label,
-      "item": item.href.startsWith('http') ? item.href : `${siteUrl}${item.href}`
-    }))
+    "itemListElement": breadcrumb.map((item, index) => {
+      const isCurrent = item.href === "#" || index === breadcrumb.length - 1;
+      const entry: Record<string, unknown> = {
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": item.label,
+      };
+      if (!isCurrent) {
+        entry.item = item.href.startsWith("http") ? withSlash(item.href) : `${siteUrl}${withSlash(item.href)}`;
+      }
+      return entry;
+    })
   };
 
   return (
@@ -54,19 +68,26 @@ export default function PageHero({ title, highlight, description, image, breadcr
           transition={{ duration: 0.5 }}
           className="flex items-center gap-2 mb-6"
         >
-          {breadcrumb.map((item, i) => (
-            <span key={item.label} className="flex items-center gap-2">
-              {i > 0 && <span className="text-white">/</span>}
-              <a
-                href={item.href}
-                className={`text-sm font-medium transition-colors ${
-                  i === breadcrumb.length - 1 ? "text-white" : "text-white/60 hover:text-white"
-                }`}
-              >
-                {item.label}
-              </a>
-            </span>
-          ))}
+          {breadcrumb.map((item, i) => {
+            const isCurrent = item.href === "#" || i === breadcrumb.length - 1;
+            return (
+              <span key={item.label} className="flex items-center gap-2">
+                {i > 0 && <span className="text-white">/</span>}
+                {isCurrent ? (
+                  <span aria-current="page" className="text-sm font-medium text-white">
+                    {item.label}
+                  </span>
+                ) : (
+                  <Link
+                    href={withSlash(item.href)}
+                    className="text-sm font-medium text-white/60 transition-colors hover:text-white"
+                  >
+                    {item.label}
+                  </Link>
+                )}
+              </span>
+            );
+          })}
         </motion.div>
 
         <motion.h1

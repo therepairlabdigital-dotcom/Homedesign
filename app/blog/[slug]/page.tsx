@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { blogMetaTitles, blogMetaDescriptions, blogRelatedService } from "@/lib/blog-seo-overrides";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -33,17 +34,20 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     return {};
   }
 
+  const seoTitle = blogMetaTitles[post.slug] ?? post.title;
+  const seoDescription = blogMetaDescriptions[post.slug] ?? post.description;
+
   return {
-    title: post.title,
-    description: post.description,
+    title: seoTitle,
+    description: seoDescription,
     alternates: {
-      canonical: `${siteUrl}/blog/${post.slug}`,
+      canonical: `${siteUrl}/blog/${post.slug}/`,
     },
     openGraph: {
-      title: post.title,
-      description: post.description,
+      title: seoTitle,
+      description: seoDescription,
       type: "article",
-      url: `${siteUrl}/blog/${post.slug}`,
+      url: `${siteUrl}/blog/${post.slug}/`,
       publishedTime: post.date,
       images: [
         {
@@ -56,8 +60,8 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.description,
+      title: seoTitle,
+      description: seoDescription,
       images: [post.image],
     },
   };
@@ -83,17 +87,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       "@type": "Person",
       "@id": `${siteUrl}/about/our-builder#harj-tiwana`,
       name: "Harj Tiwana",
-      url: `${siteUrl}/about/our-builder`,
+      url: `${siteUrl}/about/our-builder/`,
     },
     articleSection: post.category,
     publisher: {
       "@id": `${siteUrl}/#organization`,
     },
-    mainEntityOfPage: `${siteUrl}/blog/${post.slug}`,
+    mainEntityOfPage: `${siteUrl}/blog/${post.slug}/`,
     inLanguage: "en-AU",
   };
 
   const related = getRelatedPosts(post.slug);
+  const relatedService = blogRelatedService[post.slug];
   const categorySlug = slugifyCategory(post.category);
 
   const breadcrumbSchema = {
@@ -101,18 +106,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
-      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog/` },
       {
         "@type": "ListItem",
         position: 3,
         name: post.category,
-        item: `${siteUrl}/blog/category/${categorySlug}`,
+        item: `${siteUrl}/blog/category/${categorySlug}/`,
       },
       {
         "@type": "ListItem",
         position: 4,
         name: post.title,
-        item: `${siteUrl}/blog/${post.slug}`,
+        item: `${siteUrl}/blog/${post.slug}/`,
       },
     ],
   };
@@ -180,6 +185,25 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </section>
               ))}
             </div>
+
+            {relatedService && (
+              <Link
+                href={relatedService.href}
+                className="group mt-12 flex flex-col gap-2 rounded-2xl border border-[#B69560]/40 bg-[#FBF7EF] px-6 py-6 transition-all hover:border-[#B69560] hover:shadow-lg"
+              >
+                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8a6f42]">
+                  Related service
+                </span>
+                <span className="font-sora text-lg font-semibold text-black">
+                  {relatedService.label}
+                </span>
+                <span className="text-sm leading-7 text-black/60">{relatedService.blurb}</span>
+                <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-black">
+                  See how we build it
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </span>
+              </Link>
+            )}
 
             <div className="mt-14 border-t border-black/10 pt-8">
               <Link

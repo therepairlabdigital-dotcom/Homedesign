@@ -16,7 +16,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 export const metadata: Metadata = {
   title: "Areas We Build | Home Builders Across SEQ",
   description:
-    "Design Homes builds new homes, duplexes, townhouses and custom projects across Brisbane, the Gold Coast, Sunshine Coast, Ipswich, Logan, Moreton Bay and the Redlands.",
+    "New homes, duplexes, townhouses and custom builds across Brisbane, Gold Coast, Sunshine Coast, Ipswich, Logan, Moreton Bay and Redland. QBCC licensed.",
   keywords: [
     "home builders South East Queensland",
     "home builders Brisbane",
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     "builders Moreton Bay",
   ],
   alternates: {
-    canonical: `${siteUrl}/locations`,
+    canonical: `${siteUrl}/locations/`,
   },
   openGraph: {
     title: "Areas We Build | Design Homes Pty Ltd",
     description:
       "New homes, duplexes, townhouses and custom builds across South East Queensland — Brisbane, Gold Coast, Sunshine Coast, Ipswich, Logan, Moreton Bay and the Redlands.",
     type: "website",
-    url: `${siteUrl}/locations`,
+    url: `${siteUrl}/locations/`,
     images: [
       {
         url: "/assets/images/stock/home-luxury-landscape.webp",
@@ -56,7 +56,7 @@ export default function LocationsPage() {
       "@type": "ListItem",
       position: index + 1,
       name: location.title,
-      url: `${siteUrl}/locations/${location.slug}`,
+      url: `${siteUrl}/locations/${location.slug}/`,
     })),
   };
 

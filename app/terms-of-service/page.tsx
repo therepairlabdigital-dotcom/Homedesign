@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: `${siteUrl}/terms-of-service`,
+    canonical: `${siteUrl}/terms-of-service/`,
   },
 };
 

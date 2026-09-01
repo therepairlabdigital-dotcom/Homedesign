@@ -35,7 +35,7 @@ export async function generateMetadata({
 
   if (!entry) return {};
 
-  const url = `${siteUrl}/locations/${entry.locationSlug}/${entry.serviceSlug}`;
+  const url = `${siteUrl}/locations/${entry.locationSlug}/${entry.serviceSlug}/`;
 
   return {
     title: entry.metaTitle,
@@ -80,7 +80,7 @@ export default async function LocationServicePage({ params }: LocationServicePag
     (other) =>
       other.serviceSlug === entry.serviceSlug && other.locationSlug !== entry.locationSlug,
   );
-  const url = `${siteUrl}/locations/${entry.locationSlug}/${entry.serviceSlug}`;
+  const url = `${siteUrl}/locations/${entry.locationSlug}/${entry.serviceSlug}/`;
 
   const schema = [
     {

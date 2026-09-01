@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "builders inner Brisbane",
     "character home builders Brisbane",
   ],
-  alternates: { canonical: `${siteUrl}/suburbs` },
+  alternates: { canonical: `${siteUrl}/suburbs/` },
   robots: { index: true, follow: true },
 };
 
@@ -64,7 +64,7 @@ export default function SuburbsPage() {
       "@type": "ListItem",
       position: index + 1,
       name: suburb.name,
-      url: `${siteUrl}/suburbs/${suburb.slug}`,
+      url: `${siteUrl}/suburbs/${suburb.slug}/`,
     })),
   };
 

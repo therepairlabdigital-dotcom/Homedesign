@@ -39,6 +39,14 @@ export default function ContactPage() {
       });
       const data = await res.json().catch(() => ({} as { success?: boolean; message?: string }));
       if (res.ok && data.success !== false) {
+        // GA4 conversion event — mark "generate_lead" as a key event in GA4 to count enquiries.
+        if (typeof window !== "undefined" && typeof (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag === "function") {
+          (window as unknown as { gtag: (...args: unknown[]) => void }).gtag("event", "generate_lead", {
+            event_category: "lead",
+            event_label: "contact_page_form",
+            page_path: window.location.pathname,
+          });
+        }
         setIsSubmitted(true);
         form.reset();
         setTimeout(() => setIsSubmitted(false), 6000);

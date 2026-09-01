@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   description:
     "Practical building advice from Design Homes for new homes, duplexes, renovations, and custom builds across South East Queensland.",
   alternates: {
-    canonical: `${siteUrl}/blog`,
+    canonical: `${siteUrl}/blog/`,
   },
   openGraph: {
     title: "Building Blog | Design Homes Pty Ltd",
     description:
       "Practical building advice for new homes, duplexes, renovations, and custom builds across South East Queensland.",
     type: "website",
-    url: `${siteUrl}/blog`,
+    url: `${siteUrl}/blog/`,
     images: [
       {
         url: "/assets/images/stock/home-luxury-twilight.webp",
@@ -45,7 +45,7 @@ export default function BlogPage() {
     "@type": "Blog",
     "@id": `${siteUrl}/blog/#blog`,
     name: "Design Homes Building Blog",
-    url: `${siteUrl}/blog`,
+    url: `${siteUrl}/blog/`,
     inLanguage: "en-AU",
     publisher: {
       "@id": `${siteUrl}/#organization`,
@@ -54,7 +54,7 @@ export default function BlogPage() {
       "@type": "BlogPosting",
       headline: post.title,
       description: post.description,
-      url: `${siteUrl}/blog/${post.slug}`,
+      url: `${siteUrl}/blog/${post.slug}/`,
       datePublished: post.date,
       image: `${siteUrl}${post.image}`,
     })),

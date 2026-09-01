@@ -24,7 +24,7 @@ export const locations: Location[] = [
     title: "Home Builders Brisbane",
     metaTitle: "Home Builders Brisbane | New Homes, Duplexes & Custom Builds",
     metaDescription:
-      "QBCC licensed home builders in Brisbane. New home builds, duplexes, townhouses, custom builds and Queenslander renovations across Greater Brisbane. Fixed-price contracts.",
+      "QBCC licensed home builders in Brisbane. New homes, duplexes, custom builds and Queenslander renovations across Greater Brisbane. Fixed-price contracts.",
     keywords: [
       "home builders Brisbane",
       "new home builders Brisbane",
@@ -471,7 +471,7 @@ export const locations: Location[] = [
     title: "Home Builders Moreton Bay",
     metaTitle: "Home Builders Moreton Bay | New Homes & Custom Builds",
     metaDescription:
-      "QBCC licensed home builders in the Moreton Bay region. New home builds, custom homes, duplexes and acreage projects from North Lakes to Caboolture. Fixed-price contracts.",
+      "QBCC licensed home builders in Moreton Bay. New homes, custom builds, duplexes and acreage projects from North Lakes to Caboolture. Fixed-price contracts.",
     keywords: [
       "home builders Moreton Bay",
       "new home builders North Lakes",

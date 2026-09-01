@@ -16,7 +16,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 
 export const metadata: Metadata = {
   title: "Design Homes | Home Builders Brisbane & SEQ",
-  description: "Quality residential builders in South East Queensland. New homes, duplexes, townhouses, custom builds & Queenslander homes across Brisbane, Gold Coast & Sunshine Coast. QBCC Licensed.",
+  description: "QBCC licensed home builders in South East Queensland. New homes, duplexes, custom builds and Queenslanders across Brisbane, Gold Coast and Sunshine Coast.",
   keywords: [
     "new home builders Brisbane",
     "home builders Gold Coast",

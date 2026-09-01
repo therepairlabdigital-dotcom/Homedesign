@@ -21,7 +21,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.
 const intros: Record<string, { blurb: string; body: string[] }> = {
   "new-homes": {
     blurb:
-      "Everything that decides the cost, comfort and program of a new build in South East Queensland.",
+      "Everything that decides the cost, comfort and program of a new home build in South East Queensland, from a QBCC licensed builder who runs his own sites.",
     body: [
       "Most of what determines whether a new home is good is settled before construction starts. Soil classification sets the footing system. Orientation and eave depth set whether the house is comfortable. Overlays set the floor level and, on some blocks, whether you can build at all.",
       "These articles cover the decisions in the order they actually have to be made, and the checks worth doing before you buy a block rather than after.",
@@ -29,7 +29,7 @@ const intros: Record<string, { blurb: string; body: string[] }> = {
   },
   "cost-and-budget": {
     blurb:
-      "Where the money actually goes on a Queensland build, and how to read a quote that looks cheaper than it is.",
+      "Where the money actually goes on a Queensland build, what drives site costs, and how to read a building quote that looks cheaper than it really is.",
     body: [
       "The largest cost variances between two apparently similar projects are almost never in the building. They are in the ground, the overlays, the services and the access — the items an optimistic quote carries as an allowance.",
       "These articles explain what drives the numbers, what provisional sums really mean, and how to compare two builders fairly.",
@@ -37,7 +37,7 @@ const intros: Record<string, { blurb: string; body: string[] }> = {
   },
   "choosing-a-builder": {
     blurb:
-      "Licence checks, contracts, supervision and the questions that tell you how a build will actually go.",
+      "QBCC licence checks, fixed-price versus cost-plus contracts, site supervision and the questions that tell you how a Queensland build will actually go.",
     body: [
       "Choosing a builder is mostly a due diligence exercise, and almost all of it can be done before you sign. The QBCC register, the contract terms, the deposit cap and the way a builder answers specific questions about your block are all available to you up front.",
       "These articles cover what to check, what the answers should sound like, and what to do when something goes wrong during construction.",
@@ -45,7 +45,7 @@ const intros: Record<string, { blurb: string; body: string[] }> = {
   },
   renovations: {
     blurb:
-      "Character work, extensions, raising and building under, and what is usually behind the walls.",
+      "Character-overlay work, extensions, second storeys, raising and building under a Queenslander, and what usually hides behind the walls of an older home.",
     body: [
       "Renovation is the least standardised work in residential construction. Nothing is square, the surprises are structural, and the scope frequently changes once the building is opened up.",
       "These articles cover Brisbane's character overlay, raise-and-build-under, what older Queensland houses typically need, and how to decide between renovating and rebuilding.",
@@ -56,7 +56,7 @@ const intros: Record<string, { blurb: string; body: string[] }> = {
   },
   duplexes: {
     blurb:
-      "Feasibility, approvals, titling and design for dual occupancy across South East Queensland.",
+      "Feasibility checks, approvals, titling and design for duplexes and dual occupancy across Brisbane, Gold Coast, Sunshine Coast, Logan and Ipswich.",
     body: [
       "A duplex is a development project wearing the clothes of a house. The margin is decided before design, by the zone, the frontage, the sewer alignment and the services capacity.",
       "These articles cover the feasibility checks worth doing before you buy, how the title path affects the build, and whether a duplex or a single house performs better on a given site.",
@@ -67,7 +67,7 @@ const intros: Record<string, { blurb: string; body: string[] }> = {
   },
   "custom-builds": {
     blurb:
-      "Designing for the site rather than the catalogue — acreage, slope, and briefs a standard plan cannot meet.",
+      "One-off homes for sloping, narrow and character-overlay blocks: design decisions, site costs and the trade-offs between architect, designer and builder.",
     body: [
       "A custom build makes sense when the block, the brief or the budget rules out a standard plan. On acreage the design problem is where the house should sit; on a constrained site it is how it fits at all.",
       "These articles cover the decisions that come with designing from scratch, from selections and storage planning through to acreage services.",
@@ -99,7 +99,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     description:
       intro?.blurb ??
       `${category.name} articles for South East Queensland homeowners, from a QBCC licensed builder.`,
-    alternates: { canonical: `${siteUrl}/blog/category/${category.slug}` },
+    alternates: { canonical: `${siteUrl}/blog/category/${category.slug}/` },
     robots: { index: true, follow: true },
   };
 }
@@ -119,14 +119,14 @@ export default async function BlogCategoryPage({ params }: CategoryPageProps) {
     "@type": "CollectionPage",
     name: `${category.name} guides`,
     description: intro?.blurb,
-    url: `${siteUrl}/blog/category/${category.slug}`,
+    url: `${siteUrl}/blog/category/${category.slug}/`,
     mainEntity: {
       "@type": "ItemList",
       itemListElement: posts.map((post, index) => ({
         "@type": "ListItem",
         position: index + 1,
         name: post.title,
-        url: `${siteUrl}/blog/${post.slug}`,
+        url: `${siteUrl}/blog/${post.slug}/`,
       })),
     },
   };

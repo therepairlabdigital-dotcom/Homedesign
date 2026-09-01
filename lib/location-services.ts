@@ -268,7 +268,7 @@ export const locationServices: LocationService[] = [
     region: "Greater Brisbane",
     metaTitle: "Knockdown Rebuild Brisbane | Design Homes",
     metaDescription:
-      "Knockdown rebuild specialists in Brisbane. Demolition approvals, character overlay checks, soil and slope assessment, and fixed-price rebuilds on your existing block.",
+      "Knockdown rebuild specialists in Brisbane. Demolition approvals, character overlay checks, soil and slope assessment and fixed-price rebuilds on your block.",
     keywords: [
       "knockdown rebuild Brisbane",
       "knock down rebuild Brisbane",
@@ -376,8 +376,8 @@ export const locationServices: LocationService[] = [
           "No. Once demolition begins the site is a construction site and cannot be occupied. Most clients rent nearby for the duration, and it is worth budgeting that alongside the build cost.",
       },
     ],
-    parentServiceHref: "/services/new-home-builds",
-    parentServiceName: "New Home Builds",
+    parentServiceHref: "/services/knockdown-rebuild",
+    parentServiceName: "Knockdown Rebuild",
   },
   {
     locationSlug: "brisbane",
@@ -387,7 +387,7 @@ export const locationServices: LocationService[] = [
     region: "Greater Brisbane",
     metaTitle: "Queenslander Renovation Brisbane | Design Homes",
     metaDescription:
-      "Queenslander renovation specialists in Brisbane. Raise and build under, rear extensions and character-compliant restorations under the Traditional Building Character Overlay.",
+      "Brisbane Queenslander specialists. Raise and build under, rear extensions and character-compliant work under the Traditional Building Character Overlay.",
     keywords: [
       "Queenslander renovation Brisbane",
       "raise and build under Brisbane",
@@ -1815,8 +1815,8 @@ export const locationServices: LocationService[] = [
           "Yes — service disconnections, licensed asbestos removal, vegetation approvals and the demolition itself, all under the same contract as the rebuild.",
       },
     ],
-    parentServiceHref: "/services/new-home-builds",
-    parentServiceName: "New Home Builds",
+    parentServiceHref: "/services/knockdown-rebuild",
+    parentServiceName: "Knockdown Rebuild",
   },
   {
     locationSlug: "sunshine-coast",
@@ -2302,7 +2302,7 @@ export const locationServices: LocationService[] = [
     region: "Redland City",
     metaTitle: "New Home Builders Redlands | Design Homes",
     metaDescription:
-      "QBCC licensed new home builders in Redland City. Koala and vegetation overlay checks, coastal specification and fixed-price contracts from Cleveland to Redland Bay.",
+      "New home builders in Redland City. Koala and vegetation overlay checks, coastal specification and fixed-price contracts from Cleveland to Redland Bay.",
     keywords: [
       "new home builders Redlands",
       "home builders Redland City",
@@ -2532,8 +2532,8 @@ export const locationServices: LocationService[] = [
           "Yes — service disconnections, licensed asbestos removal, vegetation approvals and demolition, all under the same contract as the rebuild.",
       },
     ],
-    parentServiceHref: "/services/new-home-builds",
-    parentServiceName: "New Home Builds",
+    parentServiceHref: "/services/knockdown-rebuild",
+    parentServiceName: "Knockdown Rebuild",
   },
   {
     locationSlug: "gold-coast",

@@ -174,6 +174,24 @@ const localBusinessSchema = {
         addressCountry: "AU",
       },
     },
+    {
+      "@type": "City",
+      name: "Moreton Bay",
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "QLD",
+        addressCountry: "AU",
+      },
+    },
+    {
+      "@type": "City",
+      name: "Redland",
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "QLD",
+        addressCountry: "AU",
+      },
+    },
   ],
   address: {
     "@type": "PostalAddress",
@@ -304,8 +322,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en-AU" className="scroll-smooth">
       <head>
+        {/*
+          Canonical host guard. The site is served by Hostinger's Node runtime, so
+          public/.htaccess never runs and www.thedesignhomes.com.au answers 200 as a
+          duplicate. Until the 301 is configured in hPanel this client-side redirect
+          collapses www (and any other alias) onto the apex host. Runs before paint.
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var h=location.hostname;if(h!=='thedesignhomes.com.au'&&h!=='localhost'&&!/^\\d+\\.\\d+\\.\\d+\\.\\d+$/.test(h)&&h.indexOf('hostingersite')===-1){location.replace('https://thedesignhomes.com.au'+location.pathname+location.search+location.hash);}}catch(e){}})();",
+          }}
+        />
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -334,6 +364,15 @@ export default function RootLayout({
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-HBK2R02PMV');`}
+        </Script>
+        {/* Lead-event tracking: phone taps and email clicks anywhere on the site */}
+        <Script id="lead-events" strategy="afterInteractive">
+          {`document.addEventListener('click',function(e){
+            var a=e.target&&e.target.closest?e.target.closest('a[href^="tel:"],a[href^="mailto:"]'):null;
+            if(!a||typeof gtag!=='function')return;
+            var isTel=a.getAttribute('href').indexOf('tel:')===0;
+            gtag('event',isTel?'phone_call':'email_click',{event_category:'lead',event_label:a.getAttribute('href'),page_path:location.pathname,transport_type:'beacon'});
+          },true);`}
         </Script>
         {/* Microsoft Clarity */}
         <Script id="ms-clarity" strategy="afterInteractive">

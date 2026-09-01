@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: `${siteUrl}/privacy-policy`,
+    canonical: `${siteUrl}/privacy-policy/`,
   },
 };
 

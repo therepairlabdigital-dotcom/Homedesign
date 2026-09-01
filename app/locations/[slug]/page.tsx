@@ -41,13 +41,13 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     description: location.metaDescription,
     keywords: location.keywords,
     alternates: {
-      canonical: `${siteUrl}/locations/${location.slug}`,
+      canonical: `${siteUrl}/locations/${location.slug}/`,
     },
     openGraph: {
       title: location.metaTitle,
       description: location.metaDescription,
       type: "website",
-      url: `${siteUrl}/locations/${location.slug}`,
+      url: `${siteUrl}/locations/${location.slug}/`,
       images: [
         {
           url: location.heroImage,
@@ -81,7 +81,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
       "@type": "LocalBusiness",
       name: `Design Homes Pty Ltd — ${location.name}`,
       description: location.metaDescription,
-      url: `${siteUrl}/locations/${location.slug}`,
+      url: `${siteUrl}/locations/${location.slug}/`,
       image: `${siteUrl}${location.heroImage}`,
       telephone: "+61436376001",
       email: "info@thedesignhomes.com.au",

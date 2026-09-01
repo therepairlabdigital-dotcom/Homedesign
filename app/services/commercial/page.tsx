@@ -5,8 +5,8 @@ import { serviceContent } from "@/lib/service-content";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
 
 export const metadata: Metadata = {
-  title: "Commercial Builders Brisbane, Gold Coast & Sunshine Coast | Design Homes",
-  description: "Professional commercial construction across SEQ. Office fit-outs, retail spaces & mixed-use developments in Brisbane, Gold Coast & Sunshine Coast. BCA compliant.",
+  title: "Commercial Builders Brisbane & SEQ | Design Homes",
+  description: "Commercial construction across SEQ. Office fit-outs, retail spaces and mixed-use developments in Brisbane, Gold Coast and Sunshine Coast. BCA compliant.",
   keywords: [
     "commercial builders Brisbane",
     "office fit outs Gold Coast",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Commercial Construction | Professional Building Services",
     description: "Professional commercial construction across Brisbane, Gold Coast & Sunshine Coast. Office fit-outs, retail spaces & mixed-use developments.",
     type: "article",
-    url: `${siteUrl}/services/commercial`,
+    url: `${siteUrl}/services/commercial/`,
     images: [
       {
         url: "/images/commercial-building-modern.webp",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ["/images/commercial-building-modern.webp"],
   },
   alternates: {
-    canonical: `${siteUrl}/services/commercial`,
+    canonical: `${siteUrl}/services/commercial/`,
   },
   robots: {
     index: true,

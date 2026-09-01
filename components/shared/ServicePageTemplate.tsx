@@ -5,6 +5,7 @@ import { useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
   ArrowRight,
   Award,
@@ -132,6 +133,7 @@ export default function ServicePageTemplate({
   sections = [],
   faqs = [],
 }: ServicePageProps) {
+  const pathname = usePathname() || "/services/";
   const overviewRef = useRef(null);
   const overviewInView = useInView(overviewRef, { once: true, margin: "-100px" });
   const featuresRef = useRef(null);
@@ -198,7 +200,7 @@ export default function ServicePageTemplate({
         }
       }
     ],
-    "url": `${siteUrl}/services/${breadcrumbLabel.toLowerCase().replace(/\s+/g, '-')}`.replace(/-+/g, '-'),
+    "url": `${siteUrl}${pathname.endsWith("/") ? pathname : `${pathname}/`}`,
     "image": heroImage.startsWith('http') ? heroImage : `${siteUrl}${heroImage}`
   };
 

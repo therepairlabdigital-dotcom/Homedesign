@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: SuburbPageProps): Promise<Met
 
   if (!suburb) return {};
 
-  const url = `${siteUrl}/suburbs/${suburb.slug}`;
+  const url = `${siteUrl}/suburbs/${suburb.slug}/`;
 
   return {
     title: suburb.metaTitle,
@@ -62,7 +62,7 @@ export default async function SuburbPage({ params }: SuburbPageProps) {
 
   if (!suburb) notFound();
 
-  const url = `${siteUrl}/suburbs/${suburb.slug}`;
+  const url = `${siteUrl}/suburbs/${suburb.slug}/`;
 
   const schema = [
     {

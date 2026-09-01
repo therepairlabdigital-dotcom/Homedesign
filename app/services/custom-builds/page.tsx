@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Custom Home Builders | Bespoke Architectural Homes",
     description: "Bespoke custom home builders across Brisbane, Gold Coast & Sunshine Coast. Unique architectural designs, challenging sites & premium finishes.",
     type: "article",
-    url: `${siteUrl}/services/custom-builds`,
+    url: `${siteUrl}/services/custom-builds/`,
     images: [
       {
         url: "/assets/images/stock/home-luxury-twilight.webp",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ["/assets/images/stock/home-luxury-twilight.webp"],
   },
   alternates: {
-    canonical: `${siteUrl}/services/custom-builds`,
+    canonical: `${siteUrl}/services/custom-builds/`,
   },
   robots: {
     index: true,
