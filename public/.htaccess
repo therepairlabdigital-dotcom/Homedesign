@@ -25,3 +25,12 @@
   ExpiresByType text/css "access plus 1 year"
   ExpiresByType application/javascript "access plus 1 year"
 </IfModule>
+
+# HTML must not be pinned by the CDN for a year. A deployment renames the
+# hashed asset files, so stale HTML ends up referencing chunks that 404 and the
+# page breaks. Five minutes fresh, five more served stale while it revalidates.
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header always set Cache-Control "public, max-age=0, s-maxage=300, stale-while-revalidate=300"
+  </FilesMatch>
+</IfModule>
