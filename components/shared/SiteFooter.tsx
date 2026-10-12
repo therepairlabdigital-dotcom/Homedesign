@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { DesignerCredit } from "@/components/shared/DesignerCredit";
 import Link from "next/link";
 import { ArrowUp, ArrowRight } from "lucide-react";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
@@ -171,23 +172,13 @@ export default function SiteFooter() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-center gap-4 text-white/50 text-sm">
+            <div className="flex flex-wrap items-center justify-center gap-4 text-white/70 text-sm">
               <p>&copy; {new Date().getFullYear()} Design Homes Pty Ltd.</p>
               <Link href="/privacy-policy" className="hover:text-[#B69560] transition-colors">Privacy</Link>
               <Link href="/terms-of-service" className="hover:text-[#B69560] transition-colors">Terms</Link>
             </div>
-            <div className="flex items-center gap-6">
-              <span className="text-white/50 text-sm">
-                Built by{" "}
-                <a
-                  href="https://kiwitechlabs.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#B69560] hover:text-white transition-colors"
-                >
-                  kiwitechlabs.com
-                </a>
-              </span>
+            <div className="flex flex-wrap items-center justify-center gap-4 text-white/80">
+              <DesignerCredit />
               <button
                 onClick={scrollToTop}
                 className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-white"

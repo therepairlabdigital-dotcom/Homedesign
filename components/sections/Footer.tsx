@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { DesignerCredit } from "@/components/shared/DesignerCredit";
 import { ArrowUp, ArrowRight } from "lucide-react";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
 
@@ -186,17 +187,7 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Design Homes Pty Ltd. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
-              <span className="text-black text-sm">
-                Designed by{" "}
-                <a
-                  href="https://kiwitechlabs.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#B69560] hover:text-white transition-colors"
-                >
-                  kiwitechlabs.com
-                </a>
-              </span>
+              <DesignerCredit />
               <button
                 onClick={scrollToTop}
                 className="w-10 h-10 bg-black/5 hover:bg-black rounded-xl flex items-center justify-center text-black hover:text-white transition-all duration-300"
