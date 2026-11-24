@@ -293,6 +293,20 @@ const organizationSchema = {
     "@type": "ImageObject",
     url: `${siteUrl}/assets/images/logo-schema.png`,
   },
+  telephone: "+61436376001",
+  email: "info@thedesignhomes.com.au",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Brisbane",
+    addressRegion: "QLD",
+    addressCountry: "AU",
+  },
+  founder: {
+    "@type": "Person",
+    name: "Harj Tiwana",
+    url: `${siteUrl}/about/our-builder/`,
+  },
+  sameAs: localBusinessSchema.sameAs,
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+61436376001",

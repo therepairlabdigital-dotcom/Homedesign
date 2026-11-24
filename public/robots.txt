@@ -1,3 +1,6 @@
+# Content Signals (https://contentsignals.org): search and AI answers may use this site.
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
 User-agent: *
 Allow: /
 
