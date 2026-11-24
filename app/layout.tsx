@@ -1,13 +1,14 @@
 import type { Metadata, Viewport } from "next";
-import { Sora } from "next/font/google";
+import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
 
-const sora = Sora({
+// Self-hosted: Next 15's Google Fonts loader can't parse current Google Fonts URLs.
+const sora = localFont({
+  src: "./fonts/sora-latin-wght-normal.woff2",
   variable: "--font-sora",
-  subsets: ["latin"],
   display: "swap",
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: "100 800",
 });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thedesignhomes.com.au";
