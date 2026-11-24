@@ -194,26 +194,31 @@ const localBusinessSchema = {
       },
     },
   ],
+  // Must match the Google Business Profile exactly (NAP consistency).
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Brisbane",
+    streetAddress: "11 Kelly St",
+    addressLocality: "Narangba",
     addressRegion: "QLD",
+    postalCode: "4504",
     addressCountry: "AU",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: "-27.4698",
-    longitude: "153.0251",
+    latitude: "-27.2012759",
+    longitude: "152.9568545",
   },
+  hasMap: "https://www.google.com/maps?cid=18247992940232514217",
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "08:00",
+      opens: "07:00",
       closes: "17:00",
     },
   ],
   sameAs: [
+    "https://www.google.com/maps?cid=18247992940232514217",
     "https://www.facebook.com/tiwanabuilders.co.nz",
     "https://www.instagram.com/designhomes69",
   ],
@@ -297,8 +302,10 @@ const organizationSchema = {
   email: "info@thedesignhomes.com.au",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Brisbane",
+    streetAddress: "11 Kelly St",
+    addressLocality: "Narangba",
     addressRegion: "QLD",
+    postalCode: "4504",
     addressCountry: "AU",
   },
   founder: {
