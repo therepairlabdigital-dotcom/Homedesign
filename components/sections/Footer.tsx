@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { DesignerCredit } from "@/components/shared/DesignerCredit";
-import { ArrowUp, ArrowRight } from "lucide-react";
+import { ArrowUp } from "lucide-react";
+import { NewsletterForm } from "@/components/shared/NewsletterForm";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
 
 const quickLinks = [
@@ -54,17 +55,10 @@ export default function Footer() {
                 Get the latest news on our projects and building insights.
               </p>
             </div>
-            <div className="flex w-full lg:w-auto max-w-md">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 bg-black/5 border border-black/10 rounded-l-xl px-5 py-3.5 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-[#B69560]/50 transition-colors"
-              />
-              <button className="bg-black hover:bg-black text-black px-6 py-3.5 rounded-r-xl font-semibold text-sm transition-all duration-300 flex items-center gap-2 whitespace-nowrap">
-                Subscribe
-                <ArrowRight className="w-4 h-4" />
-              </button>
-            </div>
+            <NewsletterForm
+              inputClassName="flex-1 bg-black/5 border border-black/10 rounded-l-xl px-5 py-3.5 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-[#B69560]/50 transition-colors"
+              buttonClassName="bg-black hover:bg-black text-white px-6 py-3.5 rounded-r-xl font-semibold text-sm transition-all duration-300 flex items-center gap-2 whitespace-nowrap"
+            />
           </div>
         </div>
       </div>

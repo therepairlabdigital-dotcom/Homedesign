@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { DesignerCredit } from "@/components/shared/DesignerCredit";
 import Link from "next/link";
-import { ArrowUp, ArrowRight } from "lucide-react";
+import { NewsletterForm } from "@/components/shared/NewsletterForm";
+import { ArrowUp } from "lucide-react";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
 
 const quickLinks = [
@@ -12,6 +13,7 @@ const quickLinks = [
   { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Areas We Build", href: "/locations" },
+  { name: "Brisbane Suburbs", href: "/suburbs" },
   { name: "Blog", href: "/blog" },
   { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
@@ -55,17 +57,10 @@ export default function SiteFooter() {
               </h3>
               <p className="text-white/60 text-sm">Get the latest news on our projects and building insights.</p>
             </div>
-            <div className="flex w-full lg:w-auto max-w-md">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 bg-white/5 border border-white/10 rounded-l-xl px-5 py-3.5 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#B69560]/50"
-              />
-              <button className="bg-black border border-white/15 text-white px-6 py-3.5 rounded-r-xl font-semibold text-sm flex items-center gap-2 whitespace-nowrap">
-                Subscribe
-                <ArrowRight className="w-4 h-4" />
-              </button>
-            </div>
+            <NewsletterForm
+              inputClassName="flex-1 bg-white/5 border border-white/10 rounded-l-xl px-5 py-3.5 text-white text-sm placeholder:text-white/40 focus:outline-none focus:border-[#B69560]/50"
+              buttonClassName="bg-black border border-white/15 text-white px-6 py-3.5 rounded-r-xl font-semibold text-sm flex items-center gap-2 whitespace-nowrap"
+            />
           </div>
         </div>
       </div>
