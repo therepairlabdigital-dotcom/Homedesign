@@ -92,7 +92,7 @@ export default async function LocationServicePage({ params }: LocationServicePag
       serviceType: entry.serviceName,
       provider: {
         "@type": "HomeAndConstructionBusiness",
-        "@id": `${siteUrl}/#organization`,
+        "@id": `${siteUrl}/#business`,
         name: "Design Homes Pty Ltd",
         telephone: "+61436376001",
         email: "info@thedesignhomes.com.au",

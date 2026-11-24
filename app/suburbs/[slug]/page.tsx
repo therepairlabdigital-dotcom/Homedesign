@@ -67,14 +67,13 @@ export default async function SuburbPage({ params }: SuburbPageProps) {
   const schema = [
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      name: `Design Homes Pty Ltd — ${suburb.name}`,
+      "@type": "Service",
+      name: `Home building in ${suburb.name}`,
+      serviceType: "Residential home building",
       description: suburb.metaDescription,
-      url,
+      url: url,
       image: `${siteUrl}${suburb.heroImage}`,
-      telephone: "+61436376001",
-      email: "info@thedesignhomes.com.au",
-      parentOrganization: { "@id": `${siteUrl}/#organization` },
+      provider: { "@id": `${siteUrl}/#business` },
       areaServed: {
         "@type": "Place",
         name: suburb.name,

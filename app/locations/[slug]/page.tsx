@@ -78,14 +78,13 @@ export default async function LocationPage({ params }: LocationPageProps) {
   const schema = [
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      name: `Design Homes Pty Ltd — ${location.name}`,
+      "@type": "Service",
+      name: `Home building in ${location.name}`,
+      serviceType: "Residential home building",
       description: location.metaDescription,
       url: `${siteUrl}/locations/${location.slug}/`,
       image: `${siteUrl}${location.heroImage}`,
-      telephone: "+61436376001",
-      email: "info@thedesignhomes.com.au",
-      parentOrganization: { "@id": `${siteUrl}/#organization` },
+      provider: { "@id": `${siteUrl}/#business` },
       areaServed: {
         "@type": "City",
         name: location.name,

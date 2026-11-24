@@ -120,7 +120,7 @@ const localBusinessSchema = {
   description: "Award-winning custom home builders in South East Queensland specialising in new home builds, duplexes, townhouses, custom builds, and Queenslander homes.",
   slogan: "Quality homes built with care and pride",
   url: siteUrl,
-  telephone: "0436376001",
+  telephone: "+61436376001",
   email: "info@thedesignhomes.com.au",
   image: `${siteUrl}/images/modern-villa-with-pool-and-deck-H27FA57-1.webp`,
   logo: `${siteUrl}/assets/images/logo-schema.png`,
@@ -294,7 +294,7 @@ const organizationSchema = {
   },
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "0436376001",
+    telephone: "+61436376001",
     contactType: "sales",
     email: "info@thedesignhomes.com.au",
     availableLanguage: ["English"],
